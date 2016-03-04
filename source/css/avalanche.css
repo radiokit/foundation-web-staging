@@ -179,7 +179,8 @@ Copyright: ThemeMountain
 	margin: -1rem 0 0 -1rem;
 	position: absolute;
 	top: 50%;
-	left: 50%;	
+	left: 50%;
+	z-index: 2;
 }
 .tm-loader #circle {
 	width: 2rem;

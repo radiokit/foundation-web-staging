@@ -12,7 +12,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="images/theme-mountain-favicon.ico">
 
 	<!-- Font -->
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500%7COpen+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700%7COpen+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
 	
 	<!-- Css -->
 	<link rel="stylesheet" href="css/core.min.css" />
@@ -232,7 +232,7 @@
 		<div class="wrapper-inner">
 
 			<!-- Header -->
-			<header class="header header-absolute header-fixed-on-mobile header-transparent" data-helper-in-threshold="300" data-helper-out-threshold="500" data-sticky-threshold="300" data-bkg-threshold="300" data-compact-threshold="100">
+			<header class="header header-fixed header-fixed-on-mobile header-transparent" data-bkg-threshold="window-height" data-compact-threshold="window-height">
 				<div class="header-inner-top">
 					<div class="row nav-bar">
 						<div class="column width-6 nav-bar-inner left">
@@ -361,6 +361,9 @@
 													<li>
 														<a href="index-mobile-application-3.html">Variation 3</a>
 													</li>
+													<li>
+														<a href="#" class="no-page-fade">One Page <span class="label">Coming Soon</span></a>
+													</li>
 												</ul>
 											</li>
 											<li class="contains-sub-menu">
@@ -374,6 +377,9 @@
 													</li>
 													<li>
 														<a href="index-web-application-3.html">Variation 3</a>
+													</li>
+													<li>
+														<a href="#" class="no-page-fade">One Page <span class="label">Coming Soon</span></a>
 													</li>
 												</ul>
 											</li>
@@ -389,6 +395,9 @@
 													<li>
 														<a href="index-barber-shop-3.html">Variation 3</a>
 													</li>
+													<li>
+														<a href="index-barber-shop-one-page.html">One Page <span class="label">New</span></a>
+													</li>
 												</ul>
 											</li>
 											<li class="contains-sub-menu">
@@ -402,6 +411,9 @@
 													</li>
 													<li>
 														<a href="index-design-agency-3.html">Variation 3</a>
+													</li>
+													<li>
+														<a href="index-design-agency-one-page.html">One Page <span class="label">New</span></a>
 													</li>
 												</ul>
 											</li>
@@ -417,6 +429,9 @@
 													<li>
 														<a href="index-travel-agency-3.html">Variation 3</a>
 													</li>
+													<li>
+														<a href="#" class="no-page-fade">One Page <span class="label">Coming Soon</span></a>
+													</li>
 												</ul>
 											</li>
 											<li class="contains-sub-menu">
@@ -430,6 +445,9 @@
 													</li>
 													<li>
 														<a href="index-restaurant-3.html">Variation 3</a>
+													</li>
+													<li>
+														<a href="index-restaurant-one-page.html">One Page <span class="label">New</span></a>
 													</li>
 												</ul>
 											</li>
@@ -445,6 +463,9 @@
 													<li>
 														<a href="index-resume-3.html">Variation 3</a>
 													</li>
+													<li>
+														<a href="index-resume-one-page.html">One Page <span class="label">New</span></a>
+													</li>
 												</ul>
 											</li>
 											<li class="contains-sub-menu">
@@ -459,6 +480,9 @@
 													<li>
 														<a href="index-photo-studio-3.html">Variation 3</a>
 													</li>
+													<li>
+														<a href="index-photo-studio-one-page.html">One Page <span class="label">New</span></a>
+													</li>
 												</ul>
 											</li>
 											<li class="contains-sub-menu">
@@ -472,6 +496,9 @@
 													</li>
 													<li>
 														<a href="index-architecture-3.html">Variation 3</a>
+													</li>
+													<li>
+														<a href="#" class="no-page-fade">One Page <span class="label">Coming Soon</span></a>
 													</li>
 												</ul>
 											</li>
@@ -712,42 +739,140 @@
 			<!-- Content -->
 			<div class="content clearfix">
 
-				<!-- Fullscreen Sections -->
-				<section class="fullscreen-sections-wrapper no-navigation">
-					<div id="fs-1" class="section-block fullscreen-section">
-						<div class="background-slider-wrapper">
-							<!-- Fullscreen Slider -->
-							<div class="tm-slider-container fullscreen" data-featured-slider data-fs-use-height="parent" data-auto-advance data-auto-advance-interval="4000" data-pause-on-hover="false" data-progress-bar="false" data-nav-arrows="false" data-nav-pagination="false" data-speed="2800" data-animation="fade" data-scale-under="1">
-								<ul class="tms-slides">
-									<li class="tms-slide" data-image data-force-fit>
-										<img data-src="images/travel-agency/slider/slide-2-fs.jpg" data-retina src="images/blank.png" alt=""/>
-									</li>
-									<li class="tms-slide" data-image data-force-fit>
-										<img data-src="images/travel-agency/slider/slide-1-fs.jpg" data-retina src="images/blank.png" alt=""/>
-									</li>
-								</ul>
-							</div>
-							<!-- Fullscreen Slider End -->
-						</div>
-						<div class="fullscreen-inner">
-							<div class="row">
-								<div class="column width-10 offset-1 center left-on-mobile horizon" data-animate-in="opacity:0;transY:50;duration:1000ms;easing:easeFastSlow;" data-threshold="1">
-									<h1 class="no-margin-bottom title-xlarge no-padding-on-mobile text-uppercase weight-bold lspacing-xlarge color-white">Sartre Traveler</h1>
-									<div class="thumbnail mb-40">
-										<img src="images/travel-agency/generic/slider-text.png" width="410" alt="">
-									</div>
-									<div class="signup-form-container no-margin-bottom">
+				<!-- Fullscreen Slider Section -->
+				<section class="section-block featured-media window-height tm-slider-parallax-container">
+					<div class="tm-slider-container full-width-slider" data-featured-slider data-parallax data-parallax-fade-out data-scale-under="960">
+						<ul class="tms-slides">
+							<li class="tms-slide" data-image data-force-fit data-overlay-bkg-color="#933ded" data-overlay-bkg-opacity="0.75">
+								<div class="tms-content">
+									<div class="tms-content-inner v-align-middle">
 										<div class="row">
-											<div class="column width-8 offset-2">
+											<div class="column width-7 pd-20 left center-on-mobile">
+												<h5 class="tms-caption text-uppercase weight-bold color-white mb-10"
+													data-animate-in="opacity:0;transY:-50;duration:900ms;delay:100ms;easing:easeFastSlow;"
+													data-no-scale
+												>A Publication For Travel Enthusiast</h5>
+												<div class="clear"></div>
+												<h1 class="tms-caption title-xlarge text-uppercase lspacing-medium weight-bold color-white mb-10"
+													data-animate-in="opacity:0;transY:-50;duration:900ms;delay:300ms;easing:easeFastSlow;"
+													data-no-scale
+												>The Sartre Traveller Guide</h1>
+												<div class="clear"></div>
+												<p class="tms-caption font-alt-1 text-medium weight-light color-white hide-on-mobile mb-30"
+													data-animate-in="opacity:0;transY:-50;duration:900ms;delay:500ms;easing:easeFastSlow;"
+													data-no-scale
+												>Discover why other people choose Sartre Traveller over any other Travel Cataglogue.</p>
+												<div class="clear"></div>
+												<a href="https://player.vimeo.com/video/148677689?autoplay=1" class="tms-caption icon-circled small border-white color-white bkg-hover-charcoal color-hover-white lightbox-link" data-lightbox-animation="fade" data-toolbar="zoom"
+													data-animate-in="opacity:0;transY:-50;duration:900ms;delay:700ms;easing:easeFastSlow;"
+													data-no-scale
+												><span class="icon-play small no-margins"></span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<img data-src="images/travel-agency/slider/slide-7-fs.jpg" data-retina src="images/blank.png" alt=""/>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<!-- Fullscreen Slider Section End -->
+
+				<!-- Hero Section 5 -->
+				<div class="section-block hero-5 hero-5-2 clear-height show-media-column-on-mobile bkg-white">
+					<div class="media-column width-6 horizon" data-animate-in="opacity:0;transX:-50px;duration:1000ms;delay:100ms;easing:easeIn;" data-threshold="0.5"></div>
+					<div class="row">
+						<div class="column width-6 push-6">
+							<div class="hero-content split-hero-content">
+								<div class="hero-content-inner left center-on-mobile horizon" data-animate-in="opacity:0;transX:50px;duration:1000ms;easing:easeIn;" data-threshold="0.4">
+									<h3 class="mb-50">About</h3>
+									<p class="lead">We're a travel catalogue that will help you find the trips you have always dreamed of. You dream it and we make it happen.</p>
+									<p class="color-grey">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+									<a href="#" class="button medium bkg-purple bkg-hover-charcoal color-white color-hover-white text-uppercase">See Featured Trips</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Hero Section 5 End -->
+
+				<!-- Feature Column Section -->
+				<div class="section-block bkg-grey-ultralight">
+					<div class="row">
+						<div class="column width-12">
+							<h3 class="mb-50">How It Works</h3>
+						</div>
+					</div>
+					<div class="row equalize">
+						<div class="column width-4">
+							<div class="box xlarge bkg-white no-margins horizon" data-animate-in="opacity:0;transX:-50px;duration:1000ms;easing:easeIn;" data-threshold="0.5">
+								<div class="row">
+									<div class="column width-12">
+										<div class="feature-column small left pt-20 pb-20">
+											<div class="feature-text no-padding">
+												<span class="text-large font-alt-1">01.</span>
+												<h3 class="text-uppercase color-grey">Select Location</h3>
+												<p class="mb-mobile-30">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis cupidatat proident.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="column width-4">
+							<div class="box xlarge bkg-purple color-white no-margins horizon" data-animate-in="opacity:0;transX:-50px;duration:1000ms;delay:100ms;easing:easeIn;" data-threshold="0.5">
+								<div class="row">
+									<div class="column width-12">
+										<div class="feature-column small left pt-20 pb-20">
+											<div class="feature-text no-padding">
+												<span class="text-large font-alt-1">02.</span>
+												<h3 class="text-uppercase color-grey">Get Airfare</h3>
+												<p class="mb-mobile-30">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis cupidatat proident.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="column width-4">
+							<div class="box xlarge bkg-white no-margins horizon" data-animate-in="opacity:0;transX:-50px;duration:1000ms;delay:200ms;easing:easeIn;" data-threshold="0.5">
+								<div class="row">
+									<div class="column width-12">
+										<div class="feature-column small left pt-20 pb-20">
+											<div class="feature-text no-padding">
+												<span class="text-large font-alt-1">03.</span>
+												<h3 class="text-uppercase color-grey">Pay &amp; Pack</h3>
+												<p class="mb-mobile-30">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis cupidatat proident.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> 
+					</div>
+				</div>
+				<!-- Feature Column Section End -->
+
+				<!-- Hero Section 4 -->
+				<div class="section-block clear-height hero-4 hero-4-1 right">
+					<div class="row">
+						<div class="column width-6 push-6">
+							<div class="hero-content split-hero-content">
+								<div class="hero-content-inner">
+									<div class="signup-form-container no-margin-bottom horizon" data-animate-in="opacity:0;transX:50px;duration:1000ms;delay:100ms;easing:easeIn;" data-threshold="0.7">
+										<div class="row">
+											<div class="column width-12">
+												<h3 class="mb-30 color-white">Don't Miss Out</h3>
+												<p class="color-white">All members receive between two to three offers per week. Sign up today and make sure you get the latest travel discount that we have to offer.</p>
 												<form class="signup-form" action="php/subscribe.php" method="post" novalidate>
 													<div class="row">
-														<div class="column width-8">
+														<div class="column width-10">
 															<div class="field-wrapper">
 																<input type="email" name="email" class="form-email form-element large" placeholder="Your Email *" tabindex="2" required>
 															</div>
 														</div>
-														<div class="column width-4 left">
-															<input type="submit" value="Signup" class="form-submit button large bkg-blue bkg-hover-charcoal color-white color-hover-white">
+														<div class="column width-5">
+															<input type="submit" value="Signup" class="form-submit button large bkg-purple bkg-hover-charcoal color-white color-hover-white">
 														</div>
 													</div>
 													<input type="text" name="honeypot" class="form-honeypot form-element">
@@ -760,130 +885,11 @@
 							</div>
 						</div>
 					</div>
-				</section>
-				<!-- Fullscreen Sections End -->
+				</div>
+				<!-- Hero Section 4 End -->
 
-				<!-- Hero Section 5 -->
-				<section class="section-block right hero-5 hero-5-1 bkg-charcoal color-white">
-					<div class="row">
-						<div class="column width-6 push-6 center">
-							<div class="hero-content split-hero-content">
-								<div class="hero-content-inner left center-on-mobile">
-									<h2 class="mb-40 color-white">Users <span class="transparent-element">Share</span></h2>
-									<div id="testimonial-slider-1" class="testimonial-slider tm-slider-container">
-										<ul class="tms-slides">	
-											<li class="tms-slide" data-image>
-												<div class="tms-content-scalable">
-													<div class="row">
-														<div class="column width-12">
-															<blockquote class="small">
-																<p>Amazing publication of the most amazing trips. This is a must for any serious thrill seeker or explorer. Sign up today and get a trips that suit you!.
-																	<cite class="color-grey-light">John K. Riley - Avid Reader.</cite>
-																</p>
-															</blockquote>
-														</div>
-													</div>
-												</div>
-											</li>
-											<li class="tms-slide" data-image>
-												<div class="tms-content-scalable">
-													<div class="row">
-														<div class="column width-12">
-															<blockquote class="small">
-																<p>A five star travel agency that offers the best custom tailored trips.
-																	<cite class="color-grey-light">John A. Adams - Repetition</cite>
-																</p>
-															</blockquote>
-														</div>
-													</div>
-												</div>
-											</li>
-											<li class="tms-slide" data-image>
-												<div class="tms-content-scalable">
-													<div class="row">
-														<div class="column width-12">
-															<blockquote class="small">
-																<p>Looking for adrenaline and nature. Then signup and hand pick only the trips you like.
-																	<cite class="color-grey-light">Jane Lariken - Thrill Seeker.</cite>
-																</p>
-															</blockquote>
-														</div>
-													</div>
-												</div>
-											</li>
-											<li class="tms-slide" data-image>
-												<div class="tms-content-scalable">
-													<div class="row">
-														<div class="column width-12">
-															<blockquote class="small">
-																<p>There are many sites out there that claim to offer the best rates. These guys beat everyone, by far, plus the trips are extraordinary!
-																	<cite class="color-grey-light">Jack Tromso - Adrenaline Junky.</cite>
-																</p>
-															</blockquote>
-														</div>
-													</div>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- Hero Section 5 End -->
-
-				<!-- Pricing Options -->
-				<section class="section-block replicable-content">
-					<div class="row">
-						<div class="column width-8 offset-2 center">
-							<h2 class="mb-40">Finding <span class="transparent-element">A Plan</span></h2>
-							<p class="lead mb-80">Simple, straightforward pricing options for all types of explorers.<br>Select a plan and receive weekly offsers.</p>
-						</div>
-						<div class="column width-10 offset-1">
-							<div class="pricing-table columns-2">
-								<div class="pricing-table-column bkg-grey-ultralight">
-									<div class="pricing-table-header color-charcoal">
-										<h2 class="weight-bold text-uppercase">The Explorer</h2>
-									</div>
-									<div class="pricing-table-price bkg-grey-ultralight color-charcoal no-padding-bottom mb-10">
-										<h4>
-											<span class="currency">$</span>2.95
-										</h4>
-										<span class="interval">per month</span>
-									</div>
-									<ul class="pricing-table-options color-grey-light mb-10">
-										<li class="text-small font-alt-1"><span class="weight-bold">20% off on all trips</span><br>North/South America Only</li>
-									</ul>
-									<div class="pricing-table-footer">
-										<button class="border-grey-light bkg-hover-charcoal color-grey-light color-hover-white text-uppercase">Select Plan</button>
-									</div>
-								</div>
-								<div class="pricing-table-column bkg-blue">
-									<div class="pricing-table-header color-white">
-										<h2 class="weight-bold text-uppercase">The Pioneer</h2>
-									</div>
-									<div class="pricing-table-price bkg-blue color-white no-padding-bottom mb-10">
-										<h4>
-											<span class="currency">$</span>5.95
-										</h4>
-										<span class="interval">per month</span>
-									</div>
-									<ul class="pricing-table-options color-blue-light mb-10">
-										<li class="text-small font-alt-1"><span class="weight-bold">50% off on all trips</span><br>North/South America + Europe</li>
-									</ul>
-									<div class="pricing-table-footer">
-										<button class="border-blue-light bkg-hover-charcoal color-blue-light color-hover-white text-uppercase">Select Plan</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- Pricing Options End -->
-
-				<!-- Stat Section 1
-				<div class="section-block stats-1 stats-1-1 left color-white">
+				<!-- Stat Section 1 -->
+				<div class="section-block stats-1 stats-1-1 background-image-none left color-charcoal">
 					<div class="row">
 						<div class="column width-12">
 							<div class="row content-grid-3">
@@ -893,7 +899,7 @@
 								</div>
 								<div class="grid-item">
 									<h4 class="mt-mobile-30">Distanced Travelled</h4>
-									<div class="divider bkg-white transparent-element no-margins"></div>
+									<div class="divider bkg-grey no-margins"></div>
 									<div class="stat">
 										<div class="stat-inner pt-20">
 											<p class="counter"><span class="stat-counter" data-count-from="1293729" data-count-to="1293999">1,293,729</span></p>
@@ -903,7 +909,7 @@
 								</div>
 								<div class="grid-item">
 									<h4>New Destinations Added</h4>
-									<div class="divider bkg-white transparent-element no-margins"></div>
+									<div class="divider bkg-grey no-margins"></div>
 									<div class="stat">
 										<div class="stat-inner pt-20">
 											<p class="counter"><span class="stat-counter" data-count-from="430000" data-count-to="430403">430,000</span></p>
@@ -915,51 +921,22 @@
 						</div>
 					</div>
 				</div>
-				Stat Section 1 -->
+				<!-- Stat Section 1 -->
 
-				<!-- Sign Up Section 2
-				<section class="section-block signup-2 signup-2-1">
-					<div class="row">
-						<div class="column width-8 offset-2 center">
-							<div class="signup-form-container">
-								<h2 class="color-white">Sign Up Today and Get Discounts</h2>
-								<p class="color-white">All members receive between two to three offers per week.</p>
-								<form class="signup-form" action="php/subscribe.php" method="post" novalidate>
-									<div class="row">
-										<div class="column width-5 offset-1">
-											<div class="field-wrapper">
-												<input type="text" name="fname" class="form-name form-element rounded" placeholder="First Name *" tabindex="1" required>
-											</div>
-										</div>
-										<div class="column width-5">
-											<div class="field-wrapper">
-												<input type="email" name="email" class="form-email form-element rounded" placeholder="Email address *" tabindex="2" required>
-											</div>
-										</div>
-										<div class="column width-6 offset-3 center">
-											<input type="submit" value="Signup" class="form-submit button rounded bkg-orange bkg-hover-charcoal color-white color-hover-white">
-										</div>
-									</div>
-									<input type="text" name="honeypot" class="form-honeypot form-element">
-								</form>
-								<div class="form-response">We Don't Spam, promise!</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				Sign Up Section 2 End -->
-
-				<!-- Call to Action Section -->
+				<!-- Call to Action Section
 				<div class="section-block replicable-content pt-60 pb-30 call-to-action-2 call-to-action-2-1 bkg-grey-ultralight background-cover">
 					<div class="row">
-						<div class="column width-8 offset-2 center">
-							<p>Need help from an agent? Call us: <strong>+ 44 543 22 343</strong></p>
+						<div class="column width-6 offset-1 right center-on-mobile">
+							<p>Never miss a special offer ever again!</p>
+						</div>
+						<div class="column width-4 left center-on-mobile">
+							<a href="#" class="button text-uppercase border-white bkg-hover-purple color-white color-hover-white mb-mobile-30">Newsletter Signup</a> 
 						</div>
 					</div>
 				</div>
-				<!-- Call to Action Section End -->
+				Call to Action Section End -->
 
-				<!-- Login Modal -->
+				<!-- Login Modal
 				<div id="login-lightbox" class="pt-70 pb-50 hide">
 					<div class="row">
 						<div class="column width-12 left">
@@ -979,7 +956,7 @@
 											</div>
 										</div>
 										<div class="column width-6">
-											<input type="submit" value="Sign In" class="form-submit button medium bkg-blue bkg-hover-charcoal color-white color-hover-white no-margin-bottom">
+											<input type="submit" value="Sign In" class="form-submit button medium bkg-purple bkg-hover-charcoal color-white color-hover-white no-margin-bottom">
 										</div>
 										<div class="column width-6 right left-on-mobile">
 											<a class="recuperate-password pt-10" href="">Forgot Password?</a>
@@ -992,7 +969,7 @@
 						</div>
 					</div>
 				</div>
-				<!-- Login Modal End -->
+				Login Modal End -->
 
 			</div>
 			<!-- Content End -->
@@ -1004,9 +981,6 @@
 						<div class="column width-3">
 							<div class="widget">
 								<h4 class="widget-title weight-light">Sartre Traveler</h4>
-								<div class="thumbnail">
-									<img src="images/travel-agency/generic/sub-heading-1.png" width="165" alt="">
-								</div>
 							</div>
 						</div>
 						<div class="column width-3">
@@ -1064,7 +1038,7 @@
 								<h4 class="widget-title">Get Our App</h4>
 								<p>Get your favourite trips right on your phone. Download our Traveler App&#8482; Today!</p>
 								<p>
-									<a class="button button-info medium rounded bkg-black bkg-hover-blue color-white color-hover-white no-margin-bottom"><span class="icon-app-store medium left"></span><span class="button-content"><small>Download On The</small>AppStore</span></a>
+									<a class="button button-info medium rounded bkg-black bkg-hover-purple color-white color-hover-white no-margin-bottom"><span class="icon-app-store medium left"></span><span class="button-content"><small>Download On The</small>AppStore</span></a>
 								</p>
 							</div>
 						</div>
@@ -1082,7 +1056,7 @@
 									<li><a href="#"><span class="icon-instagram small"></span></a></li>
 								</ul>
 								<p class="copyright pull-left clear-float-on-mobile">
-									&copy; ThemeMountain. All Rights Reserved. <a href="#">Terms &mp; Conditions</a> | <a href="#">Cookie policy</a>
+									&copy; ThemeMountain. All Rights Reserved. <a href="#">Terms &amp; Conditions</a> | <a href="#">Cookie policy</a>
 								</p>
 							</div>
 						</div>

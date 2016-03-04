@@ -169,12 +169,12 @@ $( document ).ready( function(){
 	*	Overlay Navigation 
 	*/
 
-	var overlayNav = '.overlay-navigation-wrapper';					// Overlay navigation
-	var overlayNavInner = '.overlay-navigation-inner';				// Overlay navigation inner.
-	var overlayNavShow = '.overlay-nav-show a, a.overlay-nav-show';	// Overlay nav show button.
-	var overlayNavHide = '.overlay-nav-hide a';						// Overlay nav hide button.
-	var overlayNavHelperClass = '.no-scroll';						// Helper class for side nav
-	var overlayEasing = 'easeInOutQuint';							// Transition timing function, accepts cubic-bezier
+	var overlayNav = '.overlay-navigation-wrapper';												// Overlay navigation
+	var overlayNavInner = '.overlay-navigation-inner';											// Overlay navigation inner.
+	var overlayNavShow = '.overlay-nav-show a, a.overlay-nav-show';								// Overlay nav show button.
+	var overlayNavHide = '.overlay-nav-hide a, .one-page-nav .overlay-navigation .scroll-link';	// Overlay nav hide button.
+	var overlayNavHelperClass = '.no-scroll';													// Helper class for side nav
+	var overlayEasing = 'easeInOutQuint';														// Transition timing function, accepts cubic-bezier
 
 	var overlayNavigation = {
 		init: function(){
@@ -677,12 +677,12 @@ $( document ).ready( function(){
 			$( window ).on( 'resize', function(){
 				$( thumb ).each( function(){
 					if( $( this ).find( '.caption-over-outer' ).length ){
-						var img = $( this ).find( 'img' );
-						var refW = img.attr( 'width' );
-						var refH = img.attr( 'height' );
-						var imgW = $( this ).find( 'img' ).width();
+						var media = $( this ).find( 'img, video' );
+						var refW = media.attr( 'width' );
+						var refH = media.attr( 'height' );
+						var mediaW = $( this ).find( 'img, video' ).width();
 						var ratio = refW >= refH ? refW / refH : refH / refW;
-						var height = refW >= refH ? imgW / ratio : imgW  * ratio;
+						var height = refW >= refH ? mediaW / ratio : mediaW  * ratio;
 						$( this ).find( '.caption-over-outer' ).css({ opacity: 1 });
 						$( this ).css({ height: height + 'px' });
 					}

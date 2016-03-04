@@ -145,6 +145,7 @@ p a,
 	color: #666;
 }
 a:hover,
+p a:hover,
 .box a:not(.button):hover,
 .social-list li a:hover,
 .team-1 .social-list a:hover,
@@ -315,7 +316,7 @@ body,
 .featured-media:after,
 .section-block:not([class*="bkg-"]),
 .fullscreen-sections-wrapper{
-	background-color: #fff !important;
+	background-color: #fff;
 }
 
 /* grey ulatrlight */
@@ -1514,9 +1515,7 @@ body,
 .window-height .full-width-slider{
 	height: inherit;
 }
-.featured-media .tm-slider-container{
-	background-color: #000;
-}
+.featured-media .tm-slider-container,
 .content-slider,
 .tms-carousel{
 	background: none;
@@ -1555,9 +1554,15 @@ body,
 
 /* Featured Media Slider Navigation */
 .featured-media .tms-pagination{
-	width: auto;
-	bottom: 2rem;
-	left: 4.4rem;
+	max-width: 114rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	bottom: 7%;
+	right: auto;
+	position: relative;
 }
 .featured-media .tms-pagination a{
 	display: inline-block;
@@ -1577,24 +1582,23 @@ body,
 	background-color: #232323;
 }
 
-/* Portfolio 7 Slider */
-.portfolio-7-content.replicable-content{
+/* Portfolio Carousel Slider */
+.portfolio-carousel.replicable-content{
 	padding-top: 4rem;
 	padding-bottom: 1rem;
 }
-.portfolio-7-content .column,
-.portfolio-7 .column.slider-column{
+.portfolio-carousel .column.slider-column{
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
 }
-.portfolio-7 .portfolio-recent-slider{
-	min-height: 35rem;
+.portfolio-carousel .portfolio-recent-slider{
+	min-height: 33rem;
 }
-.portfolio-7 .portfolio-recent-slider li{
+.portfolio-carousel .portfolio-recent-slider li{
 	padding: 0;
 }
-.portfolio-7 .previous-portfolio-recent-slider,
-.portfolio-7 .next-portfolio-recent-slider{
+.portfolio-carousel .previous-portfolio-recent-slider,
+.portfolio-carousel .next-portfolio-recent-slider{
 	width: auto;
 	height: auto;
 	margin-right: 0;
@@ -1617,6 +1621,13 @@ body,
 }
 
 /* Featured Slider Nav Breakpoints */
+@media only screen and (max-width: 1140px){
+	.featured-media .tms-pagination{
+		max-width: 96rem;
+		bottom: 4rem;
+		text-align: center;
+	}
+}
 @media only screen and (max-width: 768px){
 	.featured-media .tms-pagination a{
 		display: inline-block;
@@ -1696,8 +1707,8 @@ body,
 }
 .featured-media .tm-loader #circle {
 	background: none;
-	border: 2px solid rgba(255,255,255, 0.4);
-	border-bottom: 2px solid #fff;
+	border: 2px solid rgba(0,0,0, 0.4);
+	border-bottom: 2px solid #ed494f;
 	opacity: 1;
 }
 
@@ -1749,6 +1760,7 @@ body,
 	vertical-align: center;
 }
 .overlay-info .project-title{
+	margin-bottom: 0.8rem;
 	display: block;
 }
 .overlay-fade-img-scale-out .overlay-info .overlay-info{
@@ -1788,10 +1800,10 @@ body,
 }
 
 /* Hero */
-.hero-5-1 > .row:after{
+.hero-5-1 .media-column{
 	background-image: url(../images/mobile-application/generic/hero-half-1.jpg);
 }
-.hero-5-2 > .row:after{
+.hero-5-2 .media-column{
 	background-image: url(../images/team/hero-half-2.jpg);
 }
 
@@ -1894,10 +1906,7 @@ body,
 */
 
 /* Hero Sections */
-.hero-5-contact-1 > .row:after{
-	background-image: url(../images/contact/hero-half.jpg);
-}
-.hero-7-contact-1 > .row:before{
+.hero-5-contact-1 .media-column{
 	background-image: url(../images/contact/hero-half.jpg);
 }
 .hero-5-contact-1 [class*="stats-"] .stat-inner{
@@ -2081,6 +2090,13 @@ h4.project-title{
 
 .fullscreen-section .fullscreen-inner{
 	background: rgba(0,0,0,0.55);
+}
+.fs-bullet-nav{
+	background: none;
+	border: 1px solid #fff;
+}
+.fs-bullet-nav.active{
+	background: #fff;
 }
 .fs-pagination{
 	right: 6rem;
@@ -2318,6 +2334,10 @@ textarea{
 	margin-bottom: 3rem;
 	background-color: #fff;
 	border: 1px solid #ddd;
+}
+.form-element, 
+textarea,
+select{
 	font-size: 1.3rem;
 	text-transform: none;
 	font-weight: normal;
@@ -2469,7 +2489,7 @@ textarea.required-field{
 /* Signup 2 Specific */
 .signup-2 .signup-form-container{
 	background-color: rgba(0,0,0,0.6);
-	border-radius: 0.3rem;
+	border-radius: 0;
 }
 .signup-2 .form-element{
 	border-color: #fff;
@@ -2494,11 +2514,11 @@ textarea.required-field{
 }
 .signup-2 .form-response{
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	color: #fff;
 }
 .signup-2 .form-response{
-	margin-left: -4rem;
+	margin-left: 0;
 }
 .signup-2 ::-webkit-input-placeholder{
 	color: #666;
@@ -3017,6 +3037,9 @@ a.disabled .text-line{
 }
 
 /* Button */
+.button{
+	text-transform: none;
+}
 .button-content{
 	line-height: 1;
 }
@@ -3082,6 +3105,9 @@ blockquote.border{
 .hero-5,
 .hero-6{
 	height: 50rem;
+}
+[class*="hero-"].small{
+	height: 30rem;
 }
 [class*="hero-"].window-height{
 	height: 100vh;
@@ -3469,10 +3495,10 @@ only screen and (				min-resolution: 2dppx) {
 	}
 
 	/* Hero Sections */
-	.hero-5-1 > .row:after{
+	.hero-5-1 .media-column{
 		background-image: url(../images/mobile-application/generic/hero-half-1@2x.jpg);
 	}
-	.hero-5-2 > .row:after{
+	.hero-5-2 .media-column{
 		background-image: url(../images/team/hero-half-2@2x.jpg);
 	}
 

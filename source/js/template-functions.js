@@ -1,17 +1,17 @@
 /**
-*	Template Functions
-*	Version: 1.0.9;
-*	Author: ThemeMountain
-*	Copyright: ThemeMountain
-*/
+ *	Template Functions
+ *	Version: 1.1.0;
+ *	Author: ThemeMountain
+ *	Copyright: ThemeMountain
+ */
 
 $( document ).ready( function(){
 
 	'use strict';
 
 	/**
-	*	Template Functions
-	*/
+	 *	Template Functions
+	 */
 
 	// Header
 	var header = '.header';
@@ -64,12 +64,18 @@ $( document ).ready( function(){
 
 	// Content Slider
 	var contentSlider = '.content-slider';
+	var cSliderPrev = '.previous-content-slider';
+	var cSliderNext = '.next-content-slider';
 
 	// Full Width Slider
 	var fullScreenSlider = '.tm-slider-container.fullscreen';
+	var fsSliderPrev = '.previous-fullscreen-slider';
+	var fsSliderNext = '.next-fullscreen-slider';
 
 	// Full Width Slider
 	var fullWidthSlider = '.full-width-slider';
+	var fwsSliderPrev = '.previous-full-width-slider';
+	var fwsSliderNext = '.next-full-width-slider';
 
 	// Logo Slider
 	var logoSlider = '.logo-slider';
@@ -298,6 +304,17 @@ $( document ).ready( function(){
 				navShowOnHover: false,
 				retinaSupport: false
 			});
+
+			//API call for prev/next buttons
+			var contentSliderAPI = $( contentSlider ).data( 'avalancheSlider' );
+			$( cSliderPrev ).on( 'click', function( event ){
+				event.preventDefault();
+				contentSliderAPI.prevSlide();
+			});
+			$( cSliderNext ).on( 'click', function( event ){
+				event.preventDefault();
+				contentSliderAPI.nextSlide();
+			});
 		},
 		fullScreenSlider: function(){
 			$( fullScreenSlider ).avalancheSlider({
@@ -313,6 +330,17 @@ $( document ).ready( function(){
 				navShowOnHover: true,
 				respectRatio: false,
 				retinaSupport: false
+			});
+
+			//API call for prev/next buttons
+			var fullscreenSliderAPI = $( fullScreenSlider ).data( 'avalancheSlider' );
+			$( fsSliderPrev ).on( 'click', function( event ){
+				event.preventDefault();
+				fullscreenSliderAPI.prevSlide();
+			});
+			$( fsSliderNext ).on( 'click', function( event ){
+				event.preventDefault();
+				fullscreenSliderAPI.nextSlide();
 			});
 		},
 		fullWidthSlider: function(){
@@ -332,6 +360,17 @@ $( document ).ready( function(){
 				navShowOnHover: true,
 				respectRatio: false,
 				retinaSupport: false
+			});
+
+			//API call for prev/next buttons
+			var fullWidthSliderAPI = $( fullWidthSlider ).data( 'avalancheSlider' );
+			$( fwsSliderPrev ).on( 'click', function( event ){
+				event.preventDefault();
+				fullWidthSliderAPI.prevSlide();
+			});
+			$( fwsSliderNext ).on( 'click', function( event ){
+				event.preventDefault();
+				fullWidthSliderAPI.nextSlide();
 			});
 		},
 		logoSlider: function(){
@@ -356,7 +395,7 @@ $( document ).ready( function(){
 				easing: 'easeInOutQuart',
 				speed: 700,
 				autoAdvance: false,
-				carousel: true,
+				carousel: false,
 				carouselVisible: 1,
 				captionScaling: false,
 				forceFit: true,
@@ -471,8 +510,8 @@ $( document ).ready( function(){
 		},
 		videos: function(){
 			fluidvids.init({
-			  selector: selectors,
-			  players: players
+				selector: selectors,
+				players: players
 			});
 		},
 		mediaElement: function(){
@@ -515,20 +554,20 @@ $( document ).ready( function(){
 
 			// Get data references
 			function updateHeaderData(){
-				 winW = $( window ).width();
-				 winH = $( window ).height();
-				 headerWrapperH = Math.ceil( headerWrapper.outerHeight() );
-				 thresholdBkg = headerWrapper.data( 'bkg-threshold' ) === 'window-height' ? winH - headerWrapperH : headerWrapper.data( 'bkg-threshold' );
-				 thresholdHeight = headerWrapper.data( 'compact-threshold' ) === 'window-height' ? winH - headerWrapperH : headerWrapper.data( 'compact-threshold' );
-				 thresholdSticky = headerWrapper.data( 'sticky-threshold' ) === 'window-height' ? winH - headerWrapperH : headerWrapper.data( 'sticky-threshold' );
-				 thresholdHeadIn = headerWrapper.data( 'helper-in-threshold' );
-				 thresholdHeadOut = headerWrapper.data( 'helper-out-threshold' );
+				winW = $( window ).width();
+				winH = $( window ).height();
+				headerWrapperH = Math.ceil( headerWrapper.outerHeight() );
+				thresholdBkg = headerWrapper.data( 'bkg-threshold' ) === 'window-height' ? winH - headerWrapperH : headerWrapper.data( 'bkg-threshold' );
+				thresholdHeight = headerWrapper.data( 'compact-threshold' ) === 'window-height' ? winH - headerWrapperH : headerWrapper.data( 'compact-threshold' );
+				thresholdSticky = headerWrapper.data( 'sticky-threshold' ) === 'window-height' ? winH - headerWrapperH : headerWrapper.data( 'sticky-threshold' );
+				thresholdHeadIn = headerWrapper.data( 'helper-in-threshold' );
+				thresholdHeadOut = headerWrapper.data( 'helper-out-threshold' );
 			}
 
 			// Desktop - on scroll
 			// Swap header classes for animation
 			var onPageScroll = function( win ){
-				
+
 				// Check device
 				if ( $( 'body' ).hasClass( 'mobile' ) || winW < breakpoint ) return false;
 
@@ -544,7 +583,7 @@ $( document ).ready( function(){
 				// Background
 				if ( thresholdBkg && $( win ).scrollTop() >= thresholdBkg ) {
 					$( header ).addClass( headerBackground );
-					
+
 				} else {
 					$( header ).removeClass( headerBackground );
 				}
@@ -557,21 +596,21 @@ $( document ).ready( function(){
 				}
 
 				// Helpers - generic classes for extra styling/animation
-			 	currentPos = $( win ).scrollTop();
+				currentPos = $( win ).scrollTop();
 
-			   // Scrolling down
-			   if ( currentPos > lastPos ){
+				// Scrolling down
+				if ( currentPos > lastPos ){
 					if ( thresholdHeadIn && $( win ).scrollTop() >= thresholdHeadIn ) {
 						$( header ).addClass( headerHeadIn );
 					}
 					$( header ).removeClass( headerHeadOut );
 
-				// Scrolling up
-			   }else if( currentPos < lastPos ){
+					// Scrolling up
+				}else if( currentPos < lastPos ){
 					if ( thresholdHeadIn && $( win ).scrollTop() <= thresholdHeadIn ) {
 						$( header ).removeClass( headerHeadIn );
 						$( header ).removeClass( headerHeadOut );
-			  		}
+					}
 					if ( thresholdHeadIn && $( win ).scrollTop() >= thresholdHeadIn && $( win ).scrollTop() <= thresholdHeadOut ) {
 						$( header ).addClass( headerHeadOut );
 						$( headerHeadOut ).on( transitionEnd, function( event ){
@@ -580,8 +619,8 @@ $( document ).ready( function(){
 							$( header ).removeClass( headerHeadOut );
 						});
 					}
-			  	}
-			   lastPos = currentPos;
+				}
+				lastPos = currentPos;
 			};
 
 			// Desktop - on resize
@@ -808,14 +847,14 @@ $( document ).ready( function(){
 			// Check visibility of sections upon load
 			$( window ).one( 'load', function(){
 				$.each( sectionsArray, function( index, sectionId ) {
-				 	requestScroll( $( sectionId ) );
+					requestScroll( $( sectionId ) );
 				});
 			});
 
 			// Check visibility of sections upon scrolling
 			$( window ).on( 'scroll', function(){
 				$.each( sectionsArray, function( index, sectionId ) {
-				 	requestScroll( $( sectionId ) );
+					requestScroll( $( sectionId ) );
 				});
 			});
 
@@ -946,24 +985,24 @@ $( document ).ready( function(){
 							if( !msnryTransResize ){
 								grid.removeClass( 'filtering' );
 								grid
-											.isotope({
-												transitionDuration: 0,
-												masonry: {
-													columnWidth: colWidth !== '.grid-sizer' ? templateFunctions.masonryColWidth( gridContainer, grid ) : '.grid-sizer'
-												}
-											})
-											.isotope( 'layout' )
-											.isotope({
-												transitionDuration: msnryTransDuration
-											});
+									.isotope({
+										transitionDuration: 0,
+										masonry: {
+											columnWidth: colWidth !== '.grid-sizer' ? templateFunctions.masonryColWidth( gridContainer, grid ) : '.grid-sizer'
+										}
+									})
+									.isotope( 'layout' )
+									.isotope({
+										transitionDuration: msnryTransDuration
+									});
 							}else{
 								grid
-											.isotope({
-												transitionDuration: msnryTransDuration,
-												masonry: {
-													columnWidth: colWidth !== '.grid-sizer' ? templateFunctions.masonryColWidth( gridContainer, grid ) : '.grid-sizer'
-												}
-											});
+									.isotope({
+										transitionDuration: msnryTransDuration,
+										masonry: {
+											columnWidth: colWidth !== '.grid-sizer' ? templateFunctions.masonryColWidth( gridContainer, grid ) : '.grid-sizer'
+										}
+									});
 							}
 						});
 					});
@@ -977,13 +1016,13 @@ $( document ).ready( function(){
 					$( this ).closest( msnryFilterMenu ).find( '.active' ).removeClass( 'active' );
 					$( this ).addClass( 'active' );
 					var targetGrid = $( this ).closest( msnryFilterMenu ).data( 'target-grid' ) ? $( this ).closest( msnryFilterMenu ).data( 'target-grid' ) : gridContainer;
-						targetGrid = $( targetGrid ).find( '.grid' );
-					
+					targetGrid = $( targetGrid ).find( '.grid' );
+
 					// Check Options
 					msnryFilterDuration = targetGrid.is( '[data-animate-filter-duration]' ) ? targetGrid.data( 'animate-filter-duration' ) + 's' : msnryFilterDuration;
 					targetGrid.isotope({
-										transitionDuration: msnryFilterDuration
-									});
+						transitionDuration: msnryFilterDuration
+					});
 
 					// Retrieve Filter Value
 					var filterValue = $( this ).attr( 'data-filter' );
@@ -1171,9 +1210,9 @@ $( document ).ready( function(){
 							emptyFields = true;
 							$( this ).addClass( signupRequired );
 							responseMessage
-											.hide()
-											.text( signupFormFillFields )
-											.fadeIn( 200 );
+								.hide()
+								.text( signupFormFillFields )
+								.fadeIn( 200 );
 						}
 					}
 				});
@@ -1182,9 +1221,9 @@ $( document ).ready( function(){
 				// Invalid email
 				if( emailField.val() && !templateFunctions.isValidEmail( emailField.val() ) ){
 					responseMessage
-									.hide()
-									.text( signupFormValidEmail )
-									.fadeIn( 200 );
+						.hide()
+						.text( signupFormValidEmail )
+						.fadeIn( 200 );
 					emailField.addClass( signupRequired );
 				}else{
 					validEmail = true;
@@ -1197,31 +1236,31 @@ $( document ).ready( function(){
 				// email merge messages
 				if( emptyFields && emailField.val() && !templateFunctions.isValidEmail( emailField.val() ) ){
 					responseMessage
-									.hide()
-									.text( signupFormFillFields + ' ' + signupFormValidEmail )
-									.fadeIn( 200 );
+						.hide()
+						.text( signupFormFillFields + ' ' + signupFormValidEmail )
+						.fadeIn( 200 );
 				}
 				if( filledFields && validEmail ){
 
 					// Change submit text
 					var submitValue = $( submit ).val();
 					$( submit )
-								.css({ width: $( submit ).outerWidth() + 'px' })
-								.val( signupFormSendingButton )
-								.attr( 'disabled', true );
+						.css({ width: $( submit ).outerWidth() + 'px' })
+						.val( signupFormSendingButton )
+						.attr( 'disabled', true );
 
 					// Sending Message
 					responseMessage
-									.hide()
-									.text( signupFormSending )
-									.fadeIn( 200 );
+						.hide()
+						.text( signupFormSending )
+						.fadeIn( 200 );
 
 					// Send
 					$.ajax({
-							url: formUrl,
-							type: formMethod,
-							data: formData,
-							dataType: 'json'
+						url: formUrl,
+						type: formMethod,
+						data: formData,
+						dataType: 'json'
 					}).done( function( data ){
 						try {
 							if( data.response === true ){
@@ -1239,7 +1278,7 @@ $( document ).ready( function(){
 									.hide()
 									.text( data.json.error_message )
 									.fadeIn( 200 );
-							}		
+							}
 						} catch ( e ) {
 							console.log( 'error in parsing returned ajax data: '+ e );
 
@@ -1248,7 +1287,7 @@ $( document ).ready( function(){
 								.hide()
 								.text( 'Error occurred. Please see the console for details.' )
 								.fadeIn( 200 );
-						}						
+						}
 					}).fail( function( jqXHR, textStatus, errorThrown ){
 						console.log( 'Error occured in processing your request:' );
 						console.log( jqXHR );
@@ -1294,7 +1333,51 @@ $( document ).ready( function(){
 				// serialize input
 				var formUrl = form.attr( 'action' );
 				var formMethod = form.attr( 'method' );
-				var formData = form.serialize();
+				var formData = [];
+				var formMessage = encodeURIComponent(form.find( 'textarea[name=message]' ).val() + '\n' );
+				var formAux = [];
+
+				// Aux form elements, exclude submit button
+				form.find( 'input:not([type=submit]),select,textarea' ).each(
+					function ( key, value ) {
+						var formElement = $( value );
+						var elementName = formElement.attr( 'name' );
+						if(formElement.hasClass( 'form-aux' ) && elementName ) {
+
+							// We need label, and so on.
+							var formLabel = formElement.data( 'label' ) || elementName;
+							var currentTextLabel = formElement.find( 'option:selected' ).text();
+							var formValue = formElement.val();
+							if(!formValue && formElement.is( 'select' )) {
+								if(formLabel == currentTextLabel) {
+									formValue = 'Not selected';
+								} else {
+									formValue = formElement.find( 'option:selected' ).text();
+								}
+							} else if (formElement.attr( 'type' ) == 'checkbox' && !formElement.prop( 'checked' )) {
+								formValue = 'Not checked';
+							}
+							formAux.push({
+								'name': elementName,
+								'label': encodeURIComponent(formLabel),
+								'value': encodeURIComponent(formValue),
+							});
+
+							// We do not want anything undefined ie. no name elms
+						} else if(elementName && elementName != 'message') {
+							formData.push(elementName + '=' + encodeURIComponent(formElement.val()));
+						}
+						// formData.encodeURIComponent();
+					}
+				);
+
+				// Contact aux form elements
+				for (var i = 0; i < formAux.length; i ++) {
+					var formAuxString = encodeURIComponent( '\n' ) + formAux[i].label + '%3A%20' + formAux[i].value;
+					formMessage += formAuxString;
+				}
+				formData.push( 'message=' + formMessage );
+				formData = formData.join( '&' );
 
 				// Validation flags
 				var emptyFields = false;
@@ -1312,9 +1395,9 @@ $( document ).ready( function(){
 							emptyFields = true;
 							$( this ).addClass( contactRequired );
 							responseMessage
-											.hide()
-											.text( contactFormFillFields )
-											.fadeIn( 200 );
+								.hide()
+								.text( contactFormFillFields )
+								.fadeIn( 200 );
 						}
 					}
 				});
@@ -1323,9 +1406,9 @@ $( document ).ready( function(){
 				// Invalid email
 				if( emailField.val() && !templateFunctions.isValidEmail( emailField.val() ) ){
 					responseMessage
-									.hide()
-									.text( contactFormValidEmail )
-									.fadeIn( 200 );
+						.hide()
+						.text( contactFormValidEmail )
+						.fadeIn( 200 );
 					emailField.addClass( contactRequired );
 				}else{
 					validEmail = true;
@@ -1338,25 +1421,24 @@ $( document ).ready( function(){
 				// email merge messages
 				if( emptyFields && emailField.val() && !templateFunctions.isValidEmail( emailField.val() ) ){
 					responseMessage
-									.hide()
-									.text( contactFormFillFields + ' ' + contactFormValidEmail )
-									.fadeIn( 200 );
+						.hide()
+						.text( contactFormFillFields + ' ' + contactFormValidEmail )
+						.fadeIn( 200 );
 				}
 				if( filledFields && validEmail ){
 
 					// Change submit text
 					var submitValue = $( submit ).val();
 					$( submit )
-								.css({ width: $( submit ).outerWidth() + 'px' })
-								.val( contactFormSendingButton )
-								.attr( 'disabled', true );
+						.css({ width: $( submit ).outerWidth() + 'px' })
+						.val( contactFormSendingButton )
+						.attr( 'disabled', true );
 
 					// Sending Message
 					responseMessage
-									.hide()
-									.text( contactFormSending )
-									.fadeIn( 200 );
-
+						.hide()
+						.text( contactFormSending )
+						.fadeIn( 200 );
 					// Send
 					$.ajax({
 						url: formUrl,
@@ -1366,26 +1448,26 @@ $( document ).ready( function(){
 					}).done( function( data ){
 						try {
 							if( data.response === true ){
-								
+
 								// Set success message
 								responseMessage.text( contactFormSuccess );
 								responseMessage
-												.delay( 1500 )
-												.fadeOut( 200 );
+									.delay( 1500 )
+									.fadeOut( 200 );
 								fromElements.val('');
 							} else {
-								
+
 								// Set error message
 								var errorMessage = (typeof data.json.error_message == 'undefined' ) ? 'There is a possibility that your message was not sent. Please check up the server or script configuration.' : data.json.error_message ;
 								responseMessage
-												.hide()
-												.text( contactFormError + ' ' + errorMessage  )
-												.fadeIn( 200 );
-							}		
+									.hide()
+									.text( contactFormError + ' ' + errorMessage  )
+									.fadeIn( 200 );
+							}
 						} catch ( e ) {
 							console.log( 'error in parsing returned ajax data: '+ e );
 							console.log(data);
-							
+
 							// Set error message
 							responseMessage
 								.hide()
@@ -1403,14 +1485,13 @@ $( document ).ready( function(){
 						console.log( jqXHR.status );
 						console.log( 'Response Text may contain error output from PHP' );
 						console.log( qXHR.responseText );
-						
 						// Set error message
 						responseMessage
 							.hide()
 							.text( contactFormError + ' (Please see the console for error details.)' )
 							.fadeIn( 200 );
 					}).always(function(){
-						
+
 						// Revert button value
 						$( submit )
 							.css({ width: '' })
@@ -1439,7 +1520,7 @@ $( document ).ready( function(){
 			// Check grayscale option
 			var grayscale = mapGrayScale ? -100 : 0;
 
-			// Draggable 
+			// Draggable
 			var isDraggable = $( 'body' ).hasClass( 'mobile' ) ? false : true;
 
 			// Map options
@@ -1479,7 +1560,7 @@ $( document ).ready( function(){
 			var infowindow;
 			var iconNum = 0;
 			for ( var i = 0; i < mapLocations.length; i++ ) {
-					locationMarker = new google.maps.Marker({
+				locationMarker = new google.maps.Marker({
 					position: new google.maps.LatLng(mapLocations[i][0], mapLocations[i][1]),
 					map: map,
 					icon: new google.maps.MarkerImage( mapIcon[ iconNum ], null, null, null, new google.maps.Size( mapIconW, mapIconH ) )
@@ -1516,12 +1597,12 @@ $( document ).ready( function(){
 				var location = this.href;
 				if( $( 'body' ).hasClass( 'transition-support' ) ){
 					$( page )
-							.addClass( 'page-fade-out' )
-							.on( transitionEnd, function( event ){
-								event.stopPropagation();
-								if( event.target !== $( this )[0] ) return false;
-								templateFunctions.goToNewPage( location );
-							});
+						.addClass( 'page-fade-out' )
+						.on( transitionEnd, function( event ){
+							event.stopPropagation();
+							if( event.target !== $( this )[0] ) return false;
+							templateFunctions.goToNewPage( location );
+						});
 				}else{
 					templateFunctions.goToNewPage( location );
 				}
@@ -1544,14 +1625,14 @@ $( document ).ready( function(){
 			window.cancelAnimationFrame = window[vendors[x]+'CancelAnimationFrame'] || window[vendors[x]+'CancelRequestAnimationFrame'];
 		}
 		if ( !window.requestAnimationFrame )
-		window.requestAnimationFrame = function( callback, element ) {
+			window.requestAnimationFrame = function( callback, element ) {
 				var currTime = new Date().getTime();
 				var timeToCall = Math.max( 0, 16 - ( currTime - lastTime ) );
 				var id = window.setTimeout( function() { callback(currTime + timeToCall); },
-				timeToCall);
+					timeToCall);
 				lastTime = currTime + timeToCall;
 				return id;
-		};
+			};
 		if ( !window.cancelAnimationFrame )
 			window.cancelAnimationFrame = function( id ) {
 				clearTimeout( id );

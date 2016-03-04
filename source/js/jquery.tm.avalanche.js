@@ -1,6 +1,6 @@
 /**
 *	Avalanche Slider
-*	Version: 1.10
+*	Version: 1.1.1
 *	URL: @ThemeMountain
 *	Description: Content Slider
 *	Requires: jQuery 1.10+
@@ -25,6 +25,7 @@
 		var slides = slider.find( '.tms-slides' ); 
 		var active = slides.children( 'li:first-child' ).addClass( 'active' );
 		var slidesArray = [];
+		var origAnimation;
 
 		// Set slide ids
 		slides.children( '.tms-slide' ).each( function( i ){
@@ -58,6 +59,7 @@
 
 		// Check animation data settings
 		settings.animation = slider.data( 'animation' ) ? slider.data( 'animation' ) : settings.animation;
+		origAnimation = settings.animation;
 
 		// Check easing data settings
 		settings.easing = slider.data( 'easing' ) ? slider.data( 'easing' ) : settings.easing;
@@ -73,12 +75,12 @@
 		settings.showProgressBar = slider.is( '[data-progress-bar="false"]' ) ? false : settings.showProgressBar;
 		settings.autoAdvance = slider.is( '[data-auto-advance]' ) ? true : settings.autoAdvance;
 		settings.interval = slider.data( 'auto-advance-interval' ) ? slider.data( 'auto-advance-interval' ) : settings.interval;
-		settings.pauseOnHover = slider.is( '[pause-on-hover=false]' ) ? false : settings.pauseOnHover;
+		settings.pauseOnHover = slider.is( '[data-pause-on-hover="false"]' ) ? false : settings.pauseOnHover;
 
 		// Check nav data settings
-		settings.navArrows = slider.is( '[data-nav-arrows=false]' ) ? false : settings.navArrows;
-		settings.navPagination = slider.is( '[data-nav-pagination=false]' ) ? false : settings.navPagination;
-		settings.navShowOnHover = slider.is( '[data-nav-show-on-hover=false]' ) ? false : settings.navShowOnHover;
+		settings.navArrows = slider.is( '[data-nav-arrows="false"]' ) ? false : settings.navArrows;
+		settings.navPagination = slider.is( '[data-nav-pagination="false"]' ) ? false : settings.navPagination;
+		settings.navShowOnHover = slider.is( '[data-nav-show-on-hover="false"]' ) ? false : settings.navShowOnHover;
 
 		// Check whether to add global nav dark class to header
 		if( active.is( '[data-nav-dark]' ) ){
@@ -536,15 +538,21 @@
 			// Get slider width in case
 			// it has changed since previous animation	
 			var sliderW = slider.width();
-
-			// Check slide animation type
-			var tx = settings.animation === 'slide' ? sliderW : 0;
-			tx *= settings.carousel ? index - 1 : 1;
+			var sliderH = slider.height();
 
 			// Get target slide & swap z-index
 			var target = slider.find( '#tms-slide-' + index );
-			target.addClass( 'target').css({ zIndex: 2, opacity: tx === 0 ? 0 : 1 });
+			target.addClass( 'target' ).css({ zIndex: 2, opacity: tx === 0 ? 0 : 1 });
 			active.css({ zIndex: 1 });
+
+			// Check if there is individual slider animation set
+			settings.animation = target.data( 'animation' ) ? target.data( 'animation' ) : origAnimation;
+
+			// Check slide animation type
+			var tx = settings.animation === 'slide' || settings.animation === 'slideLeftRight' ? sliderW : 0;
+			var ty = settings.animation === 'slideTopBottom' ? sliderH : 0;
+			tx *= settings.carousel ? index - 1 : 1;
+			var scale = settings.animation === 'scaleIn' ? 1 - settings.scaleFactor : settings.animation === 'scaleOut' ? 1 + settings.scaleFactor : 1;
 
 			// Check whether dark nav class should be added
 			// to slider and site header
@@ -582,10 +590,10 @@
 				if( settings.carousel ){
 					animate( slides, 1, -( tx / visibleSlides ) * direction, 0, 0, 0, 0, 0, 1, settings.speed, 0, easingArray[ settings.easing ], settings );
 				}else{
-					target.css({ transition: 'none', transform: 'translate3d(' + tx * direction + 'px' + ', 0, 0)' });
+					target.css({ opacity: 0, transition: 'none', transform: 'translate3d(' + tx * direction + 'px' + ',' + ty * direction + 'px' + ', 0) scale3d(' + scale + ', ' + scale + ', ' + scale + ')' });
 					clearTimeout( animateSlideTimer );
 					animateSlideTimer = setTimeout( function(){
-						animate( active, 1, -tx * direction, 0, 0, 0, 0, 0, 1, settings.speed, 0, easingArray[ settings.easing ], settings );
+						animate( active, 1, -tx * direction, -ty * direction, 0, 0, 0, 0, scale, settings.speed, 0, easingArray[ settings.easing ], settings );
 						animate( target, 1, 0, 0, 0, 0, 0, 0, 1, settings.speed, 0, easingArray[ settings.easing ], settings );
 					}, 50 );
 				}
@@ -1786,7 +1794,8 @@
 
 		// Animation
 		animation: 'slide',								// Animation type: slide/fade
-		parallax: false,
+		scaleFactor: 0.2,								// Scale factor: used to determine scale factor if animation is set to scale
+		parallax: false,								// Parallax: boolean
 		easing: 'easeInOutQuint',						// Easing type: string, see easingArray
 		easingFallback: 'easeInOutQuint',				// Easing fallback: for older browser that do not support custom easing
 		speed: 700,										// Animation speed: milliseconds 
