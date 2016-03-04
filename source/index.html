@@ -8,15 +8,15 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="Your-Image-Url" />
 	<meta property="og:description" content="Your-Page-Description" />
-	<title>Sartre | Multipurpose HTML5 Template - Travel Agency</title>
+	<title>Sartre | Multipurpose HTML5 Template - Concepts</title>
 	<link rel="shortcut icon" type="image/x-icon" href="images/theme-mountain-favicon.ico">
 
 	<!-- Font -->
-	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700%7COpen+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
 	
 	<!-- Css -->
 	<link rel="stylesheet" href="css/core.min.css" />
-	<link rel="stylesheet" href="css/skin-travel-agency.css" />
+	<link rel="stylesheet" href="css/skin.css" />
 
 	<!--[if lt IE 9]>
     	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -53,7 +53,7 @@
 								<li>
 									<a href="index-design-agency.html">Agency</a>
 								</li>
-								<li class="current">
+								<li>
 									<a href="index-travel-agency.html">Travel Agency</a>
 								</li>
 								<li>
@@ -215,12 +215,78 @@
 						</li>
 					</ul>
 				</nav>
-				<div class="side-navigation-footer">
-					<ul class="social-list list-horizontal">
-						<li><a href="#"><span class="icon-twitter small"></span></a></li>
-						<li><a href="#"><span class="icon-facebook small"></span></a></li>
-						<li><a href="#"><span class="icon-instagram small"></span></a></li>
+				<nav class="side-navigation nav-block">
+					<ul>
+						<li>
+							<a href="#" class="contains-sub-menu cart">Cart <span class="cart-indication"><span class="badge">3</span></span></a>
+							<ul class="sub-menu custom-content cart-overview">
+								<li class="cart-item">
+									<a href="single-product.html" class="product-thumbnail">
+										<img src="images/shop/cart/cart-thumb-small.jpg" alt="" />
+									</a>
+									<div class="product-details">
+										<a href="single-product.html" class="product-title">
+											Cotton Jump Suit
+										</a>
+										<span class="product-quantity">2 x</span>
+										<span class="product-price"><span class="currency">$</span>15.00</span>
+										<a href="#" class="product-remove icon-cancel"></a>
+									</div>
+								</li>
+								<li class="cart-item">
+									<a href="single-product.html" class="product-thumbnail">
+										<img src="images/shop/cart/cart-thumb-small-2.jpg" alt="" />
+									</a>
+									<div class="product-details">
+										<a href="single-product.html" class="product-title">
+											Crew Neck U.S Sweater
+										</a>
+										<span class="product-quantity">2 x</span>
+										<span class="product-price"><span class="currency">$</span>45.00</span>
+										<a href="#" class="product-remove icon-cancel"></a>
+									</div>
+								</li>
+								<li class="cart-item">
+									<a href="single-product.html" class="product-thumbnail">
+										<img src="images/shop/cart/cart-thumb-small-3.jpg" alt="" />
+									</a>
+									<div class="product-details">
+										<a href="single-product.html" class="product-title">
+											Cross Summer Top
+										</a>
+										<span class="product-quantity">2 x</span>
+										<span class="product-price"><span class="currency">$</span>17.00</span>
+										<a href="#" class="product-remove icon-cancel"></a>
+									</div>
+								</li>
+								<li class="cart-subtotal">
+									Sub Total
+									<span class="amount"><span class="currency">$</span>77.00</span>
+								</li>
+								<li class="cart-actions">
+									<a href="cart.html" class="view-cart">View Cart</a>
+									<a href="checkout.html" class="checkout"><span class="icon-check"></span> Checkout</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Search</a>
+							<ul class="sub-menu custom-content">
+								<li>
+									<div class="search-form-container site-search">
+										<form action="#" method="get" novalidate>
+											<div class="field-wrapper">
+												<input type="text" name="search" class="form-search form-element no-margin-bottom" placeholder="type &amp; hit enter...">
+											</div>
+										</form>
+										<div class="form-response"></div>
+									</div>
+								</li>
+							</ul>
+						</li>
 					</ul>
+				</nav>
+				<div class="side-navigation-footer">
 					<p class="copyright no-margin-bottom">&copy; 2014 THEMEMOUNTAIN.</p>
 				</div>
 			</div>
@@ -228,40 +294,30 @@
 	</aside>
 	<!-- Side Navigation Menu End -->
 
-	<div class="wrapper reveal-side-navigation">
+	<div class="wrapper">
 		<div class="wrapper-inner">
 
 			<!-- Header -->
-			<header class="header header-absolute header-fixed-on-mobile header-transparent" data-helper-in-threshold="300" data-helper-out-threshold="500" data-sticky-threshold="300" data-bkg-threshold="300" data-compact-threshold="300">
-				<div class="header-inner-top">
-					<div class="row nav-bar">
-						<div class="column width-6 nav-bar-inner left">
-							<p>480+ Excursions and counting.</p>
-						</div>
-						<div class="column width-6 nav-bar-inner right">
-							<p>Call Us + 44 543 22 343</p>
-						</div>
-					</div>
-				</div>
+			<header class="header header-fixed header-fixed-on-mobile header-transparent nav-dark" data-bkg-threshold="100" data-compact-threshold="100">
 				<div class="header-inner">
 					<div class="row nav-bar">
 						<div class="column width-12 nav-bar-inner">
 							<div class="logo">
 								<div class="logo-inner">
-									<a href="index.html"><img src="images/travel-agency/logo-dark.png" alt="Sartre Logo" /></a>
-									<a href="index.html"><img src="images/travel-agency/logo.png" alt="Sartre Logo" /></a>
+									<a href="index.html"><img src="images/design-agency/logo-dark.png" alt="Sartre Logo" /></a>
+									<a href="index.html"><img src="images/design-agency/logo.png" alt="Sartre Logo" /></a>
 								</div>
 							</div>
 							<nav class="navigation nav-block secondary-navigation nav-right">
 								<ul>
-									<!-- Dropdown Cart Overview
 									<li>
+										<!-- Dropdown Cart Overview -->
 										<div class="dropdown">
 											<a href="#" class="nav-icon cart button no-page-fade"><span class="cart-indication"><span class="icon-shopping-cart"></span> <span class="badge">3</span></span></a>
 											<ul class="dropdown-list custom-content cart-overview">
 												<li class="cart-item">
 													<a href="single-product.html" class="product-thumbnail">
-														<img src="images/design-agency/portfolio/grid/no-margins/project-6-square.jpg" alt="" />
+														<img src="images/shop/cart/cart-thumb-small.jpg" alt="" />
 													</a>
 													<div class="product-details">
 														<a href="single-product.html" class="product-title">
@@ -274,43 +330,43 @@
 												</li>
 												<li class="cart-item">
 													<a href="single-product.html" class="product-thumbnail">
-														<img src="images/design-agency/portfolio/grid/no-margins/project-7-square.jpg" alt="" />
+														<img src="images/shop/cart/cart-thumb-small-2.jpg" alt="" />
 													</a>
 													<div class="product-details">
 														<a href="single-product.html" class="product-title">
-															Cotton Jump Suit
+															Crew Neck U.S Sweater
 														</a>
 														<span class="product-quantity">2 x</span>
-														<span class="product-price"><span class="currency">$</span>15.00</span>
+														<span class="product-price"><span class="currency">$</span>45.00</span>
 														<a href="#" class="product-remove icon-cancel"></a>
 													</div>
 												</li>
 												<li class="cart-item">
 													<a href="single-product.html" class="product-thumbnail">
-														<img src="images/design-agency/portfolio/grid/no-margins/project-8-square.jpg" alt="" />
+														<img src="images/shop/cart/cart-thumb-small-3.jpg" alt="" />
 													</a>
 													<div class="product-details">
 														<a href="single-product.html" class="product-title">
-															Cotton Jump Suit
+															Cross Summer Top
 														</a>
 														<span class="product-quantity">2 x</span>
-														<span class="product-price"><span class="currency">$</span>15.00</span>
+														<span class="product-price"><span class="currency">$</span>17.00</span>
 														<a href="#" class="product-remove icon-cancel"></a>
 													</div>
 												</li>
 												<li class="cart-subtotal">
 													Sub Total
-													<span class="amount"><span class="currency">$</span>15.00</span>
+													<span class="amount"><span class="currency">$</span>77.00</span>
 												</li>
 												<li class="cart-actions">
-													<a href="cart.html" class="view-cart">View Cart</a>
+													<a href="cart.html" class="view-cart mt-10">View Cart</a>
 													<a href="checkout.html" class="checkout button small"><span class="icon-check"></span> Checkout</a>
 												</li>
 											</ul>
 										</div>
-									</li> -->
-									<!-- Dropdown Search Module
+									</li>
 									<li>
+										<!-- Dropdown Search Module -->
 										<div class="dropdown">
 											<a href="#" class="nav-icon search button no-page-fade"><span class="icon-magnifying-glass"></span></a>
 											<div class="dropdown-list custom-content cart-overview">
@@ -329,16 +385,6 @@
 												</div>
 											</div>
 										</div>
-									</li> -->
-									<li>
-										<a href="#" class="nav-icon">
-											<span class="icon-facebook small"></span>
-										</a>
-									</li>
-									<li>
-										<a href="#" class="nav-icon">
-											<span class="icon-twitter small"></span>
-										</a>
 									</li>
 									<li class="aux-navigation hide">
 										<!-- Aux Navigation -->
@@ -348,9 +394,9 @@
 									</li>
 								</ul>
 							</nav>
-							<nav class="navigation nav-block primary-navigation sub-menu-indicator nav-right no-margin-right">
+							<nav class="navigation nav-block primary-navigation nav-right">
 								<ul>
-									<li class="current contains-sub-menu">
+									<li class="current">
 										<a href="index.html">Demos</a>
 										<ul class="sub-menu">
 											<li class="contains-sub-menu">
@@ -421,7 +467,7 @@
 													</li>
 												</ul>
 											</li>
-											<li class="contains-sub-menu current">
+											<li class="contains-sub-menu">
 												<a href="index-travel-agency.html">Travel Agency</a>
 												<ul class="sub-menu">
 													<li>
@@ -430,7 +476,7 @@
 													<li>
 														<a href="index-travel-agency-2.html">Variation 2</a>
 													</li>
-													<li class="current">
+													<li>
 														<a href="index-travel-agency-3.html">Variation 3</a>
 													</li>
 													<li>
@@ -508,7 +554,7 @@
 											</li>
 										</ul>
 									</li>
-									<li class="contains-sub-menu">
+									<li>
 										<a href="about-style-one.html">Pages</a>
 										<ul class="sub-menu">
 											<li>
@@ -596,7 +642,7 @@
 											</li>
 										</ul>
 									</li>
-									<li class="contains-sub-menu">
+									<li>
 										<a href="blog.html">Blog</a>
 										<ul class="sub-menu">
 											<li>
@@ -625,7 +671,7 @@
 											</li>
 										</ul>
 									</li>
-									<li class="contains-sub-menu sub-menu-right">
+									<li class="sub-menu-right">
 										<a href="shop-grid.html">Shop</a>
 										<ul class="sub-menu">
 											<li class="contains-sub-menu">
@@ -743,319 +789,677 @@
 			<!-- Content -->
 			<div class="content clearfix">
 
-				<!-- Fullscreen Sections -->
-				<section class="fullscreen-sections-wrapper">
-					<div id="fs-1" class="section-block fullscreen-section">
-						<div class="background-slider-wrapper">
-							<!-- Fullscreen Slider -->
-							<div class="tm-slider-container fullscreen" data-featured-slider data-fs-use-height="parent" data-auto-advance data-auto-advance-interval="4000" data-pause-on-hover="false" data-progress-bar="false" data-nav-arrows="false" data-nav-pagination="false" data-speed="2800" data-animation="fade" data-scale-under="1">
-								<ul class="tms-slides">
-									<li class="tms-slide" data-image data-force-fit>
-										<img data-src="images/travel-agency/slider/slide-6-fs.jpg" data-retina src="images/blank.png" alt=""/>
-									</li>
+				<!-- Feature Section 1 -->
+				<section class="section-block bkg-white feature-1 pb-15">
+					<div class="row no-padding-bottom">
+						<div class="column width-10 offset-1">
+							<div class="feature-content">
+								<div class="feature-content-inner left-on-mobile pt-60 pb-0">
+									<h1 class="color-charcoal">Sartre Multi-Purpose HTML Template v.1.0.4</h1>
+									<p class="lead mb-50 color-grey">Simple, elegant, well structured. The perfect startup pack to kickstart your business.</p>
+									<a href="#demos" data-offset="-60" class="button scroll-link large bkg-charcoal color-white border-hover-charcaol color-hover-charcoal mb-70">
+										Discover Concepts
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row full-width collapse">
+						<div class="column width-12">
+							<div class="feature-image">
+								<a href="#demos" class="scroll-link" data-offset="-60">
+									<img src="images/generic/hero-1@2x.jpg" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Feature Section 1 End -->
+
+				<!-- Demo Grid -->
+				<div id="demos" class="section-block pt-70 no-padding-bottom bkg-grey-ultralight">
+					<div class="row">
+						<div class="column width-6 offset-3 center">
+							<h2 class="mb-40">Concepts</h2>
+							<div class="grid-filter-menu no-padding center mb-70">
+								<ul>
+									<li><a class="active" href="#" data-filter="*">All</a></li>
+									<li><a href="#" data-filter=".one-page-layout">One Page Layouts</a></li>
+									<li><a href="#" data-filter=".home-page-layout">Homepage Layouts</a></li>
 								</ul>
 							</div>
-							<!-- Fullscreen Slider End -->
-						</div>
-						<div class="fullscreen-inner">
-							<div class="row">
-								<div class="column width-10 pt-50 offset-1 center horizon" data-animate-in="opacity:0;transY:50;duration:1000ms;easing:easeFastSlow;" data-threshold="1">
-									<h5 class="text-uppercase lspacing-small mb-10 weight-bold color-white">You Choose the Adventure</h5>
-									<div class="clear"></div>
-									<h1 class="title-xlarge no-padding-on-mobile text-uppercase lspacing-medium mb-20 weight-bold color-white">we make it happen</h1>
-									<div class="row">
-										<div class="column width-6 offset-3 weight-light">
-											<p class="color-white text-small">We help you find the travel experience that you have always dreamed of and tailor it to your needs.</p>
-											<a class="lightbox-link icon-circled icon-play medium border-white color-white color-hover-white bkg-hover-purple  text-line-vertical" data-lightbox-animation="fade" href="http://player.vimeo.com/video/94614809?autoplay=1"></a>
-										</div>
-									</div>
-								</div>
-							</div>
 						</div>
 					</div>
-					<div id="fs-2" class="section-block fullscreen-section background-cover background-fixed content-below-on-mobile" data-width="2500" data-height="1667">
-						<!-- Fullscreen Image -->
-						<div class="background-image-wrapper">
-							<div class="background-image fullscreen-bkg-2"></div>
-						</div>
-						<!-- Fullscreen Image End -->
-						<div class="fullscreen-inner">
-							<div class="row">
-								<div class="column width-12 center color-white horizon" data-animate-in="opacity:0;transX:-50;duration:1500ms;delay:200ms;easing:easeFastSlow;" data-threshold="1">
-									<h6 class="lead no-margin-bottom text-uppercase lspacing-small">Featured Trip 5 Nights Hotel ***</h6>
-									<h1 class="title-large mb-10 mb-mobile-30 no-padding-on-mobile text-uppercase weight-bold lspacing-small">Reykjavik, Iceland</h1>
-									<div class="row">
-										<div class="column width-6 offset-3 center">
-											<p class="text-medium"><em>from</em> $646 (tax incl.)</p>
-											<a href="#" class="button text-uppercase bkg-purple border-hover-white color-white color-hover-white mb-mobile-30">Find Out More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div id="fs-3" class="section-block fullscreen-section background-cover background-fixed content-below-on-mobile" data-width="2500" data-height="1667">
-						<!-- Fullscreen Image -->
-						<div class="background-image-wrapper">
-							<div class="background-image fullscreen-bkg-3"></div>
-						</div>
-						<!-- Fullscreen Image End -->
-						<div class="fullscreen-inner">
-							<div class="row">
-								<div class="column width-12 center color-white horizon" data-animate-in="opacity:0;transX:50;duration:1500ms;delay:200ms;easing:easeFastSlow;" data-threshold="1">
-									<h6 class="lead no-margin-bottom text-uppercase lspacing-small">Featured Trip - 5 Nights Hotel ***</h6>
-									<h1 class="title-large mb-10 mb-mobile-30 no-padding-on-mobile text-uppercase weight-bold lspacing-small">Whistler, Canada</h1>
-									<div class="row">
-										<div class="column width-6 offset-3 center">
-											<p class="text-medium"><em>from</em> $846 (tax incl.)</p>
-											<a href="#" class="button text-uppercase bkg-purple border-hover-white color-white color-hover-white mb-mobile-30">Find Out More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div id="fs-4" class="section-block fullscreen-section background-cover background-fixed content-below-on-mobile" data-width="2500" data-height="1667">
-						<!-- Fullscreen Image -->
-						<div class="background-image-wrapper">
-							<div class="background-image fullscreen-bkg-4"></div>
-						</div>
-						<!-- Fullscreen Image End -->
-						<div class="fullscreen-inner">
-							<div class="row">
-								<div class="column width-12 center color-white horizon" data-animate-in="opacity:0;transX:-50;duration:1500ms;delay:200ms;easing:easeFastSlow;" data-threshold="1">
-									<h6 class="lead no-margin-bottom text-uppercase lspacing-small">Featured Trip - 4 Nights Hotel ***</h6>
-									<h1 class="title-large mb-10 mb-mobile-30 no-padding-on-mobile text-uppercase weight-bold lspacing-small">Trondheim, Norway</h1>
-									<div class="row">
-										<div class="column width-6 offset-3 center">
-											<p class="text-medium"><em>from</em> $1,246 (tax incl.)</p>
-											<a href="#" class="button text-uppercase bkg-purple border-hover-white color-white color-hover-white mb-mobile-30">Find Out More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- Fullscreen Sections End -->
-
-				<!-- Hero Section 5
-				<section class="section-block hero-5 hero-5-1 clear-height right show-media-column-on-mobile bkg-purple color-white">
-					<div class="media-column width-6"></div>
-					<div class="row">
-						<div class="column width-6">
-							<div class="hero-content split-hero-content">
-								<div class="hero-content-inner left">
-									<h3 class="mb-50">What Our User Say</h3>
-									<div id="testimonial-slider-1" class="testimonial-slider tm-slider-container">
-										<ul class="tms-slides">	
-											<li class="tms-slide" data-image>
-												<div class="tms-content-scalable">
-													<div class="row">
-														<div class="column width-12">
-															<blockquote class="small">
-																<p>Incredible work! Best creative experience ever; timely, well executed and one hell of the result. Would recommend Nietszche to anyone who is looking to revamp their identity.
-																	<cite>John K. Riley - Harvest Goods.</cite>
-																</p>
-															</blockquote>
-														</div>
-													</div>
-												</div>
-											</li>
-											<li class="tms-slide" data-image>
-												<div class="tms-content-scalable">
-													<div class="row">
-														<div class="column width-12">
-															<blockquote class="small">
-																<p>A five star agency without doubt. Hire them!
-																	<cite>John A. Adams - Repetition</cite>
-																</p>
-															</blockquote>
-														</div>
-													</div>
-												</div>
-											</li>
-											<li class="tms-slide" data-image>
-												<div class="tms-content-scalable">
-													<div class="row">
-														<div class="column width-12">
-															<blockquote class="small">
-																<p>Creativity redefined. These guys offer a unique approach to every aspect of design and the result is simply stunning.
-																	<cite>Jane Lariken - MUD Clothing.</cite>
-																</p>
-															</blockquote>
-														</div>
-													</div>
-												</div>
-											</li>
-											<li class="tms-slide" data-image>
-												<div class="tms-content-scalable">
-													<div class="row">
-														<div class="column width-12">
-															<blockquote class="small">
-																<p>Design, design and redesign is their motto. Conrad won't stop until they have the perfect match between functionality and esthetic.
-																	<cite>Jack Tromso - Orcha Co.</cite>
-																</p>
-															</blockquote>
-														</div>
-													</div>
-												</div>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				Hero Section 5 End -->
-
-				<!-- Pricing Options -->
-				<section class="section-block replicable-content">
-					<div class="row equalize">
-						<div class="column width-5 offset-1">
-							<div class="feature-content">
-								<div class="feature-content-inner">
-									<h3 class="mb-30">One Price For All</h3>
-									<p class="lead">We keep it simple and offer a service that fits everyones wallet! One Price for All.</p>
-									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-									<p class="transparent-element weight-bold mb-mobile-50">*Sign up for free - Cancel any paid plan within 30 days</p>
-								</div>
-							</div>
-						</div>
-						<div class="column width-4 offset-1 center">
-							<div class="pricing-table columns-1 border-white color-white">
-								<div class="pricing-table-column callout bkg-purple">
-									<div class="pricing-table-header color-white">
-										<h2 class="weight-bold text-uppercase">The Pioneer</h2>
-									</div>
-									<div class="pricing-table-price bkg-purple color-white no-padding-bottom mb-10">
-										<h4>
-											<span class="currency">$</span>5.95
-										</h4>
-										<span class="interval">per month</span>
-									</div>
-									<ul class="pricing-table-options color-white mb-10">
-										<li class="text-small font-alt-1"><span class="weight-bold">50% off on all trips</span><br>North/South America + Europe</li>
-									</ul>
-									<div class="pricing-table-footer">
-										<button class="border-white bkg-hover-charcoal color-white color-hover-white text-uppercase">Select Plan</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- Pricing Options End -->
-
-				<!-- Stat Section 1
-				<div class="section-block stats-1 stats-1-1 left color-white">
+				</div>
+				<div class="section-block grid-container fade-in-progressively full-width no-padding-top no-padding-bottom bkg-grey-ultralight" data-layout-mode="masonry" data-animate-filter-duration="0.7" data-animate-resize data-animate-resize-duration="0">
 					<div class="row">
 						<div class="column width-12">
-							<div class="row content-grid-3">
-								<div class="grid-item">
-									<h4>Why Choose Us</h4>
-									<p>We continously keep adding new and exciting destinations for great prices. We're the fastest growing travel site in the industry.</p>
-								</div>
-								<div class="grid-item">
-									<h4 class="mt-mobile-30">Distanced Travelled</h4>
-									<div class="divider bkg-white transparent-element no-margins"></div>
-									<div class="stat">
-										<div class="stat-inner pt-20">
-											<p class="counter"><span class="stat-counter" data-count-from="1293729" data-count-to="1293999">1,293,729</span></p>
-											<p class="description">Miles Travelled since 2013</p>
-										</div>
+							<div class="row grid content-grid-3">
+								<div class="grid-item grid-sizer resume one-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-resume-one-page.html">
+											<img src="images/portfolio/grid/large-margins/resume-one-page.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">One Page Resume</span>
+														<span class="project-description">Fullscreen hero, skill chart, unique timeline</span>
+													</span>
+												</span>
+											</span>
+										</a>
 									</div>
 								</div>
-								<div class="grid-item">
-									<h4>New Destinations Added</h4>
-									<div class="divider bkg-white transparent-element no-margins"></div>
-									<div class="stat">
-										<div class="stat-inner pt-20">
-											<p class="counter"><span class="stat-counter" data-count-from="430000" data-count-to="430403">430,000</span></p>
-											<p class="description">Destinations Since 2013</p>
-										</div>
+								<div class="grid-item resume home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-resume.html">
+											<img src="images/portfolio/grid/large-margins/resume-1.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Resume</span>
+														<span class="project-description">Resume with simple hero</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item resume home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-resume-2.html">
+											<img src="images/portfolio/grid/large-margins/resume-2.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Resume 2</span>
+														<span class="project-description">Fulscreen hero, skill chart, simple timeline</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item resume home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-resume-3.html">
+											<img src="images/portfolio/grid/large-margins/resume-3.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Resume 3</span>
+														<span class="project-description">Split fullscreen hero, full width masonry grid</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item mobile-app home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-mobile-application.html">
+											<img src="images/portfolio/grid/large-margins/mobile-app-1.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Mobile App</span>
+														<span class="project-description">Simple parallax hero, pricing tables, signup</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item mobile-app home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-mobile-application-2.html">
+											<img src="images/portfolio/grid/large-margins/mobile-app-2.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Mobile App 2</span>
+														<span class="project-description">Simple feature section, pricing tables, footer signup</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item mobile-app home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-mobile-application-3.html">
+											<img src="images/portfolio/grid/large-margins/mobile-app-3.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Mobile App 3</span>
+														<span class="project-description">Fullscreen slider w/ caption animation, overlay signup</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item web-app home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-web-application.html">
+											<img src="images/portfolio/grid/large-margins/web-app-1.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Web App</span>
+														<span class="project-description">Simple hero, feature sections, parallax section</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item web-app home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-web-application-2.html">
+											<img src="images/portfolio/grid/large-margins/web-app-2.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Web App 2</span>
+														<span class="project-description">Simple hero, testimonial slider, signup</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item web-app home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-web-application-3.html">
+											<img src="images/portfolio/grid/large-margins/web-app-3.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Web App 3</span>
+														<span class="project-description">Simple hero, feature sections, minimal footer</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item barber-shop one-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-barber-shop-one-page.html">
+											<img src="images/portfolio/grid/large-margins/barber-one-page.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">One Page Barber Shop</span>
+														<span class="project-description">Hero with bkg video, mini shop, blog</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item barber-shop home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-barber-shop.html">
+											<img src="images/portfolio/grid/large-margins/barber-1.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Barber Shop</span>
+														<span class="project-description">Hero w/ bkg video, mini shop, contact form</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item barber-shop home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-barber-shop-2.html">
+											<img src="images/portfolio/grid/large-margins/barber-2.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Barber Shop 2</span>
+														<span class="project-description">Fullscreen hero, bkg video thumbnail, contact form</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item barber-shop home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-barber-shop-3.html">
+											<img src="images/portfolio/grid/large-margins/barber-3.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Barber Shop 3</span>
+														<span class="project-description">Simple hero, tabbed price list, counter</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item design-agency one-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-design-agency-one-page.html">
+											<img src="images/portfolio/grid/large-margins/agency-one-page.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">One Page Agency</span>
+														<span class="project-description">Fullscreen parallax hero, masonry grid, contact form</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item design-agency home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-design-agency.html">
+											<img src="images/portfolio/grid/large-margins/agency-1.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Agency</span>
+														<span class="project-description">Fullscreen slider w/ caption animation, masonry grid, counter</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item design-agency home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-design-agency-2.html">
+											<img src="images/portfolio/grid/large-margins/agency-2.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Agency 2</span>
+														<span class="project-description">Full width masonry, counter</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item design-agency home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-design-agency-3.html">
+											<img src="images/portfolio/grid/large-margins/agency-3.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Agency 3</span>
+														<span class="project-description">Fullscreen slider w/ overlay, masonry grid, footer signup</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item travel-agency home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-travel-agency.html">
+											<img src="images/portfolio/grid/large-margins/travel-1.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Travel Agency</span>
+														<span class="project-description">Fullscreen hero, split hero sections, full page animations</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item travel-agency home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-travel-agency-2.html">
+											<img src="images/portfolio/grid/large-margins/travel-2.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Travel Agency 2</span>
+														<span class="project-description">Fullscreen hero with overlay, split hero, hero w/ signup</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item travel-agency home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-travel-agency-3.html">
+											<img src="images/portfolio/grid/large-margins/travel-3.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Travel Agency 3</span>
+														<span class="project-description">Fullscreen parallax presentation</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item restaurant one-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-restaurant-one-page.html">
+											<img src="images/portfolio/grid/large-margins/restaurant-one-page.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">One Page Restaurant</span>
+														<span class="project-description">Parallax hero, lightbox Vimeo video, carousel, menus</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item restaurant home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-restaurant.html">
+											<img src="images/portfolio/grid/large-margins/restaurant-1.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Restaurant</span>
+														<span class="project-description">Fullscreen parallax, bkg video thumbnail, menu, contact form </span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item restaurant home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-restaurant-2.html">
+											<img src="images/portfolio/grid/large-margins/restaurant-2.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Restaurant 2</span>
+														<span class="project-description">Simple parallax hero, masonry grid w/ slider, contact form </span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item restaurant home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-restaurant-3.html">
+											<img src="images/portfolio/grid/large-margins/restaurant-3.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Restaurant 3</span>
+														<span class="project-description">Fullscreen parallax hero, unique menu, contact form </span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item photo-studio one-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-photo-studio-one-page.html">
+											<img src="images/portfolio/grid/large-margins/photo-studio-one-page.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">One Page Photography</span>
+														<span class="project-description">Fullscreen hero, split hero sections, masonry grid</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item photo-studio home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-photo-studio.html">
+											<img src="images/portfolio/grid/large-margins/photography-1.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Photography</span>
+														<span class="project-description">Fullscreen slider, fixed width masonry, hero section</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item photo-studio home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-photo-studio-2.html">
+											<img src="images/portfolio/grid/large-margins/photography-2.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Photography 2</span>
+														<span class="project-description">Simple header, full width masonry grid</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item photo-studio home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-photo-studio-3.html">
+											<img src="images/portfolio/grid/large-margins/photography-3.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Photography 3</span>
+														<span class="project-description">Full width masonry grid</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item architecture home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-architecture.html">
+											<img src="images/portfolio/grid/large-margins/architecture-1.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Architecture</span>
+														<span class="project-description">Bottom positioned header, parallax, counter, team section</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item architecture home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-architecture-2.html">
+											<img src="images/portfolio/grid/large-margins/architecture-2.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Architecture 2</span>
+														<span class="project-description">Split fullscreen hero, fixed width masonry grid</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item architecture home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-architecture-3.html">
+											<img src="images/portfolio/grid/large-margins/architecture-3.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Architecture 3</span>
+														<span class="project-description">Fulscreen slider, full width masonry, modal sigup</span>
+													</span>
+												</span>
+											</span>
+										</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				Stat Section 1 -->
+				<!-- Demo Grid End -->
 
-				<!-- Sign Up Section 2
-				<div class="section-block signup-2 signup-2-1">
+				<!-- Hero Grid -->
+				<div id="heros" class="section-block pt-70 no-padding-bottom bkg-grey-ultralight">
 					<div class="row">
+						<div class="column width-6 offset-3 center">
+							<h2 class="mb-40">Special Hero Sections</h2>
+						</div>
+					</div>
+				</div>
+				<div class="section-block grid-container fade-in-progressively full-width no-padding-top no-padding-bottom bkg-grey-ultralight" data-layout-mode="masonry" data-animate-filter-duration="0.7" data-animate-resize data-animate-resize-duration="0">
+					<div class="row">
+						<div class="column width-12">
+							<div class="row grid content-grid-3">
+								<div class="grid-item grid-sizer resume one-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-slider-background-video.html">
+											<img src="images/portfolio/grid/large-margins/hero-slider-bkg-video.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Slider Hero</span>
+														<span class="project-description">Fullscreen bkg video</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item resume home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-slider-video.html">
+											<img src="images/portfolio/grid/large-margins/hero-slider-video.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Slider Hero</span>
+														<span class="project-description">Vimeo, YouTube video</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item resume home-page-layout">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link" href="index-slider-caption-showdown.html">
+											<img src="images/portfolio/grid/large-margins/hero-slider-captions.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														<span class="project-title">Slider Hero</span>
+														<span class="project-description">Caption animation example</span>
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Hero Grid End -->
+
+				<!-- Feature Column Section -->
+				<div id="discover" class="section-block replicable-content">
+					<div class="row equalize">
 						<div class="column width-8 offset-2 center">
-							<div class="signup-form-container">
-								<p class="text-medium weight-light color-white font-alt-1">Never miss an offer again! Get the guide by e-mail.</p>
-								<form class="signup-form" action="php/subscribe.php" method="post" novalidate>
-									<div class="row">
-										<div class="column width-9">
-											<div class="field-wrapper">
-												<input type="email" name="email" class="form-email form-element large" placeholder="Email address *" tabindex="2" required>
-											</div>
-										</div>
-										<div class="column width-3">
-											<input type="submit" value="Signup" class="form-submit button large bkg-purple bkg-hover-charcoal color-white color-hover-white">
-										</div>
+							<h2 class="mb-10">Express Yourself With Sartre</h2>
+							<p class="lead mb-80">Sartre provides you with the tools you need to create a unique website.</p>
+						</div>
+						<div class="column width-4">
+							<div class="box small bkg-white">
+								<div class="feature-column small mb-50 left">
+									<span class="feature-icon icon-map color-charcoal"></span>
+									<div class="feature-text">
+										<h3>24 Variations</h3>
+										<p>Sartre is focused around 8 unique concepts with 3 variations each. Sartre has got you covered whether you are a startup or established business.</p>
 									</div>
-									<input type="text" name="honeypot" class="form-honeypot form-element">
-								</form>
-								<div class="form-response">We Don't Spam, promise!</div>
+								</div>
+							</div>
+						</div>
+						<div class="column width-4">
+							<div class="box small bkg-white">
+								<div class="feature-column small left">
+									<span class="feature-icon icon-add-to-list color-charcoal"></span>
+									<div class="feature-text">
+										<h3>20+ Components</h3>
+										<p>Make any design stand out by using a combination of the 20+ components that come with Sartre. Accordions, tabs, buttons and much more.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="column width-4">
+							<div class="box small bkg-white">
+								<div class="feature-column small mb-50 left">
+									<span class="feature-icon icon-power-plug color-charcoal"></span>
+									<div class="feature-text">
+										<h3>8+ Plugins</h3>
+										<p>As with all our templates, Sartre comes with 8 premium in-house developed plugins, which means that when there's an update, you'll get it.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="column width-4">
+							<div class="box small bkg-white">
+								<div class="feature-column small left">
+									<span class="feature-icon icon-grid color-charcoal"></span>
+									<div class="feature-text">
+										<h3>Block Based</h3>
+										<p>Sartre, like all our templates, is built using a block based, responsive framework that makes designing easier. Move blocks around and get a new design.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="column width-4">
+							<div class="box small bkg-white">
+								<div class="feature-column small mb-50 left">
+									<span class="feature-icon icon-credit color-charcoal"></span>
+									<div class="feature-text">
+										<h3>Ultimate Startup Pack</h3>
+										<p>Sartre is a great starting point for startups that need a quick and simple solution when it comes to creating a site. Save both time &amp; money.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="column width-4">
+							<div class="box small bkg-white">
+								<div class="feature-column small left">
+									<span class="feature-icon icon-infinity color-charcoal"></span>
+									<div class="feature-text">
+										<h3>Infinite Possibilities</h3>
+										<p>With a range of pre-design content blocks, components and plugins, Sarte provides you with an unlimited number of possibilities.</p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				Sign Up Section 2 End -->
-
-				<!-- Call to Action Section -->
-				<div class="section-block replicable-content pt-60 pb-30 call-to-action-2 call-to-action-2-1 bkg-grey-ultralight background-cover">
-					<div class="row">
-						<div class="column width-6 offset-1 right center-on-mobile">
-							<p>Never miss a special offer ever again!</p>
-						</div>
-						<div class="column width-4 left center-on-mobile">
-							<a href="#" class="button text-uppercase bkg-purple border-hover-white color-white color-hover-white mb-mobile-30">Newsletter Signup</a> 
-						</div>
-					</div>
-				</div>
-				<!-- Call to Action Section End -->
-
-				<!-- Login Modal -->
-				<div id="login-lightbox" class="pt-70 pb-50 hide">
-					<div class="row">
-						<div class="column width-12 left">
-							<div class="login-form-container">
-								<h3 class="mb-20">Login</h3>
-								<p class="mb-30">Don't have an account? Choose a plan and sign up. <a href="#">See Plans</a>.</p>
-								<form class="login-form" action="#" method="post" novalidate>
-									<div class="row">
-										<div class="column width-12">
-											<div class="field-wrapper">
-												<input type="text" name="email" class="form-name form-element large" placeholder="E-mail" tabindex="1" required>
-											</div>
-										</div>
-										<div class="column width-12">
-											<div class="field-wrapper">
-												<input type="password" name="password" class="form-email form-element large" placeholder="Password" tabindex="2" required>
-											</div>
-										</div>
-										<div class="column width-6">
-											<input type="submit" value="Sign In" class="form-submit button medium bkg-purple bkg-hover-charcoal color-white color-hover-white no-margin-bottom">
-										</div>
-										<div class="column width-6 right left-on-mobile">
-											<a class="recuperate-password pt-10" href="">Forgot Password?</a>
-										</div>
-									</div>
-									<input type="text" name="honeypot" class="form-honeypot form-element">
-								</form>
-								<div class="form-response color-white"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Login Modal End -->
+				<!-- Feature Column Section End -->
 
 			</div>
 			<!-- Content End -->
@@ -1064,72 +1468,13 @@
 			<footer class="footer">
 				<div class="footer-top">
 					<div class="row">
-						<div class="column width-3">
+						<div class="column width-6 offset-3 center">
 							<div class="widget">
-								<h4 class="widget-title weight-light">Sartre Traveler</h4>
-								<p>
-									<span class="text-small weight-bold color-grey-light">+ 44 543 22 343</span><br>
-									Mon-Fri: 8am to 8pm
-								</p>
-							</div>
-						</div>
-						<div class="column width-3">
-							<div class="widget">
-								<h4 class="widget-title">Trending Offers</h4>
-								<ul>
-									<li>
-										<a href="#">Yosemite, U.S - $229</a>
-									</li>
-									<li>
-										<a href="#">Grand Canyon, U.S - $624</a>
-									</li>
-									<li>
-										<a href="#">Trondheim, Norway - $424</a>
-									</li>
-									<li>
-										<a href="#">Reykjavik, Iceland - $224</a>
-									</li>
-									<li>
-										<a href="#">Nuuk, Greenland - $324</a>
-									</li>
-									<li>
-										<a href="#">Mount Rushmore, U.S - $454</a>
-									</li>
+								<h4 class="widget-title">Handcrafted by ThememMountain</h4>
+								<ul class="social-list list-horizontal">
+									<li><a href="#"><span class="icon-twitter-with-circle medium"></span></a></li>
+									<li><a href="#"><span class="icon-facebook-with-circle medium"></span></a></li>
 								</ul>
-							</div>
-						</div>
-						<div class="column width-3">
-							<div class="widget">
-								<h4 class="widget-title">More Links</h4>
-								<ul>
-									<li>
-										<a href="#">About Sartre World</a>
-									</li>
-									<li>
-										<a href="#">Customer Service</a>
-									</li>
-									<li>
-										<a href="#">Company Affiliations</a>
-									</li>
-									<li>
-										<a href="#">Award Miles Program</a>
-									</li>
-									<li>
-										<a href="#">Frequently Asked Questions</a>
-									</li>
-									<li>
-										<a href="#">Contact An Agent</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="column width-3">
-							<div class="widget">
-								<h4 class="widget-title">Get Our App</h4>
-								<p>Get your favourite trips right on your phone. Download our Traveler App&#8482; Today!</p>
-								<p>
-									<a class="button button-info medium rounded bkg-black bkg-hover-purple color-white color-hover-white no-margin-bottom"><span class="icon-app-store medium left"></span><span class="button-content"><small>Download On The</small>AppStore</span></a>
-								</p>
 							</div>
 						</div>
 					</div>
@@ -1137,10 +1482,9 @@
 				<div class="footer-bottom">
 					<div class="row">
 						<div class="column width-12">
-							<div class="footer-bottom-inner center">
-								<p class="copyright pull-left clear-float-on-mobile">
-									&copy; ThemeMountain. All Rights Reserved. <a href="#">Terms &amp; Conditions</a> | <a href="#">Cookie policy</a>
-								</p>
+							<div class="footer-bottom-inner">
+								<p class="copyright pull-left">&copy; ThemeMountain. All Rights Reserved.</p>
+								<a href="#" class="scroll-to-top pull-right">Top</a>
 							</div>
 						</div>
 					</div>
