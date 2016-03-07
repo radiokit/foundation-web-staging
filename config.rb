@@ -10,7 +10,8 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 # With alternative layout
-# page "/path/to/file.html", layout: :otherlayout
+# page "subpages/*", :layout => :subpagelayout
+ page "/product-subpage.html", :layout => "subpagelayout"
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
