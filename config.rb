@@ -10,7 +10,7 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 # With alternative layout
-# page "subpages/*", :layout => :subpagelayout
+ page "/chronicle.html", :layout => :subpagelayout
  page "/product-subpage.html", :layout => "subpagelayout"
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
