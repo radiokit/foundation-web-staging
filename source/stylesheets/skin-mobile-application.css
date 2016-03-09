@@ -387,9 +387,14 @@ body,
 }
 
 /* pink */
+
 .bkg-pink{
 	background-color: #ed494f;
 	border-color: #ed494f;
+}
+.bkg-brown{
+	background-color: #696c67;
+	border-color: #696c67;
 }
 .bkg-hover-pink:hover{
 	background-color: #ed494f;
