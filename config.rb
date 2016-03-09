@@ -12,6 +12,7 @@ page '/*.txt', layout: false
 # With alternative layout
  page "/chronicle.html", :layout => :subpagelayout
  page "/product-subpage.html", :layout => "subpagelayout"
+ page "/product-subpage2.html", :layout => "subpagelayout"
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {

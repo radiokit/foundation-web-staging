@@ -316,7 +316,7 @@ body,
 .featured-media:after,
 .section-block:not([class*="bkg-"]),
 .fullscreen-sections-wrapper{
-	background-color: #fff;
+	background-color: #666;
 }
 
 /* grey ulatrlight */
@@ -388,16 +388,16 @@ body,
 
 /* pink */
 .bkg-pink{
-	background-color: #686d67;
-	border-color: #686d67;
+	background-color: #ed494f;
+	border-color: #ed494f;
 }
 .bkg-hover-pink:hover{
-	background-color: #686d67;
-	border-color: #686d67;
+	background-color: #ed494f;
+	border-color: #ed494f;
 }
 .border-pink,
 .border-hover-pink:hover{
-	border-color: #686d67;
+	border-color: #ed494f;
 }
 .color-pink,
 .color-hover-pink:hover{
