@@ -25,9 +25,12 @@
 </head>
 <body>
   <%= partial "sidenav" %>
-
+	<div class="wrapper reveal-side-navigation">
+		<div class="wrapper-inner">
   <%= partial "secnav" %>
   <%= partial "header&topnav" %>
+</div>
+</div>
   <%= yield %>
 	<%= partial "pricing" %>
 	<%= partial "actioncall" %>
