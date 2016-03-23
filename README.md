@@ -2,11 +2,12 @@
 
 RadioKit's Website based on Sartre template and Middleman engine.
 
-# Installation
+# Installing development environment
 
 ## Ubuntu 14.04
 
 * Install necessary libraries: `sudo apt-get install libgmp-dev -y`
+* Install fresh Node.JS: `curl -sL https://deb.nodesource.com/setup_4.x | sudo bash -; sudo apt-get install nodejs -y`
 * Install [RVM](http://rvm.io/).
 * Install Ruby 2.2.3: `rvm install 2.2.3`
 * Create gemset: `rvm use 2.2.3@sartre-middleman --create`
@@ -14,6 +15,10 @@ RadioKit's Website based on Sartre template and Middleman engine.
 * Cause RVM to automatically select gemset upon entering the directory: `echo '2.2.3@sartre-middleman' > .ruby-version`
 * Install bundler `gem install bundler`
 * Install gems `bundle install`
+
+# Running development environment
+
+* Start Middleman server: `middleman server`
 
 # Authors
 
