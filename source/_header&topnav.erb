@@ -8,13 +8,13 @@
       <div class="header-inner-top">
         <div class="row nav-bar">
           <div class="column width-6 nav-bar-inner left">
-            <p>100+ implementations and counting.</p>
+            <p><%= t("header.motto") %></p>
           </div>
           <div class="column width-6 nav-bar-inner right">
             <p><a href="https://facebook.com/RadioKitEngine" class="nav-icon">
               <span class="icon-facebook small"></span> | <a href="https://twitter.com/RadioKitEngine" class="nav-icon">
                 <span class="icon-twitter small"></span>
-              </a> | Mail us: <a href="mailto:info@radiokit.org">info@radiokit.org</a></p>
+              </a> | <%= t("header.mailus") %> <a href="mailto:info@radiokit.org">info@radiokit.org</a></p>
           </div>
         </div>
       </div>
@@ -32,107 +32,58 @@
             <nav class="navigation nav-block primary-navigation sub-menu-indicator nav-right no-margin-right">
               <ul>
                 <li class="current contains-sub-menu">
-                  <a href="product-subpage.html">Broadcasting</a>
+                  <a href="product-subpage.html"><%= t("header.menu.broadcasting.title") %></a>
                   <ul class="sub-menu">
-                    <li class="contains-sub-menu">
-                      <a href="product-subpage.html">Studio</a>
-                      <ul class="sub-menu">
-                        <li>
-                          <a href="electron.html">Electron</a>
-                        </li>
-                      </ul>
-                      <li class="contains-sub-menu">
-                        <a href="product-subpage2.html">Cloud</a>
-                        <ul class="sub-menu">
-                          <li>
-                            <a href="product-subpage2.html">Horn<span class="label">Coming Soon</span></a>
-                          </li>
-                          <li>
-                            <a href="product-subpage2.html">Switch<span class="label">Coming Soon</span></a>
-                          </li>
-                        </ul>
+                    <li>
+                      <a href="dyna.html"><%= t("header.menu.broadcasting.dyna.title") %></a>
                     </li>
-
-                      <li class="contains-sub-menu">
-                      <a href="product-subpage.html">Mobile</a>
-                      <ul class="sub-menu">
-                        <li>
-                        <a href="electron.html">Electron Mobile<span class="label">Soon</span></a>
-                      </li>
-                    </ul>
-
-                    <li class="contains-sub-menu current">
-                      <a href="product-subpage.html">Hardware</a>
-                      <ul class="sub-menu">
-                        <li>
-                        <a href="product-subpage2.html">Raspberry Pi<span class="label">Soon</span></a>
-                      </li>
-                    </ul>
-
-                    </li>
-
-
+                    <li>
+                      <a href="electron.html"><%= t("header.menu.broadcasting.electron.title") %></a>
                     </li>
                   </ul>
                 </li>
+
                 <li class="contains-sub-menu">
-                  <a href="product-subpage.html">Archiving</a>
+                  <a href="product-subpage.html"><%= t("header.menu.archiving.title") %></a>
                   <ul class="sub-menu">
                     <li>
-                      <a href="chronicle.html">Chronicle</a>
+                      <a href="freezer.html"><%= t("header.menu.archiving.freezer.title") %></a>
                     </li>
                     <li>
-                      <a href="product-subpage.html">Freezer</a>
+                      <a href="chronicle.html"><%= t("header.menu.archiving.chronicle.title") %></a>
                     </li>
-
                   </ul>
                 </li>
+
                 <li class="contains-sub-menu">
-                  <a href="product-subpage.html">Support</a>
+                  <a href="product-subpage.html"><%= t("header.menu.integration.title") %></a>
                   <ul class="sub-menu">
                     <li>
-                      <a href="product-subpage.html">FAQ</a>
+                      <a href="database.html"><%= t("header.menu.integration.database.title") %></a>
                     </li>
                     <li>
-                      <a href="product-subpage.html">Forum</a>
+                      <a href="diary.html"><%= t("header.menu.integration.diary.title") %></a>
                     </li>
-                    <li>
-                      <a href="product-subpage.html">Technology</a>
-                    </li>
-                    <li>
-                      <a href="product-subpage.html">Downloads</a>
-                    </li>
-
                   </ul>
                 </li>
+
                 <li class="contains-sub-menu">
-                  <a href="product-subpage.html">Shop</a>
+                  <a href="product-subpage.html"><%= t("header.menu.programming.title") %></a>
                   <ul class="sub-menu">
                     <li>
-                      <a href="product-subpage.html">Commercial</a>
+                      <a href="engine.html"><%= t("header.menu.programming.engine.title") %></a>
                     </li>
-                    <li>
-                      <a href="product-subpage.html">Community</a>
-                    </li>
-                    <li>
-                      <a href="product-subpage.html">Free</a>
-                    </li>
-
                   </ul>
                 </li>
-                <li class="contains-sub-menu sub-menu-right">
-                  <a href="product-subpage.html">Jobs</a>
 
-                <li class="contains-sub-menu sub-menu-right">
-                  <a href="product-subpage.html">Contact</a>
-
-                </li>
-                <li class="contains-sub-menu sub-menu-right">
-                  <a href="product-subpage.html">Log in</a>
+                <li>
+                  <a href="contact.html"><%= t("header.menu.contact.title") %></a>
                 </li>
               </ul>
             </nav>
+          </div>
+        </div>
+      </div>
+    </header>
   </div>
-  </div>
-  </div>
-  </header>
+</div>
