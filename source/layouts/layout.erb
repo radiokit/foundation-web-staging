@@ -16,21 +16,19 @@
 
 	<!-- Css -->
 	<link rel="stylesheet" href="stylesheets/core.min.css" />
-	<link rel="stylesheet" href="stylesheets/skin-travel-agency.css" />
+	<link rel="stylesheet" href="stylesheets/skin-web-application.css" />
 
 	<!--[if lt IE 9]>
     	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
 </head>
-<body>
-  <%= partial "sidenav" %>
-
-  <%= partial "secnav" %>
+<body class="shop home-page">
+  <%= partial "overlaynav" %>
   <%= partial "header&topnav" %>
   <%= yield %>
+	<%= partial "clients" %>
 	<%= partial "actioncall" %>
-	<%= partial "pricing" %>
   <%= partial "footer" %>
 	<%= partial "scripts" %>
 </body>
