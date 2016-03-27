@@ -121,3 +121,7 @@ pl:
         action: "Any questions?"
       users:
         header: "Happy users"
+  actioncalls:
+    questions: "Jakieś pytania?"
+    contact: "Napisz do nas"
+    newsletter: "Subskrybuj newsletter"
