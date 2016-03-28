@@ -17,14 +17,14 @@
 													data-animate-in="opacity:0;transY:50px;duration:600ms;delay:100ms;easing:easeFastSlow;"
 													data-no-scale
 												>
-													<h1 class="color-white">Electron.</h1>
-													<p class="lead mb-30 color-white">Outside Broadcasting van in your pocket.</p>
+													<h1 class="color-white"><%= t("products.electron.intro.slide1.name") %></h1>
+													<p class="lead mb-30 color-white"><%= t("products.electron.intro.slide1.claim") %></p>
 												</div>
 												<div class="tms-caption"
 													data-animate-in="opacity:0;transY:50px;duration:600ms;delay:500ms;easing:easeFastSlow;"
 													data-no-scale
 												>
-													<p><a href="electron.html#how" class="button medium bkg-white border-hover-white color-charcoal color-hover-white left mb-30">Learn More</a></p>
+													<p><a href="electron.html#how" class="button medium bkg-white border-hover-white color-charcoal color-hover-white left mb-30"><%= t("products.electron.intro.slide1.learn_more") %></a></p>
 												</div>
 											</div>
 										</div>
@@ -41,7 +41,7 @@
 													data-animate-in="opacity:0;transY:50px;duration:600ms;delay:100ms;easing:easeFastSlow;"
 													data-no-scale
 												>
-													<h1 class="color-white mb-30">Electron</h1>
+													<h1 class="color-white mb-30"><%= t("products.electron.intro.slide2.name") %></h1>
 												</div>
 												<div class="clear"></div>
 												<span class="tms-caption icon-adjust medium color-white"
@@ -63,7 +63,7 @@
 												<p class="tms-caption lead mt-30 mb-30 color-white"
 													data-animate-in="opacity:0;transX:150px;duration:600ms;delay:900ms;easing:easeFastSlow;"
 													data-no-scale>
-													Exchange your expensive hardware codecs for software that can be run on smartphone or tablet.
+													<%= t("products.electron.intro.slide2.claim") %>
 												</p>
 											</div>
 										</div>
@@ -80,14 +80,14 @@
 													data-animate-in="opacity:0;transY:50px;duration:600ms;delay:100ms;easing:easeFastSlow;"
 													data-no-scale
 												>
-													<h1 class="color-white">Electron</h1>
-													<p class="lead mb-30 color-white">Revolution in audio over IP finally done</p>
+													<h1 class="color-white"><%= t("products.electron.intro.slide3.name") %></h1>
+													<p class="lead mb-30 color-white"><%= t("products.electron.intro.slide3.claim") %></p>
 												</div>
 												<div class="tms-caption"
 													data-animate-in="opacity:0;transY:50px;duration:600ms;delay:500ms;easing:easeFastSlow;"
 													data-no-scale
 												>
-													<a href="electron.html#pricing" class="button medium bkg-white border-hover-white color-charcoal color-hover-white left mb-30">Test for free</a>
+													<a href="electron.html#pricing" class="button medium bkg-white border-hover-white color-charcoal color-hover-white left mb-30"><%= t("products.electron.intro.slide3.learn_more") %></a>
 												</div>
 											</div>
 										</div>
@@ -104,16 +104,16 @@
 				<div class="section-block replicable-content">
 					<div class="row">
 						<div class="column width-8 offset-2 center">
-							<h2 class="mb-30">Exchange your hardware codecs for software</h2>
-							<p class="lead mb-70">Think about first truly reliable audio over IP software on market</p>
+							<h2 class="mb-30"><%= t("products.electron.features.header") %></h2>
+							<p class="lead mb-70"><%= t("products.electron.features.subheader") %></p>
 						</div>
 						<div class="column width-6">
 							<div class="box xlarge bkg-grey-ultralight">
 								<div class="feature-column medium left center-on-mobile">
 									<span class="feature-icon icon-share color-purple"></span>
 									<div class="feature-text">
-										<h3>Web browser mangament</h3>
-										<p>No additional hardware/infrastructure needed - all broadcast can be managed and monitored through a web browser panel </p>
+										<h3><%= t("products.electron.features.boxes.web.header") %></h3>
+										<p><%= t("products.electron.features.boxes.web.text") %> </p>
 									</div>
 								</div>
 							</div>
@@ -123,8 +123,8 @@
 									<div class="feature-column medium left center-on-mobile">
 										<span class="feature-icon icon-list color-purple"></span>
 										<div class="feature-text">
-											<h3>Truly Low latency</h3>
-											<p>Combined with web-based management allows to take live broadcasting to new era.</p>
+											<h3><%= t("products.electron.features.boxes.latency.header") %></h3>
+											<p><%= t("products.electron.features.boxes.latency.text") %></p>
 										</div>
 									</div>
 								</div>
@@ -134,8 +134,8 @@
 									<div class="feature-column medium left center-on-mobile">
 										<span class="feature-icon icon-share color-purple"></span>
 										<div class="feature-text">
-											<h3>Works out of the box</h3>
-											<p> With multichannel soundcards including virtual IP drivers of digital consoles (especially Axia and Dante systems) </p>
+											<h3><%= t("products.electron.features.boxes.outofthebox.header") %></h3>
+											<p> <%= t("products.electron.features.boxes.outofthebox.text") %></p>
 										</div>
 									</div>
 								</div>
@@ -145,8 +145,8 @@
 									<div class="feature-column medium left center-on-mobile">
 										<span class="feature-icon icon-play color-purple"></span>
 										<div class="feature-text">
-											<h3>Integration ready - API</h3>
-											<p class="mb-70 mb-mobile-30">Has open, standards-based API making it ready for integration with your existing systems</p>
+											<h3><%= t("products.electron.features.boxes.api.header") %></h3>
+											<p class="mb-70 mb-mobile-30"><%= t("products.electron.features.boxes.api.text") %></p>
 										</div>
 									</div>
 								</div>
@@ -156,8 +156,8 @@
 									<div class="feature-column medium left center-on-mobile">
 										<span class="feature-icon icon-play color-purple"></span>
 										<div class="feature-text">
-											<h3>Hi-Quality on low transfer</h3>
-											<p class="mb-70 mb-mobile-30">Uses the state-of-art Opus codec (examples at <a href="https://www.opus-codec.org/comparison/" target="blank">Opus Codec</a>) </p>
+											<h3><%= t("products.electron.features.boxes.quality.header") %></h3>
+											<p class="mb-70 mb-mobile-30"><%= t("products.electron.features.boxes.quality.text") %> </p>
 										</div>
 									</div>
 								</div>
@@ -167,8 +167,8 @@
 									<div class="feature-column medium left center-on-mobile">
 										<span class="feature-icon icon-note color-purple"></span>
 										<div class="feature-text">
-											<h3>Works even over 2G networks</h3>
-											<p class="mb-70 mb-mobile-30">Needs only 20kbit/s to transmit speech in broadcasting quality</p>
+											<h3><%= t("products.electron.features.boxes.networks.header") %></h3>
+											<p class="mb-70 mb-mobile-30"><%= t("products.electron.features.boxes.networks.text") %></p>
 										</div>
 									</div>
 								</div>
@@ -191,10 +191,10 @@
 						<div class="column width-5 pull-7">
 							<div class="feature-content">
 								<div class="feature-content-inner horizon" data-animate-in="opacity:0;transY:50;duration:1000;delay:300ms;easing:easeFastSlow;" data-threshold="0.6">
-									<h2 class="mb-30 color-white">How it works:</h2>
-									<p class="lead color-grey-light">Having a cloud sound engine allows to have multiple clients and remote management.</p>
-									<p class="color-grey-light">Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in broadcasting mode - you can manage their sound sources through a web-browser.<br><br>
-										 So you can just send journalist with "one-button-app" to the field and have sound engineer elswhere to manage their broadcast remotely.</p>
+									<h2 class="mb-30 color-white"><%= t("products.electron.howitworks.header") %></h2>
+									<p class="lead color-grey-light"><%= t("products.electron.howitworks.lead") %></p>
+									<p class="color-grey-light"><%= t("products.electron.howitworks.body.part1") %><br><br>
+										 <%= t("products.electron.howitworks.body.part2") %></p>
 								</div>
 							</div>
 						</div>
@@ -204,16 +204,16 @@
 				<div class="section-block replicable-content bkg-purple">
 					<div class="row">
 						<div class="column width-8 offset-2 center color-white">
-							<h2 class="mb-30">Now a tasty techtalk</h2>
-							<p class="lead mb-70">Think about first truly reliable audio over IP software on market</p>
+							<h2 class="mb-30"><%= t("products.electron.tech.header") %></h2>
+							<p class="lead mb-70"><%= t("products.electron.tech.subheader") %></p>
 						</div>
 						<div class="column width-6">
 							<div class="box xlarge bkg-grey-ultralight">
 								<div class="feature-column medium left center-on-mobile">
 									<span class="feature-icon icon-note color-purple"></span>
 									<div class="feature-text">
-										<h3>Built upon Erlang</h3>
-										<p class="mb-70 mb-mobile-30">the language for building cellural networks.</p>
+										<h3><%= t("products.electron.tech.boxes.erlang.header") %></h3>
+										<p class="mb-70 mb-mobile-30"><%= t("products.electron.tech.boxes.erlang.text") %></p>
 									</div>
 								</div>
 							</div>
@@ -223,8 +223,8 @@
 								<div class="feature-column medium left center-on-mobile">
 									<span class="feature-icon icon-play color-purple"></span>
 									<div class="feature-text">
-										<h3>Using RTP and RTSP over UDP</h3>
-										<p class="mb-70 mb-mobile-30">no more unreliable TCP connections and shoutcast streams.</p>
+										<h3><%= t("products.electron.tech.boxes.rtp.header") %></h3>
+										<p class="mb-70 mb-mobile-30"><%= t("products.electron.tech.boxes.rtp.text") %></p>
 									</div>
 								</div>
 							</div>
@@ -234,8 +234,8 @@
 								<div class="feature-column medium left center-on-mobile">
 									<span class="feature-icon icon-play color-purple"></span>
 									<div class="feature-text">
-										<h3>Amazon, Azure, Digital Ocean, OVH</h3>
-										<p class="mb-70 mb-mobile-30">Relies on well-tested cloud technologies and infrastructure & the biggest European datacenter: OVH.</p>
+										<h3><%= t("products.electron.tech.boxes.cloud.header") %></h3>
+										<p class="mb-70 mb-mobile-30"><%= t("products.electron.tech.boxes.cloud.text") %></p>
 									</div>
 								</div>
 							</div>
@@ -245,8 +245,8 @@
 								<div class="feature-column medium left center-on-mobile">
 									<span class="feature-icon icon-list color-purple"></span>
 									<div class="feature-text">
-										<h3>The near-to-zero latency</h3>
-										<p>Default latency (can be adjusted) 80 ms + network latency (60ms on average in Central Europe)</p>
+										<h3><%= t("products.electron.tech.boxes.latency.header") %></h3>
+										<p><%= t("products.electron.tech.boxes.latency.text") %></p>
 									</div>
 								</div>
 							</div>
@@ -256,8 +256,8 @@
 								<div class="feature-column medium left center-on-mobile">
 									<span class="feature-icon icon-share color-purple"></span>
 									<div class="feature-text">
-										<h3>State-of-the art Opus 1.1 codec</h3>
-										<p> that brings better quality than HE-AAC+1 with ultra low-latency and packet loss concaelment. </p>
+										<h3><%= t("products.electron.tech.boxes.quality.header") %></h3>
+										<p><%= t("products.electron.tech.boxes.quality.text") %></p>
 									</div>
 								</div>
 							</div>
@@ -267,15 +267,15 @@
 								<div class="feature-column medium left center-on-mobile">
 									<span class="feature-icon icon-share color-purple"></span>
 									<div class="feature-text">
-										<h3>User interface based on React.JS</h3>
-										<p>technology created by facebook, made for the best comfort of snappy, collaborational communication.</p>
+										<h3><%= t("products.electron.tech.boxes.ui.header") %></h3>
+										<p><%= t("products.electron.tech.boxes.ui.text") %></p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="column width-8 offset-2 center">
-						<a href="pdf/LINK2.pdf" class="button medium bkg-white border-hover-white color-charcoal color-hover-white left mb-30">Need more juicy specification?</a>
+						<a href="pdf/LINK2.pdf" class="button medium bkg-white border-hover-white color-charcoal color-hover-white left mb-30"><%= t("products.electron.tech.more") %></a>
           </div>
 				</div>
 
@@ -286,57 +286,57 @@
 			<section id="pricing" class="section-block replicable-content">
 			  <div class="row">
 			    <div class="column width-6 offset-3 center">
-			      <h2>Test Electron for free</h2>
-			      <p class="lead mb-50">or choose the plan <br>that suits you.</p>
+			      <h2><%= t("products.electron.pricing.header") %></h2>
+			      <p class="lead mb-50"><%= t("products.electron.pricing.subheader") %></p>
 			    </div>
 			    <div class="column width-12">
 			      <div class="pricing-table columns-2 horizon" data-animate-in="opacity:0;transY:50;duration:1000;easing:easeFastSlow;" data-threshold="0.6">
 			        <div class="pricing-table-column">
 			          <div class="pricing-table-header">
-			            <h2 class="weight-bold">Pay-as-you-go</h2>
+			            <h2 class="weight-bold"><%= t("products.electron.pricing.table.prepaid.header") %></h2>
 			          </div>
 			          <div class="pricing-table-price bkg-white color-grey no-margin-bottom">
 			            <h4>
-			              <span class="currency">$</span>5.00<span class="interval">/hour</span>
+			              <span class="currency">$</span>5.00<span class="interval">/<%= t("products.electron.pricing.table.prepaid.unit") %></span>
 			            </h4>
 			          </div>
 			          <ul class="pricing-table-options">
-			            <li>Pay only if you need to stream</li>
-			            <li>No contracts</li>
-			            <li>Easy pre-paid</li>
-			            <li>line4</li>
-			            <li>line5</li>
+			            <li><%= t("products.electron.pricing.table.prepaid.line1") %></li>
+			            <li><%= t("products.electron.pricing.table.prepaid.line2") %></li>
+			            <li><%= t("products.electron.pricing.table.prepaid.line3") %></li>
+			            <li><%= t("products.electron.pricing.table.prepaid.line4") %></li>
+			            <li><%= t("products.electron.pricing.table.prepaid.line5") %></li>
 			          </ul>
 			          <div class="pricing-table-footer">
 			           <a href="contact.html">
-			            <button class="border-purple bkg-hover-purple color-purple color-hover-white">Contact us</button>
+			            <button class="border-purple bkg-hover-purple color-purple color-hover-white"><%= t("products.electron.pricing.table.prepaid.action") %></button>
 			          </a>
 			          </div>
 			        </div>
 			        <div class="pricing-table-column bkg-purple">
 			          <div class="pricing-table-header color-white">
-			            <h2 class="weight-bold">Monthly Lump Sum</h2>
+			            <h2 class="weight-bold"><%= t("products.electron.pricing.table.contract.header") %></h2>
 			          </div>
 			          <div class="pricing-table-price bkg-purple no-margin-bottom">
 			            <h4>
-			              <span class="currency">$</span>99.99<span class="interval">/mo</span>
+			              <span class="currency">$</span>99.99<span class="interval">/<%= t("products.electron.pricing.table.contract.unit") %></span>
 			            </h4>
 			          </div>
 			          <ul class="pricing-table-options color-white">
-			            <li>Unlimited transmissions</li>
-			            <li>!00% cloud solution</li>
-			            <li>Unlimited Clients</li>
-			            <li>All platforms</li>
-			            <li>Free personal tutorials</li>
+			            <li><%= t("products.electron.pricing.table.contract.line1") %></li>
+			            <li><%= t("products.electron.pricing.table.contract.line2") %></li>
+			            <li><%= t("products.electron.pricing.table.contract.line3") %></li>
+			            <li><%= t("products.electron.pricing.table.contract.line4") %></li>
+			            <li><%= t("products.electron.pricing.table.contract.line5") %></li>
 			          </ul>
 			          <div class="pricing-table-footer">
 			           <a href="contact.html">
-			            <button class="border-white bkg-hover-white color-white color-hover-purple">Contact us</button>
+			            <button class="border-white bkg-hover-white color-white color-hover-purple"><%= t("products.electron.pricing.table.contract.action") %></button>
 			           </a>
 			          </div>
 			        </div>
 			    <div class="column width-12 center">
-			      <p class="transparent-element weight-bold">*Sign up for free to any of our products or all of them for one month. No credit card needed</p>
+			      <p class="transparent-element weight-bold"><%= t("products.electron.pricing.disclaimer") %></p>
 			    </div>
 			  </div>
 			</section>
