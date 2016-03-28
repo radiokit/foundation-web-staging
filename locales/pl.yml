@@ -1,5 +1,6 @@
 ---
 pl:
+
   header:
     motto: "Wyjątkowe oprogramowanie dla wyjątkowych rozgłośni radiowych"
     mailus: "Napisz do nas:"
@@ -28,10 +29,27 @@ pl:
           title: "Silnik RadioKit"
       contact:
         title: "Kontakt"
+
   footer:
     name: "RadioKit Ltd"
     products: "Produkty"
     companydata: "Adres firmy"
+
+  contact:
+    header: "Co Cię zaciekawiło?"
+    line1: "Jeśli zainteresował Cię któryś z naszych produktów i chciałbyś poznać szczegóły - skontaktuj się z nami za pomocą poniższego formularza"
+    name: "Imię"
+    mail: "adres email*"
+    message: "Wiadomość*"
+
+  actioncalls:
+    questions: "Jakieś pytania?"
+    contact: "Napisz do nas"
+    newsletter: "Subskrybuj newsletter"
+    specialoffer: "Never miss a special offer again!"
+
+  clients:
+    happy: "Szczęśliwi Użytkownicy"
 
   products:
     electron:
@@ -126,10 +144,3 @@ pl:
         action: "Any questions?"
       users:
         header: "Happy users"
-  actioncalls:
-    questions: "Jakieś pytania?"
-    contact: "Napisz do nas"
-    newsletter: "Subskrybuj newsletter"
-    specialoffer: "Never miss a special offer again!"
-  clients:
-    happy: "Happy Users"
