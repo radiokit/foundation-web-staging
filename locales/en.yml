@@ -28,6 +28,10 @@ en:
           title: "RadioKit Engine"
       contact:
         title: "Contact"
+  footer:
+    name: "RadioKit Ltd"
+    products: "Products"
+    companydata: "Company Data"
   products:
     electron:
       intro:

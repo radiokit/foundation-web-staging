@@ -28,6 +28,11 @@ pl:
           title: "Silnik RadioKit"
       contact:
         title: "Kontakt"
+  footer:
+    name: "RadioKit Ltd"
+    products: "Produkty"
+    companydata: "Adres firmy"
+
   products:
     electron:
       intro:
