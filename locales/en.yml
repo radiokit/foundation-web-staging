@@ -118,8 +118,8 @@ en:
         header: "How it works"
         lead: "Having a cloud sound engine allows to have multiple clients and remote management."
         body:
-          par1: "Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in broadcasting mode - you can manage their sound sources through a web-browser."
-          par2: "So you can just send journalist with \"one-button-app\" to the field and have sound engineer elswhere to manage their broadcast remotely."
+          part1: "Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in broadcasting mode - you can manage their sound sources through a web-browser."
+          part2: "So you can just send journalist with \"one-button-app\" to the field and have sound engineer elswhere to manage their broadcast remotely."
       tech:
         header: "Now a tasty techtalk"
         subheader: "Think about first truly reliable audio over IP software on market"
