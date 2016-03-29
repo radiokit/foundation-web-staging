@@ -5,6 +5,7 @@
 # Per-page layout changes:
 #
 # With no layout
+page 'CNAME', layout: false
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
