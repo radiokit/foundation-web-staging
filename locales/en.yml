@@ -82,15 +82,15 @@ en:
       intro:
         slide1:
           name: "Electron"
-          claim: "Outside Broadcasting van in your pocket."
+          claim: "Broadcasting van in your pocket."
           learn_more: "Learn more"
         slide2:
-          name: "Electron"
-          claim: "Exchange your expensive hardware codecs for software that can be run on smartphone or tablet."
+          name: "Web-based broadcast management"
+          claim: "Send your journalist with pocket-size equipment and control it remotely"
           learn_more: "Learn more"
         slide3:
-          name: "Electron"
-          claim: "Revolution in audio over IP finally done."
+          name: "Swap hardware for software"
+          claim: "Exchange hardware codecs for software that can be run on smartphone, tablet or Raspberry Pi"
           learn_more: "Learn more"
       features:
         header: "Exchange your hardware codecs for software"
