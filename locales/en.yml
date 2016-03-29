@@ -30,6 +30,15 @@ en:
       contact:
         title: "Contact"
 
+  actioncalls:
+    questions: "Any questions?"
+    contact: "Contact us"
+    newsletter: "Newsletter Signup"
+    specialoffer: "Never miss a special offer again!"
+
+  clients:
+    happy: "Happy Users"
+
   footer:
     name: "RadioKit Ltd"
     products: "Products"
@@ -42,14 +51,30 @@ en:
     mail: "Email address*"
     message: "Message*"
 
-  actioncalls:
-    questions: "Any questions?"
-    contact: "Contact us"
-    newsletter: "Newsletter Signup"
-    specialoffer: "Never miss a special offer again!"
 
-  clients:
-    happy: "Happy Users"
+
+  index:
+    brand:
+      preheader: "Meet"
+      header: "Radiokit"
+      subheader: "software team that knows radio needs"
+    product1:
+      motto: "broadcasting Van in your pocket"
+      name: "Electron"
+      price: "from 5$ per hour or 99$ per month"
+      findout: "Find out More"
+    product2:
+      motto: "keeps your shows fresh"
+      name: "Freezer"
+      price: "from 99$ per month"
+      findout: "Find out More"
+    product3:
+      motto: "your listeners private youtube"
+      name: "Chronicle"
+      price: "from 10$ per month"
+      findout: "Find out More"
+
+
 
 
   products:
