@@ -138,7 +138,7 @@ en:
             text: "Default latency (can be adjusted) 80 ms + network latency (60ms on average in Central Europe)"
           quality:
             header: "State-of-the art Opus 1.1 codec"
-            text: "that brings better quality than HE-AAC+1 with ultra low-latency and packet loss concaelment. "
+            text: "that brings better quality than HE-AAC+1 with ultra low-latency and packet loss concealment. "
           ui:
             header: "User interface based on React.JS"
             text: "technology created by facebook, made for the best comfort of snappy, collaborational communication."

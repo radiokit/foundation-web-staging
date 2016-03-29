@@ -34,7 +34,7 @@ pl:
     questions: "Jakieś pytania?"
     contact: "Napisz do nas"
     newsletter: "Subskrybuj newsletter"
-    specialoffer: "Never miss a special offer again!"
+    specialoffer: "Nie przegap kolejnych rewolucji technologicznych!"
 
   clients:
     happy: "Szczęśliwi Użytkownicy"
@@ -45,7 +45,7 @@ pl:
     companydata: "Adres firmy"
 
   contact:
-    header: "Co Cię zaciekawiło?"
+    header: "Coś Cię zaciekawiło?"
     line1: "Jeśli zainteresował Cię któryś z naszych produktów i chciałbyś poznać szczegóły - skontaktuj się z nami za pomocą poniższego formularza"
     name: "Imię"
     mail: "adres email*"
@@ -55,24 +55,24 @@ pl:
 
   index:
     brand:
-      preheader: "Meet"
+      preheader: "Poznaj"
       header: "Radiokit"
-      subheader: "software team that knows radio needs"
+      subheader: "nowe technologie w służbie radiowcom"
     product1:
-      motto: "broadcasting Van in your pocket"
+      motto: "wóz transmisyjny, mieszący się w kieszeni"
       name: "Electron"
-      price: "from 5$ per hour or 99$ per month"
-      findout: "Find out More"
+      price: "od 20zł/godzinę lub 400zł/miesiąc"
+      findout: "Dowiedz się więcej"
     product2:
-      motto: "keeps your shows fresh"
+      motto: "zawsze świeże archiwum"
       name: "Freezer"
-      price: "from 99$ per month"
-      findout: "Find out More"
+      price: "od 400zł/miesiąc"
+      findout: "Dowiedz się więcej"
     product3:
-      motto: "your listeners private youtube"
+      motto: "prywatny youtube dla Twoich słuchaczy"
       name: "Chronicle"
-      price: "from 10$ per month"
-      findout: "Find out More"
+      price: "od 40zł/miesiąc"
+      findout: "Dowiedz się więcej"
 
 
   products:
@@ -80,91 +80,91 @@ pl:
       intro:
         slide1:
           name: "Electron"
-          claim: "Outside Broadcasting van in your pocket."
-          learn_more: "Learn more"
+          claim: "Wóz transmisyjny, mieszący się w kieszeni"
+          learn_more: "Dowiedz się więcej"
         slide2:
           name: "Electron"
-          claim: "Exchange your expensive hardware codecs for software that can be run on smartphone or tablet."
-          learn_more: "Learn more"
+          claim: "Wymień drogie, sprzętowe kodeki, na dobry smartfon, tablet lub komputer"
+          learn_more: "Dowiedz się więcej"
         slide3:
           name: "Electron"
-          claim: "Revolution in audio over IP finally done."
-          learn_more: "Learn more"
+          claim: "Rewolucja w aoIP w końcu możliwa."
+          learn_more: "Dowiedz się więcej"
       features:
-        header: "Exchange your hardware codecs for software"
-        subheader: "Think about first truly reliable audio over IP software on market"
+        header: "Wymień sprzętowe kodeki na oprogramowanie"
+        subheader: "Pomyśl o pierwszym, na prawdę profesjonalnym oprogramowaniu aoIP"
         boxes:
           web:
-            header: "Web-based management"
-            text: "No additional hardware/infrastructure needed - all broadcast can be managed and monitored through a web browser panel."
+            header: "Zarządzanie przeglądarkowe"
+            text: "Żaden dodatkowy sprzę†, czy infrastruktura nie są koniecznie - monitoruj i zarządzaj wszystkimi transmisjami przez przeglądarkę"
           latency:
-            header: "Truly Low latency"
-            text: "Combined with web-based management allows to take live broadcasting to new era."
+            header: "Prawdziwie niska latencja"
+            text: "w połączeniu z przeglądarkowym zarządzaniem to zupełnie nowa jakość nadawania"
           outofthebox:
-            header: "Works out of the box"
-            text: "With multichannel soundcards including virtual IP drivers of digital consoles (especially Axia and Dante systems)."
+            header: "Działa bez dodatkowej konfiguracji"
+            text: "z wielokonałowymi kartami dźwiękowymi, włączając wirtualne sterowniki IP or konsole cyfrowe (W szczególności systemy Axia i Dante)"
           api:
-            header: "Integration ready - API"
-            text: "Has open, standards-based API making it ready for integration with your existing systems."
+            header: "Gotowy na integracje dzięki API"
+            text: "Electron posiada otwarte, ustandaryzowane API, dzięki czemu jest gotowy do integracji z Twoim istniejącym systemem"
           quality:
-            header: "Hi-Quality on low transfer"
-            text: "Uses the state-of-art Opus codec (examples at Opus Codec)."
+            header: "Wysoka jakość nawet przy kiepskim łączu"
+            text: "dzięki wykorzystaniu wiodącego OPUS codec"
           networks:
-            header: "Works even over 2G networks"
-            text: "Needs only 20kbit/s to transmit speech in broadcasting quality."
+            header: "Działa nawet w sieciach 2G"
+            text: "Potrzebuje jedynie 20kbit/s aby nadawać mowę w jakości transmisyjnej"
       howitworks:
-        header: "How it works"
-        lead: "Having a cloud sound engine allows to have multiple clients and remote management."
+        header: "Jak to działa"
+        lead: "Dzięki chmurowemu silnikowi audio pozwala na posiadanie wielu rozsianych źródeł dźwięku i zarządzniu ich przez przeglądarkę."
         body:
-          par1: "Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in broadcasting mode - you can manage their sound sources through a web-browser."
-          par2: "So you can just send journalist with \"one-button-app\" to the field and have sound engineer elswhere to manage their broadcast remotely."
+          par1: "Dzięki temu może zainstalować oprogramowanie na wielu urządzeniach: smartfonach, tabletach, laptopach - i gdy są w trybie nadawania - możesz zarządzać nimi przez przglądarkę jako źródłami dźwięku."
+          par2: "Tym samym możesz uzbroić dziennikarzy w \"jednoprzyciskową\" aplikację, wysyłając w teren i pozowlić aby realizatorzy zdalnie zarządzali ich transmisjami."
       tech:
-        header: "Now a tasty techtalk"
-        subheader: "Think about first truly reliable audio over IP software on market"
+        header: "Czas na technologiczne pyszności:"
+        subheader: "Pomyśl o pierwszym, prawdziwie profesjonalnym oprogramowaniu aoIP"
         boxes:
           erlang:
-            header: "Built upon Erlang"
-            text: "the language for building cellural networks."
+            header: "Napisanym w Erlang'u"
+            text: "języku do tworzenia sieci komórkowych"
           rtp:
-            header: "Using RTP and RTSP over UDP"
-            text: "no more unreliable TCP connections and shoutcast streams."
+            header: "Korzystającym z RTP i RTSP po UDP"
+            text: "aby zapomnieć o niestabilnych połączeniach TCP i strumieniowaniu icecastem"
           cloud:
             header: "Amazon, Azure, Digital Ocean, OVH"
-            text: "Relies on well-tested cloud technologies and infrastructure & the biggest European datacenter: OVH."
+            text: "w oparciu o rzetelne chmurowe technologie i największe europejskie datacenter: OVH"
           latency:
-            header: "The near-to-zero latency"
-            text: "Default latency (can be adjusted) 80 ms + network latency (60ms on average in Central Europe)"
+            header: "Bliska zeru latencja"
+            text: "Domyślna latencja (konfigurowalna), to 80 ms + latencja sieci (60ms to średnia w Europie centralnej)"
           quality:
-            header: "State-of-the art Opus 1.1 codec"
-            text: "that brings better quality than HE-AAC+1 with ultra low-latency and packet loss concaelment. "
+            header: "Wiodący kodek Opus 1.1 "
+            text: "którego jakość przewyższa HE-AAC+1, ma wybitnie niską latencją oraz PLC"
           ui:
-            header: "User interface based on React.JS"
-            text: "technology created by facebook, made for the best comfort of snappy, collaborational communication."
-        more: "Need more juicy specification?"
+            header: "Z interfejsem opartym o React.JS"
+            text: "technologie stworzoną przez facebook'a do komfortowej, natychmiastowej komunikacji grupowej"
+        more: "Potrzebujesz bardziej szczegółowej specyfikacji?"
       pricing:
-        header: "Test Electron for free"
-        subheader: "or choose the plan that suits you."
+        header: "Wypróbuj Electrona za darmo"
+        subheader: "lub od razu wybierz odpowiadający Ci plan"
         table:
           prepaid:
-            header: "Pay-as-you-go"
-            unit: "hour"
-            line1: "Pay only if you need to stream"
-            line2: "No contracts"
-            line3: "Easy pre-paid"
-            line4: "line4"
+            header: "Płać wedle zużycia"
+            unit: "za godzinę"
+            line1: "Płać tylko gdy potrzebujesz nadawać"
+            line2: "Bez umowy"
+            line3: "Prosty pre-paid"
+            line4: ""
             line5: "line5"
-            action: "Register today"
+            action: "Zarejestruj się"
           contract:
-            header: "Contract"
-            unit: "month"
-            line1: "Unlimited transmissions"
-            line2: "100% cloud solution"
-            line3: "Unlimited Clients"
-            line4: "All platforms"
-            line5: "Free personal tutorials"
-            action: "Register today"
-        disclaimer: "Sign up for free to any of our products or all of them for one month. No credit card needed"
+            header: "Abonament"
+            unit: "za miesiąc"
+            line1: "nielimitowane transmisje"
+            line2: "nielimitowana ilość użytkowników"
+            line3: "w pełni chmurowe rozwiązanie"
+            line4: "wszystkie platformy"
+            line5: "darmowe prywatne szkolenia"
+            action: "Zarejestruj się"
+        disclaimer: "Zapisz się na testowanie, któregokolwiek z naszych produktów przez miesiąc za darmo."
       questions:
-        action: "Any questions?"
+        action: "Jakiekolwiek wątpliwości?"
       users:
-        header: "Happy users"
+        header: "Szczęśliwi użytkownicy"
