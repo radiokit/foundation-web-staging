@@ -20,6 +20,20 @@ RadioKit's Website based on Sartre template and Middleman engine.
 
 * Start Middleman server: `middleman server`
 
+# Building
+
+## Staging
+
+* Run build for staging: `middleman build -e staging`
+
+## Production
+
+* Run build for staging: `middleman build -e production`
+
+Your code will end up in `build/` directory. Then you have to go there, initialize git repository with two remotes
+(one remote for staging GitHub repo, another for production GitHub repo) and push to these repos' gh-pages branch.
+
+
 # Authors
 
 Piotr Żyła, Marcin Lewandowski
