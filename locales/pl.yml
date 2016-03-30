@@ -172,19 +172,19 @@ pl:
     freezer:
       intro:
         slide1:
-          name: "Electron"
-          claim: "Broadcasting van in your pocket."
+          name: "Freezer"
+          claim: "keeps your shows always fresh"
           learn_more: "Learn more"
         slide2:
-          name: "Web-based broadcast management"
-          claim: "Send your journalist with pocket-size equipment and control it remotely"
+          name: "Cloudy archives"
+          claim: "Access your archives remotely through a web-browser"
           learn_more: "Learn more"
         slide3:
-          name: "Swap hardware for software"
-          claim: "Exchange hardware codecs for software that can be run on smartphone, tablet or Raspberry Pi"
+          name: "Quick search"
+          claim: "Perfect labelling and visual interface for easy browsing through your data"
           learn_more: "Learn more"
       features:
-        header: "Exchange your hardware codecs for software"
+        header: "Exchange harddrives for easy-accesible cloud"
         subheader: "Think about first truly reliable audio over IP software on market"
         boxes:
           web:
