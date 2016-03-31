@@ -14,7 +14,7 @@ page '/*.txt', layout: false
  #page "/chronicle.html", :layout => :subpagelayout
  #page "/product-subpage.html", :layout => "subpagelayout"
  #page "/product-subpage2.html", :layout => "subpagelayout"
- #page "/electron.html", :layout => "electron_layout"
+ page "/index.html", :layout => "index_layout"
  page "/contact.html", :layout => "contact_layout"
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
