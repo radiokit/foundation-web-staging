@@ -8,6 +8,7 @@ Copyright: ThemeMountain
 
 1. Typography
 2. Background Color & Color Classes
+2'.Product Colors
 3. Section Padding
 4. Header Styling
 5. Header Logo
@@ -427,6 +428,34 @@ body,
 .color-hover-purple:hover{
 	color: #933ded;
 }
+
+/*------------------------------------------------------------------
+[2'. Product colors]
+*/
+
+/* electron */
+
+.bkg-electrol{
+	background-color: #FFCC36;
+	border-color: #FFCC36;
+}
+.bkg-hover-electrol:hover{
+	background-color: #FFCC36;
+	border-color: #FFCC36;
+}
+.border-electrol,
+.border-hover-electrol:hover{
+	border-color: #FFCC36;
+}
+.color-electrol,
+.color-hover-electrol:hover{
+	color: #FFCC36;
+}
+
+
+
+
+
 
 /*------------------------------------------------------------------
 [3. Section Padding]
