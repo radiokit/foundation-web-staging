@@ -27,6 +27,8 @@ pl:
         title: "Programowanie"
         engine:
           title: "Silnik RadioKit"
+      about:
+        title: "O nas"
       contact:
         title: "Kontakt"
 

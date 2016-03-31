@@ -20,13 +20,15 @@ en:
       integration:
         title: "Integration"
         database:
-          title: "Centralized audio files database"
+          title: "Central audio database"
         diary:
-          title: "Centralized logging"
+          title: "Central logging"
       programming:
         title: "Programming"
         engine:
           title: "RadioKit Engine"
+      about:
+        title: "About"
       contact:
         title: "Contact"
 
