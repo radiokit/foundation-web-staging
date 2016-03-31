@@ -452,23 +452,61 @@ body,
 	color: #FFCC36;
 }
 
-/* electron */
+/* freezol */
 
 .bkg-freezol{
 	background-color: #0ABFFF;
 	border-color: #0ABFFF;
 }
-.bkg-hover-electrol:hover{
+.bkg-hover-freezol:hover{
 	background-color: #0ABFFF;
 	border-color: #0ABFFF;
 }
-.border-electrol,
-.border-hover-electrol:hover{
+.border-freezol,
+.border-hover-freezol:hover{
 	border-color: #0ABFFF;
 }
-.color-electrol,
-.color-hover-electrol:hover{
+.color-freezol,
+.color-hover-freezol:hover{
 	color: #0ABFFF;
+}
+
+/* chronicol */
+
+.bkg-chronicol{
+	background-color: #6EA147;
+	border-color: #6EA147;
+}
+.bkg-hover-chronicol:hover{
+	background-color: #6EA147;
+	border-color: #6EA147;
+}
+.border-chronicol,
+.border-hover-chronicol:hover{
+	border-color: #6EA147;
+}
+.color-chronicol,
+.color-hover-chronicol:hover{
+	color: #6EA147;
+}
+
+/* depol */
+
+.bkg-depol{
+	background-color: #EC5951;
+	border-color: #EC5951;
+}
+.bkg-hover-depol:hover{
+	background-color: #EC5951;
+	border-color: #EC5951;
+}
+.border-depol,
+.border-hover-depol:hover{
+	border-color: #EC5951;
+}
+.color-depol,
+.color-hover-depol:hover{
+	color: #EC5951;
 }
 
 
