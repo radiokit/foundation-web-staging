@@ -78,6 +78,9 @@ pl:
 
 
   products:
+
+
+
     electron:
       intro:
         slide1:
@@ -166,10 +169,11 @@ pl:
             line5: "darmowe prywatne szkolenia"
             action: "Zarejestruj się"
         disclaimer: "Zapisz się na testowanie, któregokolwiek z naszych produktów przez miesiąc za darmo."
-      questions:
-        action: "Jakiekolwiek wątpliwości?"
-      users:
-        header: "Szczęśliwi użytkownicy"
+
+
+
+
+
 
     freezer:
       intro:
@@ -259,7 +263,97 @@ pl:
             line5: "Free personal tutorials"
             action: "Register today"
         disclaimer: "Sign up for free to any of our products or all of them for one month. No credit card needed"
-      questions:
-        action: "Any questions?"
-      users:
-        header: "Happy users"
+
+
+
+
+
+
+    chronicle:
+      intro:
+        slide1:
+          name: "Chronicle"
+          claim: "keeps your shows always fresh"
+          learn_more: "Learn more"
+        slide2:
+          name: "Chronicle "
+          claim: "Access your archives remotely through a web-browser"
+          learn_more: "Learn more"
+        slide3:
+          name: "Chronicle"
+          claim: "Perfect labelling and visual interface for easy browsing through your data"
+          learn_more: "Learn more"
+      features:
+        header: "Exchange harddrives for easy-accesible cloud"
+        subheader: "Think about first truly reliable audio over IP software on market"
+        boxes:
+          web:
+            header: "Web-based management"
+            text: "No additional hardware/infrastructure needed - all broadcast can be managed and monitored through a web browser panel."
+          latency:
+            header: "Truly Low latency"
+            text: "Combined with web-based management allows to take live broadcasting to new era."
+          outofthebox:
+            header: "Works out of the box"
+            text: "With multichannel soundcards including virtual IP drivers of digital consoles (especially Axia and Dante systems)."
+          api:
+            header: "Integration ready - API"
+            text: "Has open, standards-based API making it ready for integration with your existing systems."
+          quality:
+            header: "Hi-Quality on low transfer"
+            text: "Uses the state-of-art Opus codec (examples at Opus Codec)."
+          networks:
+            header: "Works even over 2G networks"
+            text: "Needs only 20kbit/s to transmit speech in broadcasting quality."
+      howitworks:
+        header: "How it works"
+        lead: "Having a cloud sound engine allows to have multiple clients and remote management."
+        body:
+          part1: "Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in broadcasting mode - you can manage their sound sources through a web-browser."
+          part2: "So you can just send journalist with \"one-button-app\" to the field and have sound engineer elswhere to manage their broadcast remotely."
+      tech:
+        header: "Now a tasty techtalk"
+        subheader: "Think about first truly reliable audio over IP software on market"
+        boxes:
+          erlang:
+            header: "Built upon Erlang"
+            text: "the language for building cellural networks."
+          rtp:
+            header: "Using RTP and RTSP over UDP"
+            text: "no more unreliable TCP connections and shoutcast streams."
+          cloud:
+            header: "Amazon, Azure, Digital Ocean, OVH"
+            text: "Relies on well-tested cloud technologies and infrastructure & the biggest European datacenter: OVH."
+          latency:
+            header: "The near-to-zero latency"
+            text: "Default latency (can be adjusted) 80 ms + network latency (60ms on average in Central Europe)"
+          quality:
+            header: "State-of-the art Opus 1.1 codec"
+            text: "that brings better quality than HE-AAC+1 with ultra low-latency and packet loss concealment. "
+          ui:
+            header: "User interface based on React.JS"
+            text: "technology created by facebook, made for the best comfort of snappy, collaborational communication."
+        more: "Need more juicy specification?"
+      pricing:
+        header: "Test Electron for free"
+        subheader: "or choose the plan that suits you."
+        table:
+          prepaid:
+            header: "Pay-as-you-go"
+            unit: "hour"
+            line1: "Pay only if you need to stream"
+            line2: "No contracts"
+            line3: "Easy pre-paid"
+            line4: "line4"
+            line5: "line5"
+            action: "Register today"
+          contract:
+            header: "Contract"
+            unit: "month"
+            line1: "Unlimited transmissions"
+            line2: "100% cloud solution"
+            line3: "Unlimited Clients"
+            line4: "All platforms"
+            line5: "Free personal tutorials"
+            action: "Register today"
+        disclaimer: "Sign up for free to any of our products or all of them for one month. No credit card needed"
