@@ -76,6 +76,64 @@ en:
       price: "from 10$ per month"
       findout: "Find out More"
 
+  engine:
+    header:
+      title: "Hello, I'm RadioKit Engine. I'm the heart of the whole organism"
+    intro:
+      header:
+        title: "Who I Am"
+        title2: "and What I Do"
+      text: "I am cloud components for agile development of tailored radio & audio apps"
+      usecases:
+        title: "Use cases"
+        glue: "Glue"
+        automation: "Automation"
+        remote: "Remote control"
+        custom: "Custom web-based tools"
+    section2:
+      usecases:
+        title1: "Use"
+        title2: "Cases"
+
+        glue:
+          title: "Glue"
+          text: "If you need a piece of code interconnecting software & hardware, here it is. Build your own on top of our components or take advantage of growing list of predefined connectors."
+        automation:
+          title: "Automation"
+          text: "Need to automate certain operations? No problem, we have set of components that are easy to script."
+        remote:
+          title: "Remote control"
+          text1: "Need a tool that allows to remote control pieces of your radio station via remote desktop, wait, regular web browser or smartphone?"
+          text2: "What is hard with standalone windows software becomes trivial in web-based software. Think: online collaboration in Word 95 vs Google Docs. We are Google Docs."
+        custom:
+          title: "Custom web-based tools"
+          text1: "Need to build a radio’s website? Your own podcasting platform? Shop for selling audiobooks?"
+          text2: "With RadioKit it will become as trivial as programming an interface. All backend will be delivered by us. Leave programming the hard stuff, browsers compatibility, scaling to us. Focus on what your users see & hear."
+    section3:
+      philosophy:
+        title1: "Use"
+        title2: "Cases"
+
+        designed:
+          title: "Designed, not forced to integrate"
+          text1: "No more euphemisms about “integration built into DNA” that end up in writing nasty & expensive hacks."
+          text2: "Our interface is built on top of open standards that successfully power the modern web and turns integration into a joy: REST APIs, HTTP & WebSockets, JSON, HTML5, Node.JS."
+          text3: "Integration is a starting point for us, not an extra position on the bill."
+        multiplatform:
+          title: "Multiplatform by default"
+          text1: "While your FM/DAB+ broadcast is probably still core of your activities, you can’t deny that your new opportunities emerge mostly in the online world."
+          text2: "People behind RadioKit don’t remember the world without the Internet. We are digital natives making radio tools for other digital natives."
+          text3: "Beat this with hardware."
+        gentle:
+          title: "Gentle to users’ habits"
+          text1: "We are not dreamers. We know that you are not going to throw away all your well-tested devices and applications and replace them with RadioKit. We know how hard is to change users’ habits."
+          text2: "So we don’t expect doing this. Instead, we are are building a technology that is so elastic, that you can even try to reimplement your 20-years old beloved playout software in the web browser."
+        affordable:
+          title: "Affordable"
+          text1: "Software development is complicated and expensive. The whole concept of modularity of the Engine is backed by real need to cut down development costs."
+          text2: "We achieve this by re-using existing components as much as we can. They are designed with this idea in mind, so it’s more like “solving a puzzle” than “hacking”."
+          text3: "You don’t have to be a corporation any more to have a tailored software."
+
 
 
 
