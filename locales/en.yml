@@ -273,66 +273,68 @@ en:
       intro:
         slide1:
           name: "Chronicle"
-          claim: "Your listeners privavate Youtube"
+          claim: "Your listeners's private Youtube"
           learn_more: "Learn more"
         slide2:
-          name: "Chronicle"
-          claim: "Your listeners privavate Youtube"
+          name: "Podcasting"
+          claim: "We do tech - you do the content"
           learn_more: "Learn more"
         slide3:
-          name: "Chronicle"
-          claim: "Your listeners privavate Youtube"
+          name: "Royalyty free"
+          claim: "We take are of legal stuff, while you can focus on the content"
           learn_more: "Learn more"
       features:
-        header: "Exchange your hardware codecs for software"
-        subheader: "Think about first truly reliable audio over IP software on market"
+        header: "Start podcasting"
+        subheader: "On-demand shows are definitely the future of all media"
         boxes:
           web:
-            header: "Web-based management"
-            text: "No additional hardware/infrastructure needed - all broadcast can be managed and monitored through a web browser panel."
+            header: "Easy management"
+            text: "Chronicle allows you to manage your shows in a clear and simple manner"
           latency:
-            header: "Truly Low latency"
-            text: "Combined with web-based management allows to take live broadcasting to new era."
+            header: "Collaborational"
+            text: "Two types of users - admins & editors - let all of you editorial board to work together "
           outofthebox:
-            header: "Works out of the box"
-            text: "With multichannel soundcards including virtual IP drivers of digital consoles (especially Axia and Dante systems)."
+            header: "Social media"
+            text: "By default Chronicle is integrated with main social medias, to share podcasts with the audience"
           api:
-            header: "Integration ready - API"
-            text: "Has open, standards-based API making it ready for integration with your existing systems."
+            header: "Analytics"
+            text: "Integration with Google Apps, helps you track your audience behaviours and reactions on shows"
           quality:
-            header: "Hi-Quality on low transfer"
-            text: "Uses the state-of-art Opus codec (examples at Opus Codec)."
+            header: "Royalty free"
+            text: "You don't have to worry about legal issues - it's all covered with few simple rules."
           networks:
-            header: "Works even over 2G networks"
-            text: "Needs only 20kbit/s to transmit speech in broadcasting quality."
+            header: "Second life"
+            text: "Podcasting gives second life to your live shows and let them gather audience forever"
       howitworks:
         header: "How it works"
-        lead: "Having a cloud sound engine allows to have multiple clients and remote management."
+        lead: "Chronicle is prepared to be as simple as possible"
         body:
-          part1: "Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in broadcasting mode - you can manage their sound sources through a web-browser."
-          part2: "So you can just send journalist with \"one-button-app\" to the field and have sound engineer elswhere to manage their broadcast remotely."
+          part1: "Publishing a shows take only 3 steps: description, file upload and timestamping a show. And it's done - show lands in proper place on the website."
+          part2: "Architecture allows you to have unlimited series of podcasts, which can be moderate by particular or multiple editors. All the episodes of all series are searchable with filters according to their tags"
+          part3: "Royalties are covered if you follow two simple rules - do not share single tracks, do not share whole albums. Third rule is for US:"
+          part4: "particular show can contain: maximum 4 tracks by an artist (and max 3 consecutively); maximum 3 tracks from an album (and max 2 consecutively)"
       tech:
         header: "Now a tasty techtalk"
-        subheader: "Think about first truly reliable audio over IP software on market"
+        subheader: "CMS for Radio - that's what it is. Like Wordpress, but for audio content"
         boxes:
           erlang:
-            header: "Built upon Erlang"
-            text: "the language for building cellural networks."
+            header: "Built upon Ruby on Rails"
+            text: "framework that doesn't have competition in this type of use-cases"
           rtp:
-            header: "Using RTP and RTSP over UDP"
-            text: "no more unreliable TCP connections and shoutcast streams."
+            header: "Has a web-browser timestamp editior"
+            text: "Audio file is scanned on-the-fly and served you as waveform in the browser "
           cloud:
-            header: "Amazon, Azure, Digital Ocean, OVH"
-            text: "Relies on well-tested cloud technologies and infrastructure & the biggest European datacenter: OVH."
+            header: "User management"
+            text: "Your editor users will have only access to their assigned show - there can't be any mistakes "
           latency:
-            header: "The near-to-zero latency"
-            text: "Default latency (can be adjusted) 80 ms + network latency (60ms on average in Central Europe)"
+            header: "User-friendly"
+            text: "Staff panel is clear and logic - there is no confusing functions that no ones knows what to do with"
           quality:
-            header: "State-of-the art Opus 1.1 codec"
-            text: "that brings better quality than HE-AAC+1 with ultra low-latency and packet loss concealment. "
+            header: "Integration ready - API"
+            text: "Has open, standards-based API making it ready for integration with your existing systems."
           ui:
-            header: "User interface based on React.JS"
-            text: "technology created by facebook, made for the best comfort of snappy, collaborational communication."
+            header: "Customizable"
+            text: "Basic version can be developed to a fully-independent radio website with radio streams and additional menus"
         more: "Need more juicy specification?"
       pricing:
         header: "Test Electron for free"
