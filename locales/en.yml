@@ -177,27 +177,27 @@ en:
     freezer:
       intro:
         slide1:
-          name: "Electron"
-          claim: "Broadcasting van in your pocket."
+          name: "Freezer"
+          claim: "keeps your shows always fresh"
           learn_more: "Learn more"
         slide2:
-          name: "Web-based broadcast management"
-          claim: "Send your journalist with pocket-size equipment and control it remotely"
+          name: "Browser-access"
+          claim: "with Freezer all of your archives are in cloud - available for easy access"
           learn_more: "Learn more"
         slide3:
-          name: "Swap hardware for software"
-          claim: "Exchange hardware codecs for software that can be run on smartphone, tablet or Raspberry Pi"
+          name: "Perfect labelling"
+          claim: "Thanks to pleasnt visual interface searching your content is quick and effective"
           learn_more: "Learn more"
       features:
-        header: "Exchange your hardware codecs for software"
-        subheader: "Think about first truly reliable audio over IP software on market"
+        header: "Make your archive in cloud"
+        subheader: "Think about neverending space, back-ups on three continents, and easy acces through browser."
         boxes:
           web:
-            header: "Web-based management"
-            text: "No additional hardware/infrastructure needed - all broadcast can be managed and monitored through a web browser panel."
+            header: "Automated process"
+            text: "After you'll launch it - you can forget about any maintenance, everything goes seamlessly"
           latency:
-            header: "Truly Low latency"
-            text: "Combined with web-based management allows to take live broadcasting to new era."
+            header: "Web-based access"
+            text: "Wherever you are, you can access your archives remotely"
           outofthebox:
             header: "Works out of the box"
             text: "With multichannel soundcards including virtual IP drivers of digital consoles (especially Axia and Dante systems)."
