@@ -199,11 +199,11 @@ en:
             header: "Web-based access"
             text: "Wherever you are, you can access your archives remotely"
           outofthebox:
-            header: "Works out of the box"
-            text: "With multichannel soundcards including virtual IP drivers of digital consoles (especially Axia and Dante systems)."
+            header: "Multiple sources"
+            text: "You can eaisly archive multiple channels of your radio"
           api:
-            header: "Integration ready - API"
-            text: "Has open, standards-based API making it ready for integration with your existing systems."
+            header: "Easy cut-outs"
+            text: "Freezer allows you to easily find whatever you need, cut it out and proceed with that"
           quality:
             header: "Hi-Quality on low transfer"
             text: "Uses the state-of-art Opus codec (examples at Opus Codec)."
@@ -221,8 +221,8 @@ en:
         subheader: "Think about first truly reliable audio over IP software on market"
         boxes:
           erlang:
-            header: "Built upon Erlang"
-            text: "the language for building cellural networks."
+            header: "Integration ready - API"
+            text: "Has open, standards-based API making it ready for integration with your existing systems."
           rtp:
             header: "Using RTP and RTSP over UDP"
             text: "no more unreliable TCP connections and shoutcast streams."
