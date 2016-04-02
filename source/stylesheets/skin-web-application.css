@@ -39,6 +39,9 @@ Copyright: ThemeMountain
 
 -------------------------------------------------------------------*/
 
+
+
+
 /*------------------------------------------------------------------
 [1. Typography]
 */
@@ -1927,14 +1930,15 @@ body,
 .signup-box .form-response {
 	bottom: auto;
 }
+
 .fullscreen-bkg-2{
-	background-image: url(../images/web-application/slider/slide-3-fs.jpg);
+	background-image: url(../images/electron/electron_slide1.png);
 }
 .fullscreen-bkg-3{
-	background-image: url(../images/web-application/slider/slide-4-fs.jpg);
+	background-image: url(../images/freezer/freezer_slide1.png);
 }
 .fullscreen-bkg-4{
-	background-image: url(../images/web-application/slider/slide-5-fs.jpg);
+	background-image: url(../images/chronicle/chronicle_slide1.png);
 }
 
 /*------------------------------------------------------------------
