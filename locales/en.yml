@@ -111,7 +111,7 @@ en:
           text2: "With RadioKit it will become as trivial as programming an interface. All backend will be delivered by us. Leave programming the hard stuff, browsers compatibility, scaling to us. Focus on what your users see & hear."
     section3:
       philosophy:
-        title1: "Use"
+        title1: "Philosophy"
         title2: "Cases"
 
         designed:
@@ -255,7 +255,7 @@ en:
             text: "After you'll launch it - you can forget about any maintenance, everything goes seamlessly"
           latency:
             header: "Web-based access"
-            text: "Wherever you are, you can access your archives remotely"
+            text: "Wherever you are, you can access your archives remotely through web-browser"
           outofthebox:
             header: "Multiple sources"
             text: "You can eaisly archive multiple channels of your radio"
@@ -283,7 +283,7 @@ en:
             text: "Has open, standards-based API making it ready for integration with your existing systems."
           rtp:
             header: "Using RTP and RTSP over UDP"
-            text: "no more unreliable TCP connections and shoutcast streams."
+            text: "no more unreliable TCP connections and shoutcast or icecast streams."
           cloud:
             header: "Amazon, Azure, Digital Ocean, OVH"
             text: "Relies on well-tested cloud technologies and infrastructure & the biggest European datacenter: OVH."
@@ -370,14 +370,15 @@ en:
           part1: "Publishing a shows take only 3 steps: description, file upload and timestamping a show. And it's done - show lands in proper place on the website."
           part2: "Architecture allows you to have unlimited series of podcasts, which can be moderate by particular or multiple editors. All the episodes of all series are searchable with filters according to their tags"
           part3: "Royalties are covered if you follow two simple rules - do not share single tracks, do not share whole albums. Third rule is for US:"
-          part4: "particular show can contain: maximum 4 tracks by an artist (and max 3 consecutively); maximum 3 tracks from an album (and max 2 consecutively)"
+          part4: "particular show can contain:"
+          part5: "maximum 4 tracks by an artist (and max 3 consecutively); maximum 3 tracks from an album (and max 2 consecutively)"
       tech:
         header: "Now a tasty techtalk"
         subheader: "CMS for Radio - that's what it is. Like Wordpress, but for audio content"
         boxes:
           erlang:
             header: "Built upon Ruby on Rails"
-            text: "framework that doesn't have competition in this type of use-cases"
+            text: "reliable framework that doesn't have competition in this type of use-cases"
           rtp:
             header: "Has a web-browser timestamp editior"
             text: "Audio file is scanned on-the-fly and served you as waveform in the browser "
