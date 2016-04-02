@@ -1,7 +1,7 @@
 <section class="section-block featured-media window-height tm-slider-parallax-container">
   <div class="tm-slider-container full-width-slider" data-featured-slider data-parallax data-parallax-fade-out data-scale-under="960">
     <ul class="tms-slides">
-      <li class="tms-slide" data-image data-force-fit data-overlay-bkg-color="#933ded" data-overlay-bkg-opacity="0.75">
+      <li class="tms-slide" data-image data-force-fit data-overlay-bkg-color="e84c3d" data-overlay-bkg-opacity="0.75">
         <div class="tms-content">
           <div class="tms-content-inner v-align-middle">
             <div class="row">
@@ -9,27 +9,23 @@
                 <h5 class="tms-caption text-uppercase weight-bold color-white mb-10"
                   data-animate-in="opacity:0;transY:-50;duration:900ms;delay:100ms;easing:easeFastSlow;"
                   data-no-scale
-                >Unique software for unique radios</h5>
+                ><%= t("about.intro.motto") %></h5>
                 <div class="clear"></div>
                 <h1 class="tms-caption title-xlarge text-uppercase lspacing-medium weight-bold color-white mb-10"
                   data-animate-in="opacity:0;transY:-50;duration:900ms;delay:300ms;easing:easeFastSlow;"
                   data-no-scale
-                >RadioKit Ltd</h1>
+                ><%= t("about.intro.header") %></h1>
                 <div class="clear"></div>
                 <p class="tms-caption font-alt-1 text-medium weight-light color-white hide-on-mobile mb-30"
                   data-animate-in="opacity:0;transY:-50;duration:900ms;delay:500ms;easing:easeFastSlow;"
                   data-no-scale
-                >Discover why you should start thinking about technological upgrade.</p>
+                ><%= t("about.intro.subheader") %></p>
                 <div class="clear"></div>
-                <a href="https://player.vimeo.com/video/148677689?autoplay=1" class="tms-caption icon-circled small border-white color-white bkg-hover-charcoal color-hover-white lightbox-link" data-lightbox-animation="fade" data-toolbar="zoom"
-                  data-animate-in="opacity:0;transY:-50;duration:900ms;delay:700ms;easing:easeFastSlow;"
-                  data-no-scale
-                ><span class="icon-play small no-margins"></span></a>
               </div>
             </div>
           </div>
         </div>
-        <img data-src="images/travel-agency/slider/slide-7-fs.jpg" data-retina src="images/blank.png" alt=""/>
+        <img data-src="images/about/about_slide1.jpg" data-retina src="images/blank.png" alt=""/>
       </li>
     </ul>
   </div>
@@ -43,10 +39,10 @@
     <div class="column width-6 push-6">
       <div class="hero-content split-hero-content">
         <div class="hero-content-inner left center-on-mobile horizon" data-animate-in="opacity:0;transX:50px;duration:1000ms;easing:easeIn;" data-threshold="0.4">
-          <h3 class="mb-50">About</h3>
-          <p class="lead">We're a travel catalogue that will help you find the trips you have always dreamed of. You dream it and we make it happen.</p>
-          <p class="color-grey">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-          <a href="#" class="button medium bkg-purple bkg-hover-charcoal color-white color-hover-white text-uppercase">See Featured Trips</a>
+          <h3 class="mb-50"><%= t("about.section1.header") %></h3>
+          <p class="lead"><%= t("about.section1.lead") %></p>
+          <p class="color-grey"><%= t("about.section1.text") %></p>
+          <a href="#" class="button medium bkg-aboutol bkg-hover-charcoal color-white color-hover-white text-uppercase"><%= t("about.section1.button") %></a>
         </div>
       </div>
     </div>
@@ -58,7 +54,7 @@
 <div class="section-block bkg-grey-ultralight">
   <div class="row">
     <div class="column width-12">
-      <h3 class="mb-50">How It Works</h3>
+      <h3 class="mb-50"><%= t("about.section3.header") %></h3>
     </div>
   </div>
   <div class="row equalize">
@@ -69,8 +65,8 @@
             <div class="feature-column small left pt-20 pb-20">
               <div class="feature-text no-padding">
                 <span class="text-large font-alt-1">01.</span>
-                <h3 class="text-uppercase color-grey">Select Location</h3>
-                <p class="mb-mobile-30">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis cupidatat proident.</p>
+                <h3 class="text-uppercase color-grey"><%= t("about.section3.box1.title") %></h3>
+                <p class="mb-mobile-30"><%= t("about.section3.box1.text") %></p>
               </div>
             </div>
           </div>
@@ -78,14 +74,14 @@
       </div>
     </div>
     <div class="column width-4">
-      <div class="box xlarge bkg-purple color-white no-margins horizon" data-animate-in="opacity:0;transX:-50px;duration:1000ms;delay:100ms;easing:easeIn;" data-threshold="0.5">
+      <div class="box xlarge bkg-aboutol color-white no-margins horizon" data-animate-in="opacity:0;transX:-50px;duration:1000ms;delay:100ms;easing:easeIn;" data-threshold="0.5">
         <div class="row">
           <div class="column width-12">
             <div class="feature-column small left pt-20 pb-20">
               <div class="feature-text no-padding">
                 <span class="text-large font-alt-1">02.</span>
-                <h3 class="text-uppercase color-grey">Get Airfare</h3>
-                <p class="mb-mobile-30">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis cupidatat proident.</p>
+                <h3 class="text-uppercase color-grey"><%= t("about.section3.box2.title") %></h3>
+                <p class="mb-mobile-30"><%= t("about.section3.box2.text") %></p>
               </div>
             </div>
           </div>
@@ -99,8 +95,8 @@
             <div class="feature-column small left pt-20 pb-20">
               <div class="feature-text no-padding">
                 <span class="text-large font-alt-1">03.</span>
-                <h3 class="text-uppercase color-grey">Pay &amp; Pack</h3>
-                <p class="mb-mobile-30">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis cupidatat proident.</p>
+                <h3 class="text-uppercase color-grey"><%= t("about.section3.box3.title") %></h3>
+                <p class="mb-mobile-30"><%= t("about.section3.box3.text") %></p>
               </div>
             </div>
           </div>

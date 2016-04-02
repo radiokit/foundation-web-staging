@@ -509,6 +509,25 @@ body,
 	color: #EC5951;
 }
 
+/* aboutol */
+
+.bkg-aboutol{
+	background-color: #e84c3d;
+	border-color: #e84c3d;
+}
+.bkg-hover-aboutol:hover{
+	background-color: #e84c3d;
+	border-color: #e84c3d;
+}
+.border-aboutol,
+.border-hover-aboutol:hover{
+	border-color: #e84c3d;
+}
+.color-aboutol,
+.color-hover-aboutol:hover{
+	color: #e84c3d;
+}
+
 
 
 
@@ -1881,7 +1900,7 @@ body,
 	background-image: url(../images/web-application/generic/hero-half-1.jpg);
 }
 .hero-5-2 .media-column{
-	background-image: url(../images/team/hero-half-2.jpg);
+	background-image: url(../images/about/about_section2.jpg);
 }
 
 /* Call to Action */
