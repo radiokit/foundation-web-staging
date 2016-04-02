@@ -39,7 +39,17 @@ en:
     specialoffer: "Never miss a special offer again!"
 
   clients:
-    happy: "Happy Users"
+    happy: "What Happy Users tell about us"
+    radiofonia:
+      title: "Piotr Żyła, Radiofonia"
+      quote: "As far as I know - the best radio software on planet"
+    nofm:
+      title: "Vladimir Radinović, NoFm"
+      quote: "they should work on design a bit, works perfectly."
+    lemfm:
+      title: "Paweł Małecki, LemFm"
+      quote: "Building software takes time - so I waited patiently "
+
 
   footer:
     name: "RadioKit Ltd"
@@ -534,7 +544,7 @@ en:
     intro:
       motto: "Unique software for unique radios"
       header: "RadioKit Ltd"
-      subheader: "Find out why you should think about technological upgrade of your radio."
+      subheader: "Find out why you should think about technological upgrade."
     section1:
       header: "The master plan"
       lead: "Nowadays, you can find it hard to adapt a radio software to your unique needs."
