@@ -522,7 +522,9 @@ en:
           text2: "Our interface is built on top of open standards that successfully power the modern web and turns integration into a joy: REST APIs, HTTP & WebSockets, JSON, HTML5, Node.JS."
           text3: "Integration is a starting point for us, not an extra position on the bill."
         multiplatform:
-          title: "Multiplatform by default"
+          title1: "Multi-"
+          title2: "platform"
+          title3: "by default"
           text1: "While your FM/DAB+ broadcast is probably still core of your activities, you can’t deny that your new opportunities emerge mostly in the online world."
           text2: "People behind RadioKit don’t remember the world without the Internet. We are digital natives making radio tools for other digital natives."
           text3: "Beat this with hardware."
