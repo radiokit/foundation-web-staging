@@ -497,6 +497,7 @@ en:
         title1: "Use"
         title2: "Cases"
 
+
         glue:
           title: "Glue"
           text: "If you need a piece of code interconnecting software & hardware, here it is. Build your own on top of our components or take advantage of growing list of predefined connectors."
@@ -515,6 +516,9 @@ en:
       philosophy:
         title1: "Philosophy"
         title2: "Cases"
+
+        code_examples:
+          title: "Code Example"
 
         designed:
           title: "Designed, not forced to integrate"
