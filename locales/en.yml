@@ -188,7 +188,7 @@ en:
       intro:
         slide1:
           name: "Freezer"
-          claim: "keeps your shows always fresh"
+          claim: "keeps your shows always fresh and handy"
           learn_more: "Learn more"
         slide2:
           name: "Browser-access"
@@ -200,7 +200,7 @@ en:
           learn_more: "Learn more"
       features:
         header: "Make your archive in cloud"
-        subheader: "Think about neverending space, back-ups on three continents, and easy acces through browser."
+        subheader: "Think about neverending space, back-ups on three continents, and easy access through browser."
         boxes:
           web:
             header: "Automated process"
@@ -210,13 +210,13 @@ en:
             text: "Wherever you are, you can access your archives remotely through web-browser"
           outofthebox:
             header: "Multiple sources"
-            text: "You can eaisly archive multiple channels of your radio"
+            text: "You can eaisly archive multiple channels of your radio and switch between them"
           api:
             header: "Easy cut-outs"
             text: "Freezer allows you to easily find whatever you need, cut it out and proceed with that"
           quality:
             header: "Royalty reports"
-            text: "Statistics reports in adjustable format about how many times certain song was broadcast"
+            text: "Statistics reports (in adjustable format) about how many times certain song was broadcasted"
           networks:
             header: "Stream wellness monitoring"
             text: "Receive reports if some suspicious silence, extreme loudness or other unwanted event happen"
@@ -225,7 +225,7 @@ en:
         lead: "Many pepole from the industry call it a \"Spy\". However for most of the people - \"Freezer\" is a lot more useful. "
         body:
           part1: "It's a reversed mode of broadcast - it records everything that your stream contains. And by everything we don't mean only \"every second\". It's a lot more than that, "
-          part2: "Freezer records all the metadata, events from mixing boards and whatever you need for creating reports that you consider useful: either for the purpose of techinal monitoring, and as well as for the needs of royalties associations or government needs."
+          part2: "Freezer records all the metadata, events from mixing boards and whatever you need for creating reports that you consider useful: either for the purpose of techinal monitoring, and as well for the needs of royalties associations or government needs."
           part3: "And it's a cloud solution with all its benefits - neither you don't have to be in your studio, to check what's going on at the moment; nor you have to be in your office, to work royalties reports. Be in a cafe and be as much effective."
       tech:
         header: "Now a tasty techtalk"
@@ -233,7 +233,7 @@ en:
         boxes:
           erlang:
             header: "EBU R128"
-            text: "K-weighted Loudness Units can be your native measurment method"
+            text: "K-weighted Loudness Units can be your native measurment method and R128 a benchmark for your levels"
           rtp:
             header: "Metadata preservation"
             text: "It doesn't just record the audiofile - it saves all metadata that comes with it"
@@ -361,7 +361,7 @@ en:
             line4: "No contracts"
             line5: "Advices on board"
             action: "Register today"
-          contract: 
+          contract:
             header: "We do tech - you do content"
             unit: "month"
             line1: "Unlimited podcasts space"
