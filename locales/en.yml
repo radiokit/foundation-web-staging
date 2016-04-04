@@ -332,7 +332,7 @@ en:
             header: "Built upon Ruby on Rails"
             text: "reliable framework that doesn't have competition in this type of use-cases"
           rtp:
-            header: "Has a web-browser timestamp editior"
+            header: "Has a web-browser timestamp editor"
             text: "Audio file is scanned on-the-fly and served you as waveform in the browser "
           cloud:
             header: "User management"
@@ -437,8 +437,8 @@ en:
             header: "GStreamer on board"
             text: "Audio engine is build upon Gstreamer technology, using Opus codec 1.1"
           quality:
-            header: "Amazon, Azure, Digital Ocean, OVH"
-            text: "Relies on well-tested cloud technologies and infrastructure & the biggest European datacenter: OVH."
+            header: "Landing"
+            text: "Depot keeps records for usage statistics of your files, i.e. \"how many times they were broadcasted?\" "
           ui:
             header: "Seamless Radiokit integration"
             text: "All of our products works as a modules of one engine, and thanks to that - seamlessly integrate with each other"
@@ -453,7 +453,7 @@ en:
             line1: "1TB of cloud space"
             line2: "5 tools of your choice"
             line3: ""
-            line4: "line4"
+            line4: ""
             line5: "line5"
             action: "Register today"
           contract:
