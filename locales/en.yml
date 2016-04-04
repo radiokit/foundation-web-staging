@@ -229,7 +229,7 @@ en:
           part3: "And it's a cloud solution with all its benefits - neither you don't have to be in your studio, to check what's going on at the moment; nor you have to be in your office, to work royalties reports. Be in a cafe and be as much effective."
       tech:
         header: "Now a tasty techtalk"
-        subheader: "Your anteena \& waves was never so closed to clouds."
+        subheader: "Your anteena & waves was never so closed to clouds."
         boxes:
           erlang:
             header: "EBU R128"
@@ -361,7 +361,8 @@ en:
             line4: "No contracts"
             line5: "Advices on board"
             action: "Register today"
-          contract: "We do tech - you do content"
+          contract: 
+            header: "We do tech - you do content"
             unit: "month"
             line1: "Unlimited podcasts space"
             line2: "Unlimited users"
