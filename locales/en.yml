@@ -307,11 +307,11 @@ en:
             header: "Social media"
             text: "By default Chronicle is integrated with main social medias, to share podcasts with the audience"
           api:
-            header: "Analytics"
-            text: "Integration with Google Apps, helps you track your audience behaviours and reactions on shows"
-          quality:
             header: "Royalty free"
             text: "You don't have to worry about legal issues - it's all covered with few simple rules."
+          quality:
+            header: "No hosting/servers required"
+            text: "Chronicle is a cloud service -  you don't need any additional hosting or servers"
           networks:
             header: "Second life"
             text: "Podcasting gives second life to your live shows and let them gather audience forever"
@@ -332,42 +332,41 @@ en:
             header: "Built upon Ruby on Rails"
             text: "reliable framework that doesn't have competition in this type of use-cases"
           rtp:
-            header: "Has a web-browser timestamp editor"
+            header: "Web-browser timestamp editor"
             text: "Audio file is scanned on-the-fly and served you as waveform in the browser "
           cloud:
             header: "User management"
-            text: "Your editor users will have only access to their assigned show - there can't be any mistakes "
+            text: "Your editor users will have only access to their assigned show - there can't make any mistakes"
           latency:
             header: "User-friendly"
             text: "Staff panel is clear and logic - there is no confusing functions that no ones knows what to do with"
           quality:
-            header: "Integration ready - API"
-            text: "Has open, standards-based API making it ready for integration with your existing systems."
+            header: "Google Apps integration ready"
+            text: "Integration with Google Apps, helps you track your audience behaviours or promote each podcasts with AdWords"
           ui:
             header: "Customizable"
             text: "Basic version can be developed to a fully-independent radio website with radio streams and additional menus"
         more: "Need more juicy specification?"
       pricing:
-        header: "Test Electron for free"
+        header: "Test Chronicle for free"
         subheader: "or choose the plan that suits you."
         table:
           prepaid:
-            header: "Pay-as-you-go"
-            unit: "hour"
-            line1: "Pay only if you need to stream"
-            line2: "No contracts"
-            line3: "Easy pre-paid"
-            line4: "line4"
-            line5: "line5"
+            header: "Open-Source"
+            unit: "forever"
+            line1: "take our code"
+            line2: "and create your"
+            line3: "own Chronicle"
+            line4: "No contracts"
+            line5: "Advices on board"
             action: "Register today"
-          contract:
-            header: "Contract"
+          contract: "We do tech - you do content"
             unit: "month"
-            line1: "Unlimited transmissions"
-            line2: "100% cloud solution"
-            line3: "Unlimited Clients"
-            line4: "All platforms"
-            line5: "Free personal tutorials"
+            line1: "Unlimited podcasts space"
+            line2: "Unlimited users"
+            line3: "Customisable design"
+            line4: "Hosting + backups"
+            line5: "Support"
             action: "Register today"
         disclaimer: "Sign up for free to any of our products or all of them for one month. No credit card needed"
 
