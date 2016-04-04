@@ -381,87 +381,88 @@ en:
       intro:
         slide1:
           name: "Depot"
-          claim: "Your listeners privavate Youtube"
+          claim: "from here all your files starts their journey"
           learn_more: "Learn more"
         slide2:
           name: "Depot"
-          claim: "Your listeners privavate Youtube"
+          claim: "Integration could be his second name"
           learn_more: "Learn more"
         slide3:
-          name: "De"
-          claim: "Your listeners privavate Youtube"
+          name: "Depot"
+          claim: "Central Hub that makes all your other software work smoothly"
           learn_more: "Learn more"
       features:
-        header: "Exchange your hardware codecs for software"
-        subheader: "Think about first truly reliable audio over IP software on market"
+        header: "Have you encoutered format incompatibilites between software you use?"
+        subheader: "Think about one place that will help your workflow overcome established format standards"
         boxes:
           web:
-            header: "Web-based management"
-            text: "No additional hardware/infrastructure needed - all broadcast can be managed and monitored through a web browser panel."
+            header: "Define it your way"
+            text: "Depot is not to impose some habits on you - it's made to adjust to your habits and improve its effectiveness"
           latency:
-            header: "Truly Low latency"
-            text: "Combined with web-based management allows to take live broadcasting to new era."
+            header: "All processes in one place"
+            text: "What you do now to prepare files before you broadcast it? Do you use different tools for it?"
           outofthebox:
-            header: "Works out of the box"
-            text: "With multichannel soundcards including virtual IP drivers of digital consoles (especially Axia and Dante systems)."
+            header: "Radio-specific tools"
+            text: "Depot is desinged for radio workflows, and doesn't contain tens of functions that are useless for radio"
           api:
+            header: "Ready for the Cloud?"
+            text: "If you think this type of software would be too slow in cloud - it's actually the opposite"
+          quality:
             header: "Integration ready - API"
             text: "Has open, standards-based API making it ready for integration with your existing systems."
-          quality:
-            header: "Hi-Quality on low transfer"
-            text: "Uses the state-of-art Opus codec (examples at Opus Codec)."
           networks:
             header: "Works even over 2G networks"
             text: "Needs only 20kbit/s to transmit speech in broadcasting quality."
       howitworks:
         header: "How it works"
-        lead: "Having a cloud sound engine allows to have multiple clients and remote management."
+        lead: "Depot lets you define your needs once, and don't repeat yourself everyday"
         body:
-          part1: "Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in broadcasting mode - you can manage their sound sources through a web-browser."
-          part2: "So you can just send journalist with \"one-button-app\" to the field and have sound engineer elswhere to manage their broadcast remotely."
+          part1: "Every radio is different and use a bunch of different tools. Systems not always works perfectly with each other, so one always needs to find his own slalom around it."
+          part2: "Depot is created to glue all of software you use at the moment. Use it as a start point for all of your files - prepare them for their journey, and forget about doing everyday loads of the same activities, that machine could do \"if they would be just a bit more clever\""
+          part3: "They just became."
       tech:
         header: "Now a tasty techtalk"
-        subheader: "Think about first truly reliable audio over IP software on market"
+        subheader: "Think about the set of cloud audio tools, dedicated to the radio needs."
         boxes:
           erlang:
-            header: "Built upon Erlang"
-            text: "the language for building cellural networks."
+            header: "Central-Hub"
+            text: "Keep all your files in one central place in cloud, and process them there"
           rtp:
-            header: "Using RTP and RTSP over UDP"
-            text: "no more unreliable TCP connections and shoutcast streams."
+            header: "Metadata in mind, while converting"
+            text: "Convert your files to whatever format other systems might need, preserving all metadata."
           cloud:
+            header: "Automatic batch process chaining"
+            text: "Cut the silence, denoise, normalize, transcode between existing systems - and don't repeat yourself"
+          latency:
+            header: "GStreamer on board"
+            text: "Audio engine is build upon Gstreamer technology, using Opus codec 1.1"
+          quality:
             header: "Amazon, Azure, Digital Ocean, OVH"
             text: "Relies on well-tested cloud technologies and infrastructure & the biggest European datacenter: OVH."
-          latency:
-            header: "The near-to-zero latency"
-            text: "Default latency (can be adjusted) 80 ms + network latency (60ms on average in Central Europe)"
-          quality:
-            header: "State-of-the art Opus 1.1 codec"
-            text: "that brings better quality than HE-AAC+1 with ultra low-latency and packet loss concealment. "
           ui:
-            header: "User interface based on React.JS"
-            text: "technology created by facebook, made for the best comfort of snappy, collaborational communication."
+            header: "Seamless Radiokit integration"
+            text: "All of our products works as a modules of one engine, and thanks to that - seamlessly integrate with each other"
         more: "Need more juicy specification?"
       pricing:
-        header: "Test Electron for free"
+        header: "Test Depot for free"
         subheader: "or choose the plan that suits you."
         table:
           prepaid:
-            header: "Pay-as-you-go"
-            unit: "hour"
-            line1: "Pay only if you need to stream"
-            line2: "No contracts"
-            line3: "Easy pre-paid"
+            header: "Basic"
+            unit: "month"
+            line1: "1TB of cloud space"
+            line2: "5 tools of your choice"
+            line3: ""
             line4: "line4"
             line5: "line5"
             action: "Register today"
           contract:
-            header: "Contract"
+            header: "Enterprise"
             unit: "month"
-            line1: "Unlimited transmissions"
-            line2: "100% cloud solution"
-            line3: "Unlimited Clients"
-            line4: "All platforms"
+            line1: "Unlimited cloud space"
+            line2: "All tools on board"
+            line3: "Customisations"
+            line4: "On-demand functions"
             line5: "Free personal tutorials"
             action: "Register today"
         disclaimer: "Sign up for free to any of our products or all of them for one month. No credit card needed"
