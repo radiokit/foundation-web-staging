@@ -439,20 +439,20 @@ body,
 /* electron */
 
 .bkg-electrol{
-	background-color: #FFCC36;
-	border-color: #FFCC36;
+	background-color: #FFA81D;
+	border-color: #FFA81D;
 }
 .bkg-hover-electrol:hover{
-	background-color: #FFCC36;
-	border-color: #FFCC36;
+	background-color: #FFA81D;
+	border-color: #FFA81D;
 }
 .border-electrol,
 .border-hover-electrol:hover{
-	border-color: #FFCC36;
+	border-color: #FFA81D;
 }
 .color-electrol,
 .color-hover-electrol:hover{
-	color: #FFCC36;
+	color: #FFA81D;
 }
 
 /* freezol */
