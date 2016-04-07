@@ -41,13 +41,13 @@ en:
   clients:
     happy: "What Happy Users tell about us"
     radiofonia:
-      title: "Piotr Żyła, Radiofonia"
+      title: "Adam, Radiofonia"
       quote: "As far as I know - the best radio software on planet"
     nofm:
-      title: "Vladimir Radinović, NoFm"
+      title: "Ivan, NoFm"
       quote: "they should work on design a bit, works perfectly."
     lemfm:
-      title: "Paweł Małecki, LemFm"
+      title: "Paul, LemFm"
       quote: "Building software takes time - so I waited patiently "
 
 
