@@ -438,6 +438,11 @@ body,
 
 /* electron */
 
+.bkg-radiokitol{
+	background-color: #006c90;
+	border-color: #006c90;
+}
+
 .bkg-electrol{
 	background-color: #FFA81D;
 	border-color: #FFA81D;
