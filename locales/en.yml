@@ -69,21 +69,21 @@ en:
     brand:
       preheader: "Meet"
       header: "Radiokit"
-      subheader: "software team that knows radio needs"
+      subheader: "Radio technology from outer space"
     product1:
-      motto: "broadcasting Van in your pocket"
+      motto: "Your mobile device with"
       name: "Electron"
-      price: "from 5$ per hour or 99$ per month"
+      price: "is like broadcasting van in your pocket"
       findout: "Find out More"
     product2:
-      motto: "keeps your shows fresh"
+      motto: "You might wanna use "
       name: "Freezer"
-      price: "from 99$ per month"
+      price: "and keep all your content and its metadaa fresh"
       findout: "Find out More"
     product3:
-      motto: "your listeners private youtube"
+      motto: "How about"
       name: "Chronicle"
-      price: "from 10$ per month"
+      price: "Your public library with all your shows in one place"
       findout: "Find out More"
 
 
