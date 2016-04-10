@@ -436,12 +436,27 @@ body,
 [2'. Product colors]
 */
 
-/* electron */
+/* radiokitol - engine and about */
 
 .bkg-radiokitol{
 	background-color: #006c90;
 	border-color: #006c90;
 }
+
+.bkg-hover-radiokitol:hover{
+	background-color: #006c90;
+	border-color: #006c90;
+}
+.border-radiokitol,
+.border-hover-radiokitol:hover{
+	border-color: #006c90;
+}
+.color-radiokitol,
+.color-hover-radiokitol:hover{
+	color: #006c90;
+}
+
+/* electron */
 
 .bkg-electrol{
 	background-color: #cf881a;
