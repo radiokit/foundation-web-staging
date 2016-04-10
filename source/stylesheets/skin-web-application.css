@@ -444,20 +444,20 @@ body,
 }
 
 .bkg-electrol{
-	background-color: #FFA81D;
-	border-color: #FFA81D;
+	background-color: #cf881a;
+	border-color: #cf881a;
 }
 .bkg-hover-electrol:hover{
-	background-color: #FFA81D;
-	border-color: #FFA81D;
+	background-color: #cf881a;
+	border-color: #cf881a;
 }
 .border-electrol,
 .border-hover-electrol:hover{
-	border-color: #FFA81D;
+	border-color: #cf881a;
 }
 .color-electrol,
 .color-hover-electrol:hover{
-	color: #FFA81D;
+	color: #cf881a;
 }
 
 /* freezol */
