@@ -6,6 +6,7 @@
 #
 # With no layout
 page 'CNAME', layout: false
+page 'robots.txt', layout: false
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
