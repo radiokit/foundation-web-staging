@@ -1842,7 +1842,7 @@
 		lazyLoad: true,									// Load progressively: boolean
 
 		// Retina Support
-		retinaSupport: true,							// Check for retina displays and serve retina image, affects all images within a slide
+		retinaSupport: false,							// Check for retina displays and serve retina image, affects all images within a slide
 														// Use data-retina for individual swaps
 		retinaSupportMobile: false,						// Whether swap should occur on mobile devices
 		retinaSuffix: '@2x',							// Retina image suffix
