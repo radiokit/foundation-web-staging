@@ -1,10 +1,17 @@
 <div class="section-block replicable-content pt-60 pb-30 call-to-action-2 call-to-action-2-1 bkg-grey-ultralight background-cover">
   <div class="row">
-    <div class="column width-11 offset-1 right color-white center-on-mobile">
+    <div class="column width-11 offset-1 left color-white center-on-mobile">
       <p><%= t("actioncalls.specialoffer") %></p>
     </div>
-    <div class="column width-12 right center-on-mobile">
-      <a href="#" class="button text-uppercase bkg-black border-hover-white color-white color-hover-white mb-mobile-30"><%= t("actioncalls.newsletter") %></a>
-    </div>
+
+    <form method="post" action="https://app.freshmail.com/pl/actions/subscribe/">
+			<input type="hidden" name="subscribers_list_hash" value="lgz24s8s3z" /><br />
+			<div class="column width-3">
+				<input style="height: 50px;" placeholder="Email address *" type="text" id="freshmail_email form-email form-element large" name="freshmail_email"/>
+			</div>
+			<div class="column width-2">
+				<input style="height: 50px;" type="submit" class="button text-uppercase bkg-black border-hover-white color-white color-hover-white mb-mobile-30" value="<%= t("actioncalls.newsletter") %>" /><br />
+			</div>
+		</form>
   </div>
 </div>
