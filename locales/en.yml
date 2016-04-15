@@ -45,10 +45,10 @@ en:
       quote: "As far as I know - the best radio software on planet"
     nofm:
       title: "Ivan, NoFm"
-      quote: "they should work on design a bit, works perfectly."
+      quote: "We can finally devote all our time to content"
     lemfm:
       title: "Paul, LemFm"
-      quote: "Building software takes time - so I waited patiently "
+      quote: "Our daily workflow became so much easier "
 
 
   footer:
@@ -84,6 +84,11 @@ en:
       motto: "How about"
       name: "Chronicle"
       price: "Your public library with all your shows in one place"
+      findout: "Find out More"
+    product4:
+      motto: "We bet you always missed"
+      name: "Depot"
+      price: "Your central hub from where your files starts their journey"
       findout: "Find out More"
 
 
