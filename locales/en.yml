@@ -58,7 +58,7 @@ en:
 
   contact:
     header: "What interest you?"
-    line1: "If you are interested in RadioKit products and you would like to know some details, subscribe or just share something with us - please fill the form below"
+    line1: "If you are interested in RadioKit products and you would like to know some details or just share something with us - please fill the form below"
     name: "Name*"
     mail: "Email address*"
     message: "Message*"
@@ -78,7 +78,7 @@ en:
     product2:
       motto: "You might wanna use "
       name: "Freezer"
-      price: "and keep all your content and its metadaa fresh"
+      price: "and keep all your content and its metadata fresh"
       findout: "Find out More"
     product3:
       motto: "How about"
@@ -103,12 +103,12 @@ en:
           claim: "Broadcasting van in your pocket."
           learn_more: "Learn more"
         slide2:
-          name: "Web-based broadcast management"
-          claim: "Send your journalist with pocket-size equipment and control it remotely"
-          learn_more: "Learn more"
-        slide3:
           name: "Swap hardware for software"
           claim: "Exchange hardware codecs for software that can be run on smartphone, tablet or Raspberry Pi"
+          learn_more: "Learn more"
+        slide3:
+          name: "Web-based broadcast management"
+          claim: "Send your journalist with pocket-size equipment and control it remotely"
           learn_more: "Learn more"
       features:
         header: "Exchange your hardware codecs for software"
@@ -119,7 +119,7 @@ en:
             text: "No additional hardware/infrastructure needed - all broadcast can be managed and monitored through a web browser panel."
           latency:
             header: "Truly Low latency"
-            text: "Combined with web-based management allows to take live broadcasting to new era."
+            text: "Combined with web-based management allows to take live broadcasting to a new era."
           outofthebox:
             header: "Works out of the box"
             text: "With multichannel soundcards including virtual IP drivers of digital consoles (especially Axia and Dante systems)."
@@ -171,8 +171,8 @@ en:
             line1: "Pay only if you need to stream"
             line2: "No contracts"
             line3: "Easy pre-paid"
-            line4: "line4"
-            line5: "line5"
+            line4: "Cheaper than taxi"
+            line5: "to get to the event"
             action: "Register today"
           contract:
             header: "Contract"
@@ -230,8 +230,8 @@ en:
         lead: "Many pepole from the industry call it a \"Spy\". However for most of the people - \"Freezer\" is a lot more useful. "
         body:
           part1: "It's a reversed mode of broadcast - it records everything that your stream contains. And by everything we don't mean only \"every second\". It's a lot more than that, "
-          part2: "Freezer records all the metadata, events from mixing boards and whatever you need for creating reports that you consider useful: either for the purpose of techinal monitoring, and as well for the needs of royalties associations or government needs."
-          part3: "And it's a cloud solution with all its benefits - neither you don't have to be in your studio, to check what's going on at the moment; nor you have to be in your office, to work royalties reports. Be in a cafe and be as much effective."
+          part2: "Freezer records all the metadata, events from mixing boards and whatever you need for creating reports that you consider useful: either for the purpose of technical monitoring, and as well for the needs of royalties associations or government needs."
+          part3: "And it's a cloud solution with all its benefits - neither you don't have to be in your studio, to check what's going on at the moment; nor you have to be in your office, to work on royalties reports. Be in a cafe and be as much effective."
       tech:
         header: "Now a tasty techtalk"
         subheader: "Your anteena & waves was never so closed to clouds."
@@ -296,8 +296,8 @@ en:
           claim: "We do tech - you do the content"
           learn_more: "Learn more"
         slide3:
-          name: "Royalyty free"
-          claim: "We take care of legal stuff, while you can focus on the content"
+          name: "Keep your old shows alive"
+          claim: "Let your audience hear old shows they missed"
           learn_more: "Learn more"
       features:
         header: "Start podcasting"
@@ -323,7 +323,7 @@ en:
             text: "Podcasting gives second life to your live shows and let them gather audience forever"
       howitworks:
         header: "How it works"
-        lead: "Chronicle is prepared to be as simple as possible"
+        lead: "Chronicle is designed to be as simple as possible"
         body:
           part1: "Publishing a shows take only 3 steps: description, file upload and timestamping a show. And it's done - show lands in proper place on the website."
           part2: "Architecture allows you to have unlimited series of podcasts, which can be moderate by particular or multiple editors. All the episodes of all series are searchable with filters according to their tags"
@@ -335,8 +335,8 @@ en:
         subheader: "CMS for Radio - that's what it is. Like Wordpress, but for audio content"
         boxes:
           erlang:
-            header: "Built upon Ruby on Rails"
-            text: "reliable framework that doesn't have competition in this type of use-cases"
+            header: "Designed upon React.JS"
+            text: "technology created by facebook for the best user experience possible"
           rtp:
             header: "Web-browser timestamp editor"
             text: "Audio file is scanned on-the-fly and served you as waveform in the browser "
@@ -391,28 +391,28 @@ en:
           learn_more: "Learn more"
         slide2:
           name: "Depot"
-          claim: "Integration could be his second name"
+          claim: "central Hub that makes all your other software work smoothly"
           learn_more: "Learn more"
         slide3:
           name: "Depot"
-          claim: "Central Hub that makes all your other software work smoothly"
+          claim: "No more format problems and loosing time on useless conversions"
           learn_more: "Learn more"
       features:
         header: "Have you encoutered format incompatibilites between software you use?"
         subheader: "Think about one place that will help your workflow overcome established format standards"
         boxes:
           web:
-            header: "Define it your way"
-            text: "Depot is not to impose some habits on you - it's made to adjust to your habits and improve its effectiveness"
-          latency:
             header: "All processes in one place"
             text: "What you do now to prepare files before you broadcast it? Do you use different tools for it?"
+          latency:
+            header: "Define it your way"
+            text: "Depot is not to impose some habits on you - it's made to adjust to your habits and improve its effectiveness"
           outofthebox:
             header: "Radio-specific tools"
             text: "Depot is desinged for radio workflows, and doesn't contain tens of functions that are useless for radio"
           api:
             header: "Ready for the Cloud?"
-            text: "If you think this type of software would be too slow in cloud - it's actually the opposite"
+            text: "If you think this type of software would be too slow in cloud - well... times has changed"
           quality:
             header: "Integration ready - API"
             text: "Has open, standards-based API making it ready for integration with your existing systems."
@@ -424,7 +424,7 @@ en:
         lead: "Depot lets you define your needs once, and don't repeat yourself everyday"
         body:
           part1: "Every radio is different and use a bunch of different tools. Systems not always works perfectly with each other, so one always needs to find his own slalom around it."
-          part2: "Depot is created to glue all of software you use at the moment. Use it as a start point for all of your files - prepare them for their journey, and forget about doing everyday loads of the same activities, that machine could do \"if they would be just a bit more clever\""
+          part2: "Depot is created to glue all of the software you use at the moment. Use it as a start point for all of your files - prepare them for their journey, and forget about doing everyday loads of the same activities, that machine could do \"if they would be just a bit more clever\""
           part3: "They just became."
       tech:
         header: "Now a tasty techtalk"
@@ -567,10 +567,10 @@ en:
       header: "Few ways how we can be helpful"
       box1:
         title: "Products"
-        text: "Of course we have products to offer - you can have a look on the website and find what you need"
+        text: "Of course we have products to offer - you can have a look on the website and find what you need. They're all in SaaS model."
       box2:
-        title: "Custom"
+        title: "Tailored-software"
         text: "If you find idea of making custom software appealing but you don’t want to do this on your own, we will be glad to code it for you."
       box3:
         title: "Engine"
-        text: "We have a set of components that with tiny support of programming skills can be assembled into radio software of your dreams without necessity to build everything from scratch."
+        text: "We have a set of components that with tiny support of programming skills can be assembled into radio software of your dreams."
