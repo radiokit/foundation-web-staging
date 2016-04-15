@@ -85,6 +85,11 @@ en:
       name: "Chronicle"
       price: "Your public library with all your shows in one place"
       findout: "Find out More"
+    product4:
+      motto: "We bet you always missed"
+      name: "Depot"
+      price: "Your central hub from where your files starts their journey"
+      findout: "Find out More"
 
 
 
