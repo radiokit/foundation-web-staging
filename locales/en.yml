@@ -36,7 +36,7 @@ en:
     questions: "Any questions?"
     contact: "Contact us"
     newsletter: "Newsletter Signup"
-    specialoffer: "Never miss a special offer again!"
+    specialoffer: "Be up-to-date with our mission!"
 
   clients:
     happy: "What Happy Users tell about us"
@@ -67,8 +67,8 @@ en:
 
   index:
     brand:
-      preheader: "Meet"
-      header: "Radiokit Foundation"
+      preheader: "FOUNDATION"
+      header: "Radiokit"
       subheader: "Force that empowers NGOs"
     product1:
       motto: "We like"
