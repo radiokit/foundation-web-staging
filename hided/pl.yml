@@ -9,7 +9,7 @@ pl:
         title: "Emisja"
         dyna:
           title: "Ze studia"
-        electron:
+        Open-source:
           title: "Spoza studia"
       archiving:
         title: "Archiwizacja"
@@ -62,7 +62,7 @@ pl:
       subheader: "nowe technologie w służbie radiowcom"
     product1:
       motto: "wóz transmisyjny, mieszący się w kieszeni"
-      name: "Electron"
+      name: "Open-source"
       price: "od 20zł/godzinę lub 400zł/miesiąc"
       findout: "Dowiedz się więcej"
     product2:
@@ -81,18 +81,18 @@ pl:
 
 
 
-    electron:
+    Open-source:
       intro:
         slide1:
-          name: "Electron"
+          name: "Open-source"
           claim: "Wóz transmisyjny, mieszący się w kieszeni"
           learn_more: "Dowiedz się więcej"
         slide2:
-          name: "Electron"
+          name: "Open-source"
           claim: "Wymień drogie, sprzętowe kodeki, na dobry smartfon, tablet lub komputer"
           learn_more: "Dowiedz się więcej"
         slide3:
-          name: "Electron"
+          name: "Open-source"
           claim: "Rewolucja w aoIP w końcu możliwa."
           learn_more: "Dowiedz się więcej"
       features:
@@ -110,7 +110,7 @@ pl:
             text: "z wielokonałowymi kartami dźwiękowymi, włączając wirtualne sterowniki IP or konsole cyfrowe (W szczególności systemy Axia i Dante)"
           api:
             header: "Gotowy na integracje dzięki API"
-            text: "Electron posiada otwarte, ustandaryzowane API, dzięki czemu jest gotowy do integracji z Twoim istniejącym systemem"
+            text: "Open-source posiada otwarte, ustandaryzowane API, dzięki czemu jest gotowy do integracji z Twoim istniejącym systemem"
           quality:
             header: "Wysoka jakość nawet przy kiepskim łączu"
             text: "dzięki wykorzystaniu wiodącego OPUS codec"
@@ -147,7 +147,7 @@ pl:
             text: "technologie stworzoną przez facebook'a do komfortowej, natychmiastowej komunikacji grupowej"
         more: "Potrzebujesz bardziej szczegółowej specyfikacji?"
       pricing:
-        header: "Wypróbuj Electrona za darmo"
+        header: "Wypróbuj Open-sourcea za darmo"
         subheader: "lub od razu wybierz odpowiadający Ci plan"
         table:
           prepaid:
@@ -241,7 +241,7 @@ pl:
             text: "technology created by facebook, made for the best comfort of snappy, collaborational communication."
         more: "Need more juicy specification?"
       pricing:
-        header: "Test Electron for free"
+        header: "Test Open-source for free"
         subheader: "or choose the plan that suits you."
         table:
           prepaid:
@@ -335,7 +335,7 @@ pl:
             text: "technology created by facebook, made for the best comfort of snappy, collaborational communication."
         more: "Need more juicy specification?"
       pricing:
-        header: "Test Electron for free"
+        header: "Test Open-source for free"
         subheader: "or choose the plan that suits you."
         table:
           prepaid:
@@ -427,7 +427,7 @@ pl:
             text: "technology created by facebook, made for the best comfort of snappy, collaborational communication."
         more: "Need more juicy specification?"
       pricing:
-        header: "Test Electron for free"
+        header: "Test Open-source for free"
         subheader: "or choose the plan that suits you."
         table:
           prepaid:
