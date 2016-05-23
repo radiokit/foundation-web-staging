@@ -5,7 +5,7 @@ pl:
     motto: "Wyjątkowe oprogramowanie dla wyjątkowych rozgłośni radiowych"
     mailus: "Napisz do nas:"
     menu:
-      broadcasting:
+      Open-source:
         title: "Emisja"
         dyna:
           title: "Ze studia"
@@ -198,7 +198,7 @@ pl:
             text: "No additional hardware/infrastructure needed - all broadcast can be managed and monitored through a web browser panel."
           latency:
             header: "Truly Low latency"
-            text: "Combined with web-based management allows to take live broadcasting to new era."
+            text: "Combined with web-based management allows to take live Open-source to new era."
           outofthebox:
             header: "Works out of the box"
             text: "With multichannel soundcards including virtual IP drivers of digital consoles (especially Axia and Dante systems)."
@@ -210,12 +210,12 @@ pl:
             text: "Uses the state-of-art Opus codec (examples at Opus Codec)."
           networks:
             header: "Works even over 2G networks"
-            text: "Needs only 20kbit/s to transmit speech in broadcasting quality."
+            text: "Needs only 20kbit/s to transmit speech in Open-source quality."
       howitworks:
         header: "How it works"
         lead: "Having a cloud sound engine allows to have multiple clients and remote management."
         body:
-          part1: "Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in broadcasting mode - you can manage their sound sources through a web-browser."
+          part1: "Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in Open-source mode - you can manage their sound sources through a web-browser."
           part2: "So you can just send journalist with \"one-button-app\" to the field and have sound engineer elswhere to manage their broadcast remotely."
       tech:
         header: "Now a tasty techtalk"
@@ -292,7 +292,7 @@ pl:
             text: "No additional hardware/infrastructure needed - all broadcast can be managed and monitored through a web browser panel."
           latency:
             header: "Truly Low latency"
-            text: "Combined with web-based management allows to take live broadcasting to new era."
+            text: "Combined with web-based management allows to take live Open-source to new era."
           outofthebox:
             header: "Works out of the box"
             text: "With multichannel soundcards including virtual IP drivers of digital consoles (especially Axia and Dante systems)."
@@ -304,12 +304,12 @@ pl:
             text: "Uses the state-of-art Opus codec (examples at Opus Codec)."
           networks:
             header: "Works even over 2G networks"
-            text: "Needs only 20kbit/s to transmit speech in broadcasting quality."
+            text: "Needs only 20kbit/s to transmit speech in Open-source quality."
       howitworks:
         header: "How it works"
         lead: "Having a cloud sound engine allows to have multiple clients and remote management."
         body:
-          part1: "Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in broadcasting mode - you can manage their sound sources through a web-browser."
+          part1: "Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in Open-source mode - you can manage their sound sources through a web-browser."
           part2: "So you can just send journalist with \"one-button-app\" to the field and have sound engineer elswhere to manage their broadcast remotely."
       tech:
         header: "Now a tasty techtalk"
@@ -384,7 +384,7 @@ pl:
             text: "No additional hardware/infrastructure needed - all broadcast can be managed and monitored through a web browser panel."
           latency:
             header: "Truly Low latency"
-            text: "Combined with web-based management allows to take live broadcasting to new era."
+            text: "Combined with web-based management allows to take live Open-source to new era."
           outofthebox:
             header: "Works out of the box"
             text: "With multichannel soundcards including virtual IP drivers of digital consoles (especially Axia and Dante systems)."
@@ -396,12 +396,12 @@ pl:
             text: "Uses the state-of-art Opus codec (examples at Opus Codec)."
           networks:
             header: "Works even over 2G networks"
-            text: "Needs only 20kbit/s to transmit speech in broadcasting quality."
+            text: "Needs only 20kbit/s to transmit speech in Open-source quality."
       howitworks:
         header: "How it works"
         lead: "Having a cloud sound engine allows to have multiple clients and remote management."
         body:
-          part1: "Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in broadcasting mode - you can manage their sound sources through a web-browser."
+          part1: "Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in Open-source mode - you can manage their sound sources through a web-browser."
           part2: "So you can just send journalist with \"one-button-app\" to the field and have sound engineer elswhere to manage their broadcast remotely."
       tech:
         header: "Now a tasty techtalk"

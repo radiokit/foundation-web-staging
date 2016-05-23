@@ -5,12 +5,12 @@ en:
     motto: "Unique software for unique radio stations"
     mailus: "Mail us:"
     menu:
-      broadcasting:
-        title: "Broadcasting"
+      Open-source:
+        title: "Open-source"
         dyna:
           title: "From the studio"
         Open-source:
-          title: "Outside broadcasting"
+          title: "Outside Open-source"
       archiving:
         title: "Archiving"
         freezer:
@@ -73,7 +73,7 @@ en:
     product1:
       motto: "Your mobile device with"
       name: "Open-source"
-      price: "is like broadcasting van in your pocket"
+      price: "is like Open-source van in your pocket"
       findout: "Find out More"
     product2:
       motto: "You might wanna use "
@@ -100,7 +100,7 @@ en:
       intro:
         slide1:
           name: "Open-source"
-          claim: "Broadcasting van in your pocket."
+          claim: "Open-source van in your pocket."
           learn_more: "Learn more"
         slide2:
           name: "Swap hardware for software"
@@ -119,7 +119,7 @@ en:
             text: "No additional hardware/infrastructure needed - all broadcast can be managed and monitored through a web browser panel."
           latency:
             header: "Truly Low latency"
-            text: "Combined with web-based management allows to take live broadcasting to a new era."
+            text: "Combined with web-based management allows to take live Open-source to a new era."
           outofthebox:
             header: "Works out of the box"
             text: "With multichannel soundcards including virtual IP drivers of digital consoles (especially Axia and Dante systems)."
@@ -131,12 +131,12 @@ en:
             text: "Uses the state-of-art Opus codec (examples at Opus Codec)."
           networks:
             header: "Works even over 2G networks"
-            text: "Needs only 20kbit/s to transmit speech in broadcasting quality."
+            text: "Needs only 20kbit/s to transmit speech in Open-source quality."
       howitworks:
         header: "How it works"
         lead: "Having a cloud sound engine allows to have multiple clients and remote management."
         body:
-          part1: "Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in broadcasting mode - you can manage their sound sources through a web-browser."
+          part1: "Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in Open-source mode - you can manage their sound sources through a web-browser."
           part2: "So you can just send journalist with \"one-button-app\" to the field and have sound engineer elswhere to manage their broadcast remotely."
       tech:
         header: "Now a tasty techtalk"
@@ -418,7 +418,7 @@ en:
             text: "Has open, standards-based API making it ready for integration with your existing systems."
           networks:
             header: "Works even over 2G networks"
-            text: "Needs only 20kbit/s to transmit speech in broadcasting quality."
+            text: "Needs only 20kbit/s to transmit speech in Open-source quality."
       howitworks:
         header: "How it works"
         lead: "Depot lets you define your needs once, and don't repeat yourself everyday"
@@ -561,7 +561,7 @@ en:
     section1:
       header: "The master plan"
       lead: "Nowadays, you can find it hard to adapt a radio software to your unique needs."
-      text: "We want to change this and open new possibilities in broadcasting & podcasting by making a technological platform that adopts to your individual needs, not the opposite. We make a system that allows to quickly assemble a radio software of your dreams."
+      text: "We want to change this and open new possibilities in Open-source & podcasting by making a technological platform that adopts to your individual needs, not the opposite. We make a system that allows to quickly assemble a radio software of your dreams."
       button: "Contact us"
     section3:
       header: "Few ways how we can be helpful"
