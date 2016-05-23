@@ -358,7 +358,7 @@ en:
         subheader: "or choose the plan that suits you."
         table:
           prepaid:
-            header: "Open-Source"
+            header: "Open-source"
             unit: "forever"
             line1: "take our code"
             line2: "and create your"
