@@ -58,7 +58,7 @@ en:
 
   contact:
     header: "What interest you?"
-    line1: "If you are interested in RadioKit products and you would like to know some details or just share something with us - please fill the form below"
+    line1: "Whatever questions you have - don't hestitate to reach us out"
     name: "Name*"
     mail: "Email address*"
     message: "Message*"
@@ -68,17 +68,17 @@ en:
   index:
     brand:
       preheader: "Meet"
-      header: "Radiokit"
-      subheader: "Radio technology from outer space"
+      header: "Radiokit Foundation"
+      subheader: "Force that empowers NGOs"
     product1:
-      motto: "Your mobile device with"
+      motto: "We like"
       name: "Open-source"
-      price: "is like Open-source van in your pocket"
+      price: "so we made one pretty amazing project"
       findout: "Find out More"
     product2:
-      motto: "You might wanna use "
-      name: "Soundmapping"
-      price: "and keep all your content and its metadata fresh"
+      motto: "Have you checked our"
+      name: "Soundmapping?"
+      price: "prepare your ears for a trip to Budapest, Bratislava and Krakow"
       findout: "Find out More"
     product3:
       motto: "How about"
