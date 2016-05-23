@@ -557,20 +557,20 @@ en:
     intro:
       motto: "Empowering NGOs with cloud technology"
       header: "Foundation Radiokit"
-      subheader: "Find out why you should think about technological upgrade."
+      subheader: "Find out in what areas we can help you."
     section1:
-      header: "The master plan"
-      lead: "Nowadays, you can find it hard to adapt a radio software to your unique needs."
-      text: "We want to change this and open new possibilities in Open-source & podcasting by making a technological platform that adopts to your individual needs, not the opposite. We make a system that allows to quickly assemble a radio software of your dreams."
+      header: "Idea"
+      lead: "Some tools should be free and easy accessible"
+      text: "Foundation Radiokit specializes in empowering community media outlets by providing them modern, reliable and easy to use tech solutions. We strongly believe that the community powered media has an important role in a developing world and is a pillar of every democratic society. For community radios tools like icecast streaming, or listeners apps should be as accessible as email."
       button: "Contact us"
     section3:
       header: "Few ways how we can be helpful"
       box1:
-        title: "Products"
-        text: "Of course we have products to offer - you can have a look on the website and find what you need. They're all in SaaS model."
+        title: "Free streaming"
+        text: "The times when you have to pay for icecast streaming infrastructure are gone - just let us know, and we're gonna provide you streaming services for free."
       box2:
-        title: "Tailored-software"
-        text: "If you find idea of making custom software appealing but you don’t want to do this on your own, we will be glad to code it for you."
+        title: "Free mobile-app"
+        text: "It has just one, but quite fundamental function - play. If you think that your listeners does not need this - you would be surprise, as we were once."
       box3:
-        title: "Engine"
-        text: "We have a set of components that with tiny support of programming skills can be assembled into radio software of your dreams."
+        title: "Open-source"
+        text: "We call it chronicle. It's a react-based skin for CMS. It needs a bit of coding experience to make use of it, so reach us out if you're not advanced enough."
