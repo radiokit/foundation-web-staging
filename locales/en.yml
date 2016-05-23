@@ -10,11 +10,11 @@ en:
         dyna:
           title: "From the studio"
         Open-source:
-          title: "Outside Open-source"
-      archiving:
-        title: "Archiving"
-        freezer:
-          title: "Stream recording"
+          title: "On-demand shows archive"
+      Projects:
+        title: "Projects"
+        soundmapping:
+          title: "Soundmapping"
         chronicle:
           title: "On-demand shows archive"
       integration:
@@ -77,7 +77,7 @@ en:
       findout: "Find out More"
     product2:
       motto: "You might wanna use "
-      name: "Freezer"
+      name: "Soundmapping"
       price: "and keep all your content and its metadata fresh"
       findout: "Find out More"
     product3:
@@ -189,19 +189,19 @@ en:
 
 
 
-    freezer:
+    Soundmapping:
       intro:
         slide1:
-          name: "Freezer"
+          name: "Soundmapping"
           claim: "keeps your shows always fresh and handy"
           learn_more: "Learn more"
         slide2:
           name: "Browser-access"
-          claim: "with Freezer all of your archives are in cloud - available for easy access"
+          claim: "with Soundmapping all of your archives are in cloud - available for easy access"
           learn_more: "Learn more"
         slide3:
           name: "More than an archive"
-          claim: "Freezer is also great tool for monitoring and making reports out of data you need"
+          claim: "Soundmapping is also great tool for monitoring and making reports out of data you need"
           learn_more: "Learn more"
       features:
         header: "Make your archive in cloud"
@@ -218,7 +218,7 @@ en:
             text: "You can eaisly archive multiple channels of your radio and switch between them"
           api:
             header: "Easy cut-outs"
-            text: "Freezer allows you to easily find whatever you need, cut it out and proceed with that"
+            text: "Soundmapping allows you to easily find whatever you need, cut it out and proceed with that"
           quality:
             header: "Royalty reports"
             text: "Statistics reports (in adjustable format) about how many times certain song was broadcasted"
@@ -227,10 +227,10 @@ en:
             text: "Receive reports if some suspicious silence, extreme loudness or other unwanted event happen"
       howitworks:
         header: "How it works"
-        lead: "Many pepole from the industry call it a \"Spy\". However for most of the people - \"Freezer\" is a lot more useful. "
+        lead: "Many pepole from the industry call it a \"Spy\". However for most of the people - \"Soundmapping\" is a lot more useful. "
         body:
           part1: "It's a reversed mode of broadcast - it records everything that your stream contains. And by everything we don't mean only \"every second\". It's a lot more than that, "
-          part2: "Freezer records all the metadata, events from mixing boards and whatever you need for creating reports that you consider useful: either for the purpose of technical monitoring, and as well for the needs of royalties associations or government needs."
+          part2: "Soundmapping records all the metadata, events from mixing boards and whatever you need for creating reports that you consider useful: either for the purpose of technical monitoring, and as well for the needs of royalties associations or government needs."
           part3: "And it's a cloud solution with all its benefits - neither you don't have to be in your studio, to check what's going on at the moment; nor you have to be in your office, to work on royalties reports. Be in a cafe and be as much effective."
       tech:
         header: "Now a tasty techtalk"
@@ -256,7 +256,7 @@ en:
             text: "Thanks to proper design - it's easy to find what you're looking for and quickly proceed with the content"
         more: "Need more juicy specification?"
       pricing:
-        header: "Test Freezer for free"
+        header: "Test Soundmapping for free"
         subheader: "or choose the plan that suits you."
         table:
           prepaid:

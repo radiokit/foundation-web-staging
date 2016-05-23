@@ -11,9 +11,9 @@ pl:
           title: "Ze studia"
         Open-source:
           title: "Spoza studia"
-      archiving:
+      Projects:
         title: "Archiwizacja"
-        freezer:
+        Soundmapping:
           title: "Szpieg"
         chronicle:
           title: "Archiwum audycji"
@@ -67,7 +67,7 @@ pl:
       findout: "Dowiedz się więcej"
     product2:
       motto: "zawsze świeże archiwum"
-      name: "Freezer"
+      name: "Soundmapping"
       price: "od 400zł/miesiąc"
       findout: "Dowiedz się więcej"
     product3:
@@ -175,10 +175,10 @@ pl:
 
 
 
-    freezer:
+    Soundmapping:
       intro:
         slide1:
-          name: "Freezer"
+          name: "Soundmapping"
           claim: "keeps your shows always fresh"
           learn_more: "Learn more"
         slide2:
