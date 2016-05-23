@@ -52,7 +52,7 @@ en:
 
 
   footer:
-    name: "RadioKit Ltd"
+    name: "Foundation Radiokit"
     products: "Products"
     companydata: "Company Data"
 
@@ -556,7 +556,7 @@ en:
   about:
     intro:
       motto: "Unique software for unique radios"
-      header: "RadioKit Ltd"
+      header: "Foundation Radiokit"
       subheader: "Find out why you should think about technological upgrade."
     section1:
       header: "The master plan"
