@@ -292,15 +292,15 @@ en:
           claim: "Your listeners's private Youtube"
           learn_more: "Learn more"
         slide2:
-          name: "Podcasting"
-          claim: "We do tech - you do the content"
+          name: "Have a React-based front-end"
+          claim: "doesn't matter whatever backend you have"
           learn_more: "Learn more"
         slide3:
           name: "Keep your old shows alive"
-          claim: "Let your audience hear old shows they missed"
+          claim: "Make refreshing skin for you dusted archive"
           learn_more: "Learn more"
       features:
-        header: "Start podcasting"
+        header: "Make it look nice!"
         subheader: "On-demand shows are definitely the future of all media"
         boxes:
           web:
@@ -323,12 +323,12 @@ en:
             text: "Podcasting gives second life to your live shows and let them gather audience forever"
       howitworks:
         header: "How it works"
-        lead: "Chronicle is designed to be as simple as possible"
+        lead: "Chronicle is skin for managing your multimedia content"
         body:
-          part1: "Publishing a shows take only 3 steps: description, file upload and timestamping a show. And it's done - show lands in proper place on the website."
-          part2: "Architecture allows you to have unlimited series of podcasts, which can be moderate by particular or multiple editors. All the episodes of all series are searchable with filters according to their tags"
-          part3: "Royalties are covered if you follow two simple rules - do not share single tracks, do not share whole albums. Third rule is for US:"
-          part4: "particular show can contain:"
+          part1: "Chronicle is a Open-Source project developed under the GNU GPLv3 license"
+          part2: "Aim of the project was to create separate front-end skin for multimedia CMS, designed with radio or television use in mind, rather then bloggers or magazines."
+          part3: "It originates from our community radio website of radiofonia.net. We needed a platform to present our content, which consisted of radio streams and plenty of podcasts."
+          part4: "Now we would like to share our efforts with broader community."
           part5: "maximum 4 tracks by an artist (and max 3 consecutively); maximum 3 tracks from an album (and max 2 consecutively)"
       tech:
         header: "Now a tasty techtalk"
