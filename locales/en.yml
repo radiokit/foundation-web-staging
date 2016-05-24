@@ -192,16 +192,16 @@ en:
     Soundmapping:
       intro:
         slide1:
-          name: "Soundmapping"
-          claim: "keeps your shows always fresh and handy"
+          name: "Bratislava"
+            claim: ""
           learn_more: "Learn more"
         slide2:
-          name: "Browser-access"
-          claim: "with Soundmapping all of your archives are in cloud - available for easy access"
+          name: "Budapest"
+          claim: ""
           learn_more: "Learn more"
         slide3:
-          name: "More than an archive"
-          claim: "Soundmapping is also great tool for monitoring and making reports out of data you need"
+          name: "Krakow"
+          claim: ""
           learn_more: "Learn more"
       features:
         header: "Make your archive in cloud"
@@ -226,12 +226,12 @@ en:
             header: "Stream wellness monitoring"
             text: "Receive reports if some suspicious silence, extreme loudness or other unwanted event happen"
       howitworks:
-        header: "How it works"
-        lead: "Many pepole from the industry call it a \"Spy\". However for most of the people - \"Soundmapping\" is a lot more useful. "
+        header: "We we're doing"
+        lead: " "
         body:
-          part1: "It's a reversed mode of broadcast - it records everything that your stream contains. And by everything we don't mean only \"every second\". It's a lot more than that, "
-          part2: "Soundmapping records all the metadata, events from mixing boards and whatever you need for creating reports that you consider useful: either for the purpose of technical monitoring, and as well for the needs of royalties associations or government needs."
-          part3: "And it's a cloud solution with all its benefits - neither you don't have to be in your studio, to check what's going on at the moment; nor you have to be in your office, to work on royalties reports. Be in a cafe and be as much effective."
+          part1: "The aim of the project is to create simple and modern web-based tool for archiving and preserving oral cultural heritage. It will be archived as series of radio documentaries where main characters are witnesses of unique, phenomenas specific to the participating regions."
+          part2: "These documentaries will be geographically located on an interactive map that will be main part of the website. Project will be carried out in the cities of Krakow, Budapest and Bratislava and for each of the cities an online based archive in the form of sound map will be created. "
+          part3: "The archives will contain interviews with locals, stories, urban legends, myths and unique city sounds as well as accompanying archival records."
       tech:
         header: "Now a tasty techtalk"
         subheader: "Your anteena & waves was never so closed to clouds."
