@@ -193,15 +193,15 @@ en:
       intro:
         slide1:
           name: "Bratislava"
-          claim: ""
+          claim: "soundmap"
           learn_more: "Learn more"
         slide2:
           name: "Budapest"
-          claim: ""
+          claim: "soundmap"
           learn_more: "Learn more"
         slide3:
           name: "Krakow"
-          claim: ""
+          claim: "soundmap"
           learn_more: "Learn more"
       features:
         header: "Make your archive in cloud"
