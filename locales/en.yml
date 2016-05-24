@@ -226,7 +226,7 @@ en:
             header: "Stream wellness monitoring"
             text: "Receive reports if some suspicious silence, extreme loudness or other unwanted event happen"
       howitworks:
-        header: "We we're doing"
+        header: "What we're doing"
         lead: ""
         body:
           part1: "The aim of the project is to create simple and modern web-based tool for archiving and preserving oral cultural heritage. It will be archived as series of radio documentaries where main characters are witnesses of unique, phenomenas specific to the participating regions."
