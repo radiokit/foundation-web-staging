@@ -9,20 +9,20 @@ en:
         title: "Open-source"
         dyna:
           title: "From the studio"
-        Open-source:
+        chronicle:
           title: "On-demand shows archive"
+        switch:
+            title: "Switch"
       Projects:
         title: "Activities"
         Soundmapping:
           title: "Soundmapping"
-        chronicle:
-          title: "On-demand shows archive"
-      integration:
-        title: "Integration"
-        database:
-          title: "Central audio database"
-        diary:
-          title: "Central logging"
+      Free:
+        title: "Free"
+        mobile-app:
+          title: "Mobile App"
+        streaming:
+          title: "Streaming hosting"
       programming:
         title: "Programming"
         engine:
