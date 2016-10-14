@@ -33,7 +33,7 @@ en:
         title: "Contact"
 
   actioncalls:
-    questions: "Any questions?"
+    questions: "Want your own Soundmap?"
     contact: "Contact us"
     newsletter: "Newsletter Signup"
     specialoffer: "Be up-to-date with our mission!"
@@ -195,14 +195,17 @@ en:
           name: "Bratislava"
           claim: "soundmap"
           learn_more: "Learn more"
+          launch: "Go to Soundmap"
         slide2:
           name: "Budapest"
           claim: "soundmap"
           learn_more: "Learn more"
+          launch: "Go to Soundmap"
         slide3:
           name: "Krakow"
           claim: "soundmap"
           learn_more: "Learn more"
+          launch: "Go to Soundmap"
       features:
         header: "Make your archive in cloud"
         subheader: "Think about neverending space, back-ups on three continents, and easy access through browser."
@@ -229,9 +232,9 @@ en:
         header: "What we're doing"
         lead: ""
         body:
-          part1: "The aim of the project is to create simple and modern web-based tool for archiving and preserving oral cultural heritage. It will be archived as series of radio documentaries where main characters are witnesses of unique, phenomenas specific to the participating regions."
-          part2: "These documentaries will be geographically located on an interactive map that will be main part of the website. Project will be carried out in the cities of Krakow, Budapest and Bratislava and for each of the cities an online based archive in the form of sound map will be created."
-          part3: "The archives will contain interviews with locals, stories, urban legends, myths and unique city sounds as well as accompanying archival records."
+          part1: "The aim of the project is to create simple and modern web-based tool for archiving and preserving oral cultural heritage. Content on our soundmaps are stories from local people telling about places, phenomenons, initiatives & everything that is important for them in their city."
+          part2: "Those stories are compliemnted by field recordings and soundwalks. For the moment we had bootstrapped this intiative in the city of Krakow, Budapest and Bratislava with help of Internationl Visegrad Fund. The project is open for the local communities to contribute their stories or recordings."
+          part3: "If you would like to contribute to the project, create your own soundmaps or have any other interesting ideas connected with cybercartography - please reach us out by the contact form."
       tech:
         header: "Now a tasty techtalk"
         subheader: "Your anteena & waves was never so closed to clouds."
