@@ -62,6 +62,9 @@ en:
     name: "Name*"
     mail: "Email address*"
     message: "Message*"
+    soundmap:
+      header: "Want to have your own soundmap?"
+      line1: "We developed user friendly CMS for mapping multimedia - if you searching for this type of tool - let us know."
 
 
 
@@ -206,6 +209,11 @@ en:
           claim: "soundmap"
           learn_more: "Learn more"
           launch: "Go to Soundmap"
+        slide4:
+          name: "Santorini"
+          claim: "soundmap"
+          learn_more: "Learn more"
+          launch: "Go to Soundmap"
       features:
         header: "Make your archive in cloud"
         subheader: "Think about neverending space, back-ups on three continents, and easy access through browser."
@@ -232,9 +240,9 @@ en:
         header: "What we're doing"
         lead: ""
         body:
-          part1: "The aim of the project is to create simple and modern web-based tool for archiving and preserving oral cultural heritage. Content on our soundmaps are stories from local people telling about places, phenomenons, initiatives & everything that is important for them in their city."
-          part2: "Those stories are compliemnted by field recordings and soundwalks. For the moment we had bootstrapped this intiative in the city of Krakow, Budapest and Bratislava with help of Internationl Visegrad Fund. The project is open for the local communities to contribute their stories or recordings."
-          part3: "If you would like to contribute to the project, create your own soundmaps or have any other interesting ideas connected with cybercartography - please reach us out by the contact form."
+          part1: "The aim of the project is to create simple and modern web-based tool for archiving and preserving oral cultural heritage. Content on our soundmaps are stories from local people telling about places, initiatives & everything that is important for them in their city. Those stories are compliemnted by field recordings and soundwalks"
+          part2: "For the moment we had bootstrapped this intiative in the city of Krakow, Budapest and Bratislava with help of Internationl Visegrad Fund. Soon afterwards KINISI festival invited us to make with them a map of Santorini Island. The project is open for the local communities to contribute their stories or recordings."
+          part3: "If you would like to contribute to the project, create your own soundmaps, invite us to do it with you or have any other interesting ideas connected with cybercartography - please reach us out by the contact form below."
       tech:
         header: "Now a tasty techtalk"
         subheader: "Your anteena & waves was never so closed to clouds."
