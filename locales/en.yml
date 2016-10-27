@@ -17,6 +17,8 @@ en:
         title: "Activities"
         Soundmapping:
           title: "Soundmapping"
+        Celebrating:
+          title: "Celebrating Solidarity"
       Free:
         title: "Free"
         mobile-app:
@@ -214,6 +216,30 @@ en:
           claim: "soundmap"
           learn_more: "Learn more"
           launch: "Go to Soundmap"
+
+    Celebrating:
+      intro:
+        slide1:
+          name: "Celebrating Solidarity"
+          claim: "in"
+          learn_more: "Learn more"
+          launch: "Europe for Citizens"
+        slide2:
+          name: "Celebrating Solidarity"
+          claim: "in"
+          learn_more: "Learn more"
+          launch: "Europe for Citizens"
+        slide3:
+          name: "Celebrating Solidarity"
+          claim: "in"
+          learn_more: "Learn more"
+          launch: "Europe for Citizens"
+        slide4:
+          name: "Celebrating Solidarity"
+          claim: "in"
+          learn_more: "Learn more"
+          launch: "Europe for Citizens"
+
       features:
         header: "Make your archive in cloud"
         subheader: "Think about neverending space, back-ups on three continents, and easy access through browser."
@@ -237,11 +263,11 @@ en:
             header: "Stream wellness monitoring"
             text: "Receive reports if some suspicious silence, extreme loudness or other unwanted event happen"
       howitworks:
-        header: "What we're doing"
+        header: "CELEBRATING SOLIDARITY IN \"EUROPE FOR CITIZENS\""
         lead: ""
         body:
-          part1: "The aim of the project is to create simple and modern web-based tool for archiving and preserving oral cultural heritage. Content on our soundmaps are stories from local people telling about places, initiatives & everything that is important for them in their city. Those stories are compliemnted by field recordings and soundwalks"
-          part2: "For the moment we had bootstrapped this intiative in the city of Krakow, Budapest and Bratislava with help of Internationl Visegrad Fund. Soon afterwards KINISI festival invited us to make with them a map of Santorini Island. The project is open for the local communities to contribute their stories or recordings."
+          part1: "On the 6th of October 2016 we gathered partners from 5 countries and started a project „Celebrating solidarity“ through which we will promote, in Serbia, Bulgaria, Albania, Macedonia, Poland and Hungary philanthropy and examples of solidarity."
+          part2: "Thanks to support of \"Europe for Citizens Programme of the European Union\", foundation and partners will celebrate, during next year, solidarity and promote good practice examples, especially in a time of crisis."
           part3: "If you would like to contribute to the project, create your own soundmaps, invite us to do it with you or have any other interesting ideas connected with cybercartography - please reach us out by the contact form below."
       tech:
         header: "Now a tasty techtalk"
