@@ -87,6 +87,8 @@
 						</ul>
 					</div>
 				</section>
+
+
 				<!-- Feature Section 1 End -->
 
 			<!--<section id="specs1">	<!-- Feature Column Section
@@ -181,18 +183,51 @@
 							<div class="feature-content">
 								<div class="feature-content-inner horizon" data-animate-in="opacity:0;transY:50;duration:1000;delay:300ms;easing:easeFastSlow;" data-threshold="0.6">
 									<h2 class="mb-30 color-white"><%= t("products.chronicle.howitworks.header") %></h2>
-									<p class="lead color-grey-light"><%= t("products.chronicle.howitworks.lead") %></p>
-									<p class="color-grey-light"><%= t("products.chronicle.howitworks.body.part1") %><br><br>
+									<p class="color-grey-light"><%= t("products.chronicle.howitworks.lead") %>
+									<%= t("products.chronicle.howitworks.body.part1") %><br><br>
 										 <%= t("products.chronicle.howitworks.body.part2") %><br><br>
 										 <%= t("products.chronicle.howitworks.body.part3") %><br><br>
 										 <%= t("products.chronicle.howitworks.body.part4") %><br>
-										 <!--<%= t("products.chronicle.howitworks.body.part5") %>-->
+										 <%= t("products.chronicle.howitworks.body.part5") %>
 										 </p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
+
+				<section id="#chronicle" class="section-block bkg-charcoal replicable-content contact-2">
+				    <div class="row">
+				      <div class="column width-8 offset-2 center">
+				        <br><br><br><br>
+				        <h2 class="mb-30 color-white"><%= t("contact.chronicle.header") %></h2>
+				        <p class="lead color-white"><%= t("contact.chronicle.line1") %></p>
+
+				        <div class="contact-form-container">
+				          <form action="https://formspree.io/chronicle@foundation-radiokit.org"
+				                method="POST"
+				                target="_blank">
+				            <div class="row">
+				              <div class="column width-6">
+				                <input type="text" name="name" class="form-fname form-element large" placeholder="<%= t("contact.name") %>" tabindex="1" required>
+				              </div>
+				              <div class="column width-6">
+				                <input type="email" name="email" class="form-email form-element large" placeholder="<%= t("contact.mail") %>" tabindex="3" required>
+				              </div>
+				            </div>
+				            <div class="row">
+				              <div class="column width-12 center">
+				                <textarea name="message" class="form-message form-element large" placeholder="<%= t("contact.message") %>" tabindex="5" required></textarea>
+				                <input type="submit" value="Send Email" class="form-submit button medium bkg-black bkg-hover-pink color-white color-hover-white">
+				              </div>
+				            </div>
+				          </form>
+				          <div class="form-response center"></div>
+				        </div>
+				      </div>
+				    </div>
+				  </section>
+
 				<!-- Feature Section 2 End -->
 				<!--<div class="section-block replicable-content bkg-chronicol">
 					<div class="row">

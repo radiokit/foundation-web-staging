@@ -6,11 +6,11 @@ en:
     mailus: "Mail us:"
     menu:
       Open-source:
-        title: "Open-source"
+        title: "Projects"
         dyna:
           title: "From the studio"
         chronicle:
-          title: "On-demand shows archive"
+          title: "Content management"
         switch:
             title: "Switch"
       Projects:
@@ -67,6 +67,9 @@ en:
     soundmap:
       header: "Want to have your own soundmap?"
       line1: "We developed user friendly CMS for mapping multimedia - if you searching for this type of tool - let us know."
+    chronicle:
+      header: "Would like to try Chronicle?"
+      line1: "Just let us know - and we will get back to you asap!"
 
 
 
@@ -76,9 +79,9 @@ en:
       header: "Radiokit"
       subheader: "Force that empowers NGOs"
     product1:
-      motto: "We like"
-      name: "Open-source"
-      price: "so we made one pretty amazing project"
+      motto: "Need a nice website?"
+      name: "Chronicle"
+      price: "may solve plenty of your problems"
       findout: "Find out More"
     product2:
       motto: "Have you checked our"
@@ -222,6 +225,7 @@ en:
         body:
           part1: "The aim of the project is to create simple and modern web-based tool for archiving and preserving oral cultural heritage. Content on our soundmaps are stories from local people telling about places, initiatives & everything that is important for them in their city. Those stories are compliemnted by field recordings and soundwalks."
           part2: "For the moment we had bootstrapped this intiative in the city of Krakow, Budapest and Bratislava with help of Internationl Visegrad Fund. Soon afterwards KINISI festival invited us to make with them a map of Santorini Island. The project is open for the local communities to contribute their stories or recordings."
+          part3: "If you would like to contribute to the project, create your own soundmaps, invite us to do it with you or have any other interesting ideas connected with cybercartography - please reach us out by the contact form below."
 
     Celebrating:
       intro:
@@ -246,7 +250,6 @@ en:
           learn_more: "Learn more"
           launch: "Europe for Citizens"
 
-          part3: "If you would like to contribute to the project, create your own soundmaps, invite us to do it with you or have any other interesting ideas connected with cybercartography - please reach us out by the contact form below."
 
       features:
         header: "Make your archive in cloud"
@@ -337,8 +340,8 @@ en:
           claim: "Your listeners's private Youtube"
           learn_more: "Learn more"
         slide2:
-          name: "Have a React-based front-end"
-          claim: "doesn't matter whatever backend you have"
+          name: "Many faces"
+          claim: "one system"
           learn_more: "Learn more"
         slide3:
           name: "Keep your old shows alive"
@@ -367,14 +370,14 @@ en:
             header: "Second life"
             text: "Podcasting gives second life to your live shows and let them gather audience forever"
       howitworks:
-        header: "How it works"
-        lead: "Chronicle is skin for managing your multimedia content"
+        header: "What is Chronicle?"
+        lead: "Chronicle is a system for managing your audio content."
         body:
-          part1: "Chronicle is a Open-Source project developed under the GNU GPLv3 license"
-          part2: "Aim of the project was to create separate front-end skin for multimedia CMS, designed with radio or television use in mind, rather then bloggers or magazines."
-          part3: "It originates from our community radio website of radiofonia.net. We needed a platform to present our content, which consisted of radio streams and plenty of podcasts."
-          part4: "Now we would like to share our efforts with broader community."
-          part5: "maximum 4 tracks by an artist (and max 3 consecutively); maximum 3 tracks from an album (and max 2 consecutively)"
+          part1: "It has many faces - from a fullscreen player, through nice tiles of podcasts, to geolocated sounds on a map."
+          part2: "However it was designed with sound in mind - it is prepared to work as a video hosting platform as well."
+          part3: "By default it is integrated with social media, like facebook or twitter and with Google Analytics."
+          part4: "It has a flexible structure of imports & exports between other systems."
+          part5: "Is there a chance you would need anything more?"
       tech:
         header: "Now a tasty techtalk"
         subheader: "CMS for Radio - that's what it is. Like Wordpress, but for audio content"
