@@ -11,6 +11,8 @@ en:
           title: "From the studio"
         chronicle:
           title: "Content management"
+        audiomatic:
+          title: "Processing audio"
         switch:
             title: "Switch"
       Projects:

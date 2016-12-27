@@ -18,6 +18,7 @@ page '/*.txt', layout: false
  page "/index.html", :layout => "index_layout"
  page "/contact.html", :layout => "contact_layout"
  page "/work_in_progress.html", :layout => "work_in_progress"
+ page "/audiomatic.html", :layout => "layout_audiomatic"
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
