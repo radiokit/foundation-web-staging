@@ -33,6 +33,11 @@ en:
           title: "RadioKit Engine"
       about:
         title: "About"
+      consulting:
+        title: "Consulting"
+        gstreamer: "GStreamer"
+        reactnative: "React-Native"
+        elixir: "Elixir"
       gstreamer:
         title: "GStreamer"
         consulting: "Consulting"
@@ -77,6 +82,12 @@ en:
       line1: "Just let us know - and we will get back to you asap!"
     gstreamer:
       header: "If you need help with GStreamer - let us know"
+      line1: ""
+    elixir:
+      header: "If you need help with Elixir - let us know"
+      line1: ""
+    reactnative:
+      header: "If you need help with React-Native - let us know"
       line1: ""
 
 
@@ -636,6 +647,53 @@ en:
     intro:
       motto: ""
       header: "Affordable GStreamer experts"
+      subheader: "We use GStreamer multimedia framework extensively to run our RadioKit products. We will be glad to help in running yours."
+    section1:
+      header: "Idea"
+      lead: "Modern software in service of Media"
+      text: "Foundation Radiokit specializes in empowering community media outlets by providing them modern, reliable and easy to use tech solutions. We strongly believe that the community powered media has an important role in a developing world and is a pillar of every democratic society."
+      button: "Contact us"
+    section3:
+      header: "What can we do for you?"
+      box1:
+        title: "Multiplatform multimedia"
+        text: "We have mastered tools necessary to develop native multiplatform applications based on single code. Want sophisticated, real-time application that works the same on Windows, Linux, Mac and Android? We know \"how\"."
+      box2:
+        title: "Embedded devices"
+        text: "Thinking about converting Raspberry Pi or other embedded platform into powerful tool for ... we could actually finsish this sentence with \"anything to do with multimedia\"? From hardware to software, we will sort this out."
+      box3:
+        title: "High Availability, soft Real-Time Systems"
+        text: "Multimedia systems & embedded devices should not fail, at least not too often ;) You need something that will be rock solid? No worries, we are not script kiddies as radio systems needs to be reliable 24/7 365 days a year."
+
+
+  elixir:
+    intro:
+      motto: ""
+      header: "Affordable Elixir experts"
+      subheader: "We use GStreamer multimedia framework extensively to run our RadioKit products. We will be glad to help in running yours."
+    section1:
+      header: "Idea"
+      lead: "Modern software in service of Media"
+      text: "Foundation Radiokit specializes in empowering community media outlets by providing them modern, reliable and easy to use tech solutions. We strongly believe that the community powered media has an important role in a developing world and is a pillar of every democratic society."
+      button: "Contact us"
+    section3:
+      header: "What can we do for you?"
+      box1:
+        title: "Multiplatform multimedia"
+        text: "We have mastered tools necessary to develop native multiplatform applications based on single code. Want sophisticated, real-time application that works the same on Windows, Linux, Mac and Android? We know \"how\"."
+      box2:
+        title: "Embedded devices"
+        text: "Thinking about converting Raspberry Pi or other embedded platform into powerful tool for ... we could actually finsish this sentence with \"anything to do with multimedia\"? From hardware to software, we will sort this out."
+      box3:
+        title: "High Availability, soft Real-Time Systems"
+        text: "Multimedia systems & embedded devices should not fail, at least not too often ;) You need something that will be rock solid? No worries, we are not script kiddies as radio systems needs to be reliable 24/7 365 days a year."
+
+
+
+  reactnative:
+    intro:
+      motto: ""
+      header: "Affordable React-Native experts"
       subheader: "We use GStreamer multimedia framework extensively to run our RadioKit products. We will be glad to help in running yours."
     section1:
       header: "Idea"

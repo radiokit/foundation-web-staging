@@ -456,6 +456,47 @@ body,
 	color: #006c90;
 }
 
+/* elixirol - engine and about */
+
+.bkg-elixirol{
+	background-color: #330c46;
+	border-color: #330c46;
+}
+
+.bkg-hover-elixirol:hover{
+	background-color: #330c46;
+	border-color: #330c46;
+}
+.border-elixirol,
+.border-hover-elixirol:hover{
+	border-color: #330c46;
+}
+.color-elixirol,
+.color-hover-elixirol:hover{
+	color: #330c46;
+}
+
+/* reactol - engine and about */
+
+.bkg-reactol{
+	background-color: #61dafb;
+	border-color: #61dafb;
+}
+
+.bkg-hover-reactol:hover{
+	background-color: #61dafb;
+	border-color: #61dafb;
+}
+.border-reactol,
+.border-hover-reactol:hover{
+	border-color: #61dafb;
+}
+.color-reactol,
+.color-hover-reactol:hover{
+	color: #61dafb;
+}
+
+
 /* Open-source */
 
 .bkg-electrol{
