@@ -33,14 +33,15 @@ en:
           title: "RadioKit Engine"
       about:
         title: "About"
-      consulting:
-        title: "Consulting"
+      services:
+        title: "Services"
         gstreamer: "GStreamer"
         reactnative: "React-Native"
         elixir: "Elixir"
+        icecast: "Icecast"
       gstreamer:
         title: "GStreamer"
-        consulting: "Consulting"
+        services: "Services"
       contact:
         title: "Contact"
 
@@ -74,6 +75,9 @@ en:
     name: "Name*"
     mail: "Email address*"
     message: "Message*"
+    mountpoint: "Desired mountpoint"
+    country: "Country"
+    explain: "Is there anything you want us to explain to you?"
     soundmap:
       header: "Want to have your own soundmap?"
       line1: "We developed user friendly CMS for mapping multimedia - if you searching for this type of tool - let us know."
@@ -89,6 +93,10 @@ en:
     reactnative:
       header: "If you need help with React-Native - let us know"
       line1: ""
+    icecast:
+      header: "If you need an Icecast stream hosting - let us know"
+      line1: "It costs 10 euros per month up to 500 simultanous listeners."
+
 
 
 
@@ -642,6 +650,40 @@ en:
       box3:
         title: "Soundmapping tool"
         text: "We are very fond of cybercartography and really curious what still can be done in this field. If you have the idea for soundmap - we have the tool - we should get in touch!"
+
+  icecast:
+    intro:
+      motto: "Do You need"
+      header: "Icecast Stream?"
+      subheader: "It is simple - let us help you!"
+    section1:
+      header: "Icecast"
+      lead: "Icecast is a streaming media server."
+      text: "However Icecast is quite simple to use, we found that hosting Icecast Server seems to be overwhelming for many peoples. It is a snap for us, so we decided to help You - we'll setup everything for you and explain you how to start streaming."
+      button: "Contact us"
+    section3:
+      header: "Few simple steps to start streaming"
+      box1:
+        title: "Let us know!"
+        text: "Fill out the form below and let us know how we should name your mountpoint, where are you from and is there something you want us to explain to you."
+      box2:
+        title: "Download app"
+        text: "For Icecast streaming you will need an application to stream - there is a quite few of them to choose from and most of them are free: "
+        list: "check this list"
+      box3:
+        title: "You are ready!"
+        text: "You can start streaming! It is as simple as that. The link to your stream will stay always the same and will be available, when your are streaming live."
+      box4:
+        title: "Pricing"
+        text: "However doing this for you is easy for us - infrastructure isn't free, so we must charge you symbolic 10 euros/mth (up to 500 simulatenous listeners). "
+
+
+
+
+
+
+
+
 
   gstreamer:
     intro:

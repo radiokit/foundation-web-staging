@@ -456,6 +456,27 @@ body,
 	color: #006c90;
 }
 
+
+/* icecastol - engine and about */
+
+.bkg-icecastol{
+	background-color: #114fb2;
+	border-color: #114fb2;
+}
+
+.bkg-hover-icecastol:hover{
+	background-color: #114fb2;
+	border-color: #114fb2;
+}
+.border-icecastol,
+.border-hover-icecastol:hover{
+	border-color: #114fb2;
+}
+.color-icecastol,
+.color-hover-icecastol:hover{
+	color: #114fb2;
+}
+
 /* elixirol - engine and about */
 
 .bkg-elixirol{
@@ -1961,10 +1982,10 @@ body,
 
 /* Hero */
 .hero-5-1 .media-column{
-	background-image: url(../images/web-application/generic/hero-half-1.jpg);
+	background-image: url(../images/about/about_section2.jpg);
 }
 .hero-5-2 .media-column{
-	background-image: url(../images/about/about_section2.jpg);
+	background-image: url(../images/icecast_slide1.jpg);
 }
 
 /* Call to Action */
