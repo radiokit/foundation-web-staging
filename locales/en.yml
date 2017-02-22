@@ -51,19 +51,6 @@ en:
     newsletter: "Newsletter Signup"
     specialoffer: "Be up-to-date with our mission!"
 
-  clients:
-    happy: "What Happy Users tell about us"
-    radiofonia:
-      title: "Adam, Radiofonia"
-      quote: "The best radio software on planet"
-    nofm:
-      title: "Ivan, NoFm"
-      quote: "We can finally devote all our time to content"
-    lemfm:
-      title: "Paul, LemFm"
-      quote: "Our daily workflow became much easier "
-
-
   footer:
     name: "Foundation Radiokit"
     products: "Projects"
@@ -132,98 +119,6 @@ en:
 
   products:
 
-    Open-source:
-      intro:
-        slide1:
-          name: "Open-source"
-          claim: "Open-source van in your pocket."
-          learn_more: "Learn more"
-        slide2:
-          name: "Swap hardware for software"
-          claim: "Exchange hardware codecs for software that can be run on smartphone, tablet or Raspberry Pi"
-          learn_more: "Learn more"
-        slide3:
-          name: "Web-based broadcast management"
-          claim: "Send your journalist with pocket-size equipment and control it remotely"
-          learn_more: "Learn more"
-      features:
-        header: "Exchange your hardware codecs for software"
-        subheader: "Think about first truly reliable audio over IP software on market"
-        boxes:
-          web:
-            header: "Web-based management"
-            text: "No additional hardware/infrastructure needed - all broadcast can be managed and monitored through a web browser panel."
-          latency:
-            header: "Truly Low latency"
-            text: "Combined with web-based management allows to take live Open-source to a new era."
-          outofthebox:
-            header: "Works out of the box"
-            text: "With multichannel soundcards including virtual IP drivers of digital consoles (especially Axia and Dante systems)."
-          api:
-            header: "Integration ready - API"
-            text: "Has open, standards-based API making it ready for integration with your existing systems."
-          quality:
-            header: "Hi-Quality on low transfer"
-            text: "Uses the state-of-art Opus codec (examples at Opus Codec)."
-          networks:
-            header: "Works even over 2G networks"
-            text: "Needs only 20kbit/s to transmit speech in Open-source quality."
-      howitworks:
-        header: "How it works"
-        lead: "Having a cloud sound engine allows to have multiple clients and remote management."
-        body:
-          part1: "Thanks to that you can install software on how many devices you want: smartphones, tablets, laptops, and while their in Open-source mode - you can manage their sound sources through a web-browser."
-          part2: "So you can just send journalist with \"one-button-app\" to the field and have sound engineer elswhere to manage their broadcast remotely."
-      tech:
-        header: "Now a tasty techtalk"
-        subheader: "Think about first truly reliable audio over IP software on market"
-        boxes:
-          erlang:
-            header: "Built upon Erlang"
-            text: "the language for building cellural networks."
-          rtp:
-            header: "Using RTP and RTSP over UDP"
-            text: "no more unreliable TCP connections and shoutcast streams."
-          cloud:
-            header: "Amazon, Azure, Digital Ocean, OVH"
-            text: "Relies on well-tested cloud technologies and infrastructure & the biggest European datacenter: OVH."
-          latency:
-            header: "The near-to-zero latency"
-            text: "Default latency (can be adjusted) 80 ms + network latency (60ms on average in Central Europe)"
-          quality:
-            header: "State-of-the art Opus 1.1 codec"
-            text: "that brings better quality than HE-AAC+1 with ultra low-latency and packet loss concealment. "
-          ui:
-            header: "User interface based on React.JS"
-            text: "technology created by facebook, made for the best comfort of snappy, collaborational communication."
-        more: "Need more juicy specification?"
-      pricing:
-        header: "Test Open-source for free"
-        subheader: "or choose the plan that suits you."
-        table:
-          prepaid:
-            header: "Pay-as-you-go"
-            unit: "hour"
-            line1: "Pay only if you need to stream"
-            line2: "No contracts"
-            line3: "Easy pre-paid"
-            line4: "Cheaper than taxi"
-            line5: "to get to the event"
-            action: "Register today"
-          contract:
-            header: "Contract"
-            unit: "month"
-            line1: "Unlimited transmissions"
-            line2: "100% cloud solution"
-            line3: "Unlimited Clients"
-            line4: "All platforms"
-            line5: "Free personal tutorials"
-            action: "Register today"
-        disclaimer: "Sign up for free to any of our products or all of them for one month. No credit card needed"
-
-
-
-
 
     Soundmapping:
       intro:
@@ -279,28 +174,7 @@ en:
           launch: "Europe for Citizens"
 
 
-      features:
-        header: "Make your archive in cloud"
-        subheader: "Think about neverending space, back-ups on three continents, and easy access through browser."
-        boxes:
-          web:
-            header: "Automated process"
-            text: "After you'll launch it - you can forget about any maintenance, everything goes seamlessly"
-          latency:
-            header: "Web-based access"
-            text: "Wherever you are, you can access your archives remotely through web-browser"
-          outofthebox:
-            header: "Multiple sources"
-            text: "You can eaisly archive multiple channels of your radio and switch between them"
-          api:
-            header: "Easy cut-outs"
-            text: "Soundmapping allows you to easily find whatever you need, cut it out and proceed with that"
-          quality:
-            header: "Royalty reports"
-            text: "Statistics reports (in adjustable format) about how many times certain song was broadcasted"
-          networks:
-            header: "Stream wellness monitoring"
-            text: "Receive reports if some suspicious silence, extreme loudness or other unwanted event happen"
+
       howitworks:
         header: "CELEBRATING SOLIDARITY IN \"EUROPE FOR CITIZENS\""
         lead: ""
@@ -308,58 +182,6 @@ en:
           part1: "On the 6th of October 2016 we gathered partners from 5 countries and started a project „Celebrating solidarity“ through which we will promote, in Serbia, Bulgaria, Albania, Macedonia, Poland and Hungary philanthropy and examples of solidarity."
           part2: "Thanks to support of \"Europe for Citizens Programme of the European Union\", foundation and partners will celebrate, during next year, solidarity and promote good practice examples, especially in a time of crisis."
           part3: "If you would like to contribute to the project, create your own soundmaps, invite us to do it with you or have any other interesting ideas connected with cybercartography - please reach us out by the contact form below."
-      tech:
-        header: "Now a tasty techtalk"
-        subheader: "Your anteena & waves was never so closed to clouds."
-        boxes:
-          erlang:
-            header: "EBU R128"
-            text: "K-weighted Loudness Units can be your native measurment method and R128 a benchmark for your levels"
-          rtp:
-            header: "Metadata preservation"
-            text: "It doesn't just record the audiofile - it saves all metadata that comes with it"
-          cloud:
-            header: "Configurable notifications"
-            text: "You can be notified if something bad or unwanted happen with your broadcast"
-          latency:
-            header: "Statistics"
-            text: "Many numbers and different ways of looking at them helps to monitor the stream \"your way\""
-          quality:
-            header: "Reports for third parties"
-            text: "Either for royalties associations or government purposes - prepare it once and let it roll by itself "
-          ui:
-            header: "Perfect labelling and views"
-            text: "Thanks to proper design - it's easy to find what you're looking for and quickly proceed with the content"
-        more: "Need more juicy specification?"
-      pricing:
-        header: "Test Soundmapping for free"
-        subheader: "or choose the plan that suits you."
-        table:
-          prepaid:
-            header: "Basic version"
-            unit: "month"
-            line1: "up to 2 streams"
-            line2: "Simple archive"
-            line3: "No reports"
-            line4: "No notifications"
-            line5: "Decibels as units"
-            action: "Register today"
-          contract:
-            header: "Enterprise"
-            unit: "month"
-            line1: "Up to 10 streams"
-            line2: "Full statistics "
-            line3: "Royalties reports"
-            line4: "EBU R-128 incorporated"
-            line5: "Free personal tutorials"
-            action: "Register today"
-        disclaimer: "Sign up for free to any of our products or all of them for one month. No credit card needed"
-
-
-
-
-
-
 
     chronicle:
       intro:
@@ -429,204 +251,6 @@ en:
             header: "Customizable"
             text: "Basic version can be developed to a fully-independent radio website with radio streams and additional menus"
         more: "Need more juicy specification?"
-      pricing:
-        header: "Test Chronicle for free"
-        subheader: "or choose the plan that suits you."
-        table:
-          prepaid:
-            header: "Open-source"
-            unit: "forever"
-            line1: "take our code"
-            line2: "and create your"
-            line3: "own Chronicle"
-            line4: "No contracts"
-            line5: "Advices on board"
-            action: "Register today"
-          contract:
-            header: "We do tech - you do content"
-            unit: "month"
-            line1: "Unlimited podcasts space"
-            line2: "Unlimited users"
-            line3: "Customisable design"
-            line4: "Hosting + backups"
-            line5: "Support"
-            action: "Register today"
-        disclaimer: "Sign up for free to any of our products or all of them for one month. No credit card needed"
-
-
-
-
-
-
-
-    depot:
-      intro:
-        slide1:
-          name: "Depot"
-          claim: "from here all your files starts their journey"
-          learn_more: "Learn more"
-        slide2:
-          name: "Depot"
-          claim: "central Hub that makes all your other software work smoothly"
-          learn_more: "Learn more"
-        slide3:
-          name: "Depot"
-          claim: "No more format problems and loosing time on useless conversions"
-          learn_more: "Learn more"
-      features:
-        header: "Have you encoutered format incompatibilites between software you use?"
-        subheader: "Think about one place that will help your workflow overcome established format standards"
-        boxes:
-          web:
-            header: "All processes in one place"
-            text: "What you do now to prepare files before you broadcast it? Do you use different tools for it?"
-          latency:
-            header: "Define it your way"
-            text: "Depot is not to impose some habits on you - it's made to adjust to your habits and improve its effectiveness"
-          outofthebox:
-            header: "Radio-specific tools"
-            text: "Depot is desinged for radio workflows, and doesn't contain tens of functions that are useless for radio"
-          api:
-            header: "Ready for the Cloud?"
-            text: "If you think this type of software would be too slow in cloud - well... times has changed"
-          quality:
-            header: "Integration ready - API"
-            text: "Has open, standards-based API making it ready for integration with your existing systems."
-          networks:
-            header: "Works even over 2G networks"
-            text: "Needs only 20kbit/s to transmit speech in Open-source quality."
-      howitworks:
-        header: "How it works"
-        lead: "Depot lets you define your needs once, and don't repeat yourself everyday"
-        body:
-          part1: "Every radio is different and use a bunch of different tools. Systems not always works perfectly with each other, so one always needs to find his own slalom around it."
-          part2: "Depot is created to glue all of the software you use at the moment. Use it as a start point for all of your files - prepare them for their journey, and forget about doing everyday loads of the same activities, that machine could do \"if they would be just a bit more clever\""
-          part3: "They just became."
-      tech:
-        header: "Now a tasty techtalk"
-        subheader: "Think about the set of cloud audio tools, dedicated to the radio needs."
-        boxes:
-          erlang:
-            header: "Central-Hub"
-            text: "Keep all your files in one central place in cloud, and process them there"
-          rtp:
-            header: "Metadata in mind, while converting"
-            text: "Convert your files to whatever format other systems might need, preserving all metadata."
-          cloud:
-            header: "Automatic batch process chaining"
-            text: "Cut the silence, denoise, normalize, transcode between existing systems - and don't repeat yourself"
-          latency:
-            header: "GStreamer on board"
-            text: "Audio engine is build upon Gstreamer technology, using Opus codec 1.1"
-          quality:
-            header: "Landing"
-            text: "Depot keeps records for usage statistics of your files, i.e. \"how many times they were broadcasted?\" "
-          ui:
-            header: "Seamless Radiokit integration"
-            text: "All of our products works as a modules of one engine, and thanks to that - seamlessly integrate with each other"
-        more: "Need more juicy specification?"
-      pricing:
-        header: "Test Depot for free"
-        subheader: "or choose the plan that suits you."
-        table:
-          prepaid:
-            header: "Basic"
-            unit: "month"
-            line1: "1TB of cloud space"
-            line2: "Silence cutter"
-            line3: "Denoiser"
-            line4: "Transcoding"
-            line5: "format converter"
-            action: "Register today"
-          contract:
-            header: "Enterprise"
-            unit: "month"
-            line1: "Unlimited cloud space"
-            line2: "All tools on board"
-            line3: "Customisations"
-            line4: "On-demand functions"
-            line5: "Free personal tutorials"
-            action: "Register today"
-        disclaimer: "Sign up for free to any of our products or all of them for one month. No credit card needed"
-      questions:
-        action: "Any questions?"
-      users:
-        header: "Happy users"
-
-
-
-
-
-
-
-
-
-  engine:
-    header:
-      title: "Hello, I'm RadioKit Engine. I'm the heart of the whole organism"
-    intro:
-      header:
-        title: "Who I Am"
-        title2: "and What I Do"
-      text: "I am cloud components for agile development of tailored radio & audio apps"
-      usecases:
-        title: "Use cases"
-        glue: "Glue"
-        automation: "Automation"
-        remote: "Remote control"
-        custom: "Custom web-based tools"
-    section2:
-      usecases:
-        title1: "Use"
-        title2: "Cases"
-
-
-        glue:
-          title: "Glue"
-          text: "If you need a piece of code interconnecting software & hardware, here it is. Build your own on top of our components or take advantage of growing list of predefined connectors."
-        automation:
-          title: "Automation"
-          text: "Need to automate certain operations? No problem, we have set of components that are easy to script."
-        remote:
-          title: "Remote control"
-          text1: "Need a tool that allows to remote control pieces of your radio station via remote desktop, wait, regular web browser or smartphone?"
-          text2: "What is hard with standalone windows software becomes trivial in web-based software. Think: online collaboration in Word 95 vs Google Docs. We are Google Docs."
-        custom:
-          title: "Custom web-based tools"
-          text1: "Need to build a radio’s website? Your own podcasting platform? Shop for selling audiobooks?"
-          text2: "With RadioKit it will become as trivial as programming an interface. All backend will be delivered by us. Leave programming the hard stuff, browsers compatibility, scaling to us. Focus on what your users see & hear."
-    section3:
-      philosophy:
-        title1: "Philosophy"
-        title2: "Cases"
-
-        code_examples:
-          title: "Code Example"
-
-        designed:
-          title: "Designed, not forced to integrate"
-          text1: "No more euphemisms about “integration built into DNA” that end up in writing nasty & expensive hacks."
-          text2: "Our interface is built on top of open standards that successfully power the modern web and turns integration into a joy: REST APIs, HTTP & WebSockets, JSON, HTML5, Node.JS."
-          text3: "Integration is a starting point for us, not an extra position on the bill."
-        multiplatform:
-          title1: "Multi-"
-          title2: "platform"
-          title3: "by default"
-          text1: "While your FM/DAB+ broadcast is probably still core of your activities, you can’t deny that your new opportunities emerge mostly in the online world."
-          text2: "People behind RadioKit don’t remember the world without the Internet. We are digital natives making radio tools for other digital natives."
-          text3: "Beat this with hardware."
-        gentle:
-          title: "Gentle to users’ habits"
-          text1: "We are not dreamers. We know that you are not going to throw away all your well-tested devices and applications and replace them with RadioKit. We know how hard is to change users’ habits."
-          text2: "So we don’t expect doing this. Instead, we are are building a technology that is so elastic, that you can even try to reimplement your 20-years old beloved playout software in the web browser."
-        affordable:
-          title: "Affordable"
-          text1: "Software development is complicated and expensive. The whole concept of modularity of the Engine is backed by real need to cut down development costs."
-          text2: "We achieve this by re-using existing components as much as we can. They are designed with this idea in mind, so it’s more like “solving a puzzle” than “hacking”."
-          text3: "You don’t have to be a corporation any more to have a tailored software."
-
-
-
 
 
   about:
@@ -676,12 +300,6 @@ en:
       box4:
         title: "Pricing"
         text: "However doing this for you is easy for us - infrastructure isn't free, so we must charge you symbolic 10 euros/mth (up to 500 simulatenous listeners). "
-
-
-
-
-
-
 
 
 
