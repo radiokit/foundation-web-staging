@@ -339,14 +339,14 @@ en:
     section3:
       header: "What can we do for you?"
       box1:
-        title: "Multiplatform multimedia"
-        text: "We have mastered tools necessary to develop native multiplatform applications based on single code. Want sophisticated, real-time application that works the same on Windows, Linux, Mac and Android? We know \"how\"."
+        title: "POWERFUL SCALABILITY"
+        text: "We are using Elixir’s powerful concurrency model to build multithreaded, distributed systems easily."
       box2:
-        title: "Embedded devices"
-        text: "Thinking about converting Raspberry Pi or other embedded platform into powerful tool for ... we could actually finsish this sentence with \"anything to do with multimedia\"? From hardware to software, we will sort this out."
+        title: "FUNCTIONAL PROGRAMMING"
+        text: "Functional programming is paradigm strongly supported by Elixir and is perfectly suited for building web applications."
       box3:
-        title: "High Availability, soft Real-Time Systems"
-        text: "Multimedia systems & embedded devices should not fail, at least not too often ;) You need something that will be rock solid? No worries, we are not script kiddies as radio systems needs to be reliable 24/7 365 days a year."
+        title: "PHOENIX FRAMEWORK"
+        text: "Phoenix Framework offers very powerful tools to build any modern web application. Its capabilities are as powerful as Ruby on Rails, at the same time offering high scalability and an order of magnitude higher performance."
 
 
 
@@ -354,7 +354,7 @@ en:
     intro:
       motto: ""
       header: "Affordable React-Native experts"
-      subheader: "We use GStreamer multimedia framework extensively to run our RadioKit products. We will be glad to help in running yours."
+      subheader: "We love using React Native in our products and we will gladly help you using it in yours."
     section1:
       header: "Idea"
       lead: "Modern software in service of Media"
@@ -363,11 +363,11 @@ en:
     section3:
       header: "What can we do for you?"
       box1:
-        title: "Multiplatform multimedia"
-        text: "We have mastered tools necessary to develop native multiplatform applications based on single code. Want sophisticated, real-time application that works the same on Windows, Linux, Mac and Android? We know \"how\"."
+        title: "SHARED CODE IN COMMON LANGUAGE"
+        text: "We can help you build your mobile app for both Android and iOS mobile devices using shared code in React Native. This can reduce development and maintenance costs by half!"
       box2:
-        title: "Embedded devices"
-        text: "Thinking about converting Raspberry Pi or other embedded platform into powerful tool for ... we could actually finsish this sentence with \"anything to do with multimedia\"? From hardware to software, we will sort this out."
+        title: "NATIVE PERFORMANCE"
+        text: "Hybrid mobile app frameworks let you make single app that doesn’t work perfect on neither iOS, nor Android. In React Native we are using native components for each platform that offer better performance and superior user experience."
       box3:
-        title: "High Availability, soft Real-Time Systems"
-        text: "Multimedia systems & embedded devices should not fail, at least not too often ;) You need something that will be rock solid? No worries, we are not script kiddies as radio systems needs to be reliable 24/7 365 days a year."
+        title: "MODERN ARCHITECTURE"
+        text: "We know the many challenges in long-term maintenance and development of your mobile applications. React Native lets you build modular, easily extensible architecture that will make it easy to add (or remove!) features in the future."
