@@ -340,13 +340,13 @@ en:
       header: "What can we do for you?"
       box1:
         title: "POWERFUL SCALABILITY"
-        text: "We are using Elixir’s powerful concurrency model to build multithreaded, distributed systems easily."
+        text: "We are using Elixir’s powerful concurrency model to build multithreaded, self-healing distributed systems easily."
       box2:
         title: "FUNCTIONAL PROGRAMMING"
-        text: "Functional programming is paradigm strongly supported by Elixir and is perfectly suited for building web applications."
+        text: "Functional programming is a paradigm strongly supported by Elixir and is perfectly suited for building web applications."
       box3:
         title: "PHOENIX FRAMEWORK"
-        text: "Phoenix Framework offers very powerful tools to build any modern web application. Its capabilities are as powerful as Ruby on Rails, at the same time offering high scalability and an order of magnitude higher performance."
+        text: "Its capabilities are as powerful as Ruby on Rails, while offering high scalability and an order of magnitude higher performance."
 
 
 
