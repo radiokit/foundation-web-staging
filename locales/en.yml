@@ -36,7 +36,7 @@ en:
       services:
         title: "Services"
         gstreamer: "GStreamer"
-        reactnative: "React-Native"
+        reactnative: "React Native"
         elixir: "Elixir"
         icecast: "Icecast"
       gstreamer:
@@ -78,7 +78,7 @@ en:
       header: "If you need help with Elixir - let us know"
       line1: ""
     reactnative:
-      header: "If you need help with React-Native - let us know"
+      header: "If you need help with React Native - let us know"
       line1: ""
     icecast:
       header: "If you need an Icecast stream hosting - let us know"
@@ -353,7 +353,7 @@ en:
   reactnative:
     intro:
       motto: ""
-      header: "Affordable React-Native experts"
+      header: "Affordable React Native experts"
       subheader: "We love using React Native in our products and we will gladly help you using it in yours."
     section1:
       header: "Idea"
