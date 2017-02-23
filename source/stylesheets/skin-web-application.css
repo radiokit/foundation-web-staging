@@ -500,21 +500,21 @@ body,
 /* reactol - engine and about */
 
 .bkg-reactol{
-	background-color: #61dafb;
-	border-color: #61dafb;
+	background-color: #3c8396;
+	border-color: #3c8396;
 }
 
 .bkg-hover-reactol:hover{
-	background-color: #61dafb;
-	border-color: #61dafb;
+	background-color: #3c8396;
+	border-color: #3c8396;
 }
 .border-reactol,
 .border-hover-reactol:hover{
-	border-color: #61dafb;
+	border-color: #3c8396;
 }
 .color-reactol,
 .color-hover-reactol:hover{
-	color: #61dafb;
+	color: #3c8396;
 }
 
 
