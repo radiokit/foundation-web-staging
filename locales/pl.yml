@@ -308,31 +308,31 @@ en:
         text: "Korzystamy z Elxira m.in. ze względu na niezwykły model współbieżności, pozwalający łatwo budować wielowątkowe, rozproszone systemy."
       box2:
         title: "Programowanie funkcyjne"
-        text: "Functional programming is a paradigm strongly supported by Elixir and is perfectly suited for building web applications."
+        text: "Paradygmat jezyków funkcyjnych jest mocno wspierany przez Elixira i idealnie nadaje się do budowania aplikacji webowych."
       box3:
         title: "PHOENIX FRAMEWORK"
-        text: "Its capabilities are as powerful as Ruby on Rails, while offering high scalability and an order of magnitude higher performance."
+        text: "Jego możiliwości są porównywalne z Ruby on Rails, jednak w kwestii efektywności i skalowalności - Phoenix to inny rząd wielkości."
 
 
 
   reactnative:
     intro:
       motto: ""
-      header: "Affordable React-Native experts"
-      subheader: "We love using React Native in our products and we will gladly help you using it in yours."
+      header: "Osiąglani eksperci od React Native"
+      subheader: "Uwielbiamy korzystać z Reacta Native w naszych aplikacjach i z przyjemnością pomożemy z nich korzystać także Tobie."
     section1:
       header: "Idea"
       lead: "Modern software in service of Media"
       text: "Foundation Radiokit specializes in empowering community media outlets by providing them modern, reliable and easy to use tech solutions. We strongly believe that the community powered media has an important role in a developing world and is a pillar of every democratic society."
       button: "Contact us"
     section3:
-      header: "What can we do for you?"
+      header: "Dlaczego React Native?"
       box1:
-        title: "SHARED CODE IN COMMON LANGUAGE"
-        text: "We can help you build your mobile app for both Android and iOS mobile devices using shared code in React Native. This can reduce development and maintenance costs by half!"
+        title: "Jeden wspólny kod"
+        text: "React Native pozwala na utrzymywanie jednego wspólnego kodu zarówno dla aplikacji na platformę Andorid, jak  i iOS. To pozwala zredukować koszty tworzenia aplikacji oraz jej utrzymywania nawet o połowę!"
       box2:
-        title: "NATIVE PERFORMANCE"
-        text: "Hybrid mobile app frameworks let you make single app that doesn’t work perfect on neither iOS, nor Android. In React Native we are using native components for each platform that offer better performance and superior user experience."
+        title: "Natywna wydajność"
+        text: "Hybrydowe frameworki dla aplikacji mobilnych pozwalają budować jedną aplikację, które nie działa dobrze ani na iOS, ani na Androidzie. React Native korzysta z natywnych komponentów, co pozwala na lepszą wydajność i doświadczenia użytkownika."
       box3:
-        title: "MODERN ARCHITECTURE"
-        text: "We know the many challenges in long-term maintenance and development of your mobile applications. React Native lets you build modular, easily extensible architecture that will make it easy to add (or remove!) features in the future."
+        title: "Nowoczesna Architektura"
+        text: "Znamy wyzwania długoterminowego rozwoju i utrzymania aplikacji mobilnych. React Native pozwala na budowanie modularnej, łatwo rozszerzalnej architektury, która pozwala na łatwe manipulowanie funkcjonalnościami w przyszłości."
