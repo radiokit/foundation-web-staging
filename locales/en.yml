@@ -52,9 +52,14 @@ en:
     specialoffer: "Be up-to-date with our mission!"
 
   footer:
-    name: "Foundation Radiokit"
+    name: "Fundacja RadioKit"
     products: "Projects"
+    services: "Services"
+    projects: "Projects"
+    activities: "Activities"
+    about: "About"
     companydata: "Foundation Data"
+    companyname: "Foundation RadioKit"
 
   contact:
     header: "What interest you?"
