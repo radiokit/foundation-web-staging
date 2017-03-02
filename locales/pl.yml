@@ -52,7 +52,13 @@ en:
   footer:
     name: "Fundacja RadioKit"
     products: "Projekty"
+    services: "Usługi"
+    projects: "Projekty"
+    activities: "Aktywności"
+    about: "O nas"
     companydata: "Dane Fundacji"
+    companyname: "Fundacja RadioKit"
+
 
   contact:
     header: "Co Cię interesuje?"
@@ -73,7 +79,7 @@ en:
       header: "Jeżeli potrzebujesz pomocy z GStreamerem - daj nam znać!"
       line1: ""
     elixir:
-      header: "Jeżeli potrzebujesz pomocy z Elixir - daj nam znać!"
+      header: "Jeżeli potrzebujesz pomocy z Elixirem - daj nam znać!"
       line1: ""
     reactnative:
       header: "Jeżeli potrzebujesz pomocy z Reactem Native - daj nam znać!"
@@ -294,7 +300,7 @@ en:
   elixir:
     intro:
       motto: ""
-      header: "Osiąglani eksperci od Elixira"
+      header: "Osiągalni eksperci od Elixira"
       subheader: "Infrastruktura RadioKit jest zbudowana w oparciu o Elixira i jesteśmy w niej zakochani – chętnie pomożemy Tobie także skorzystać z jego dobrodziejstw.!"
     section1:
       header: "Koncept"
@@ -318,7 +324,7 @@ en:
   reactnative:
     intro:
       motto: ""
-      header: "Osiąglani eksperci od React Native"
+      header: "Osiągalni eksperci od React Native"
       subheader: "Uwielbiamy korzystać z Reacta Native w naszych aplikacjach i z przyjemnością pomożemy z nich korzystać także Tobie."
     section1:
       header: "Idea"
