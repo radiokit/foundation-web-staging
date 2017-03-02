@@ -34,7 +34,7 @@ en:
       services:
         title: "Usługi"
         gstreamer: "GStreamer"
-        reactnative: "React-Native"
+        reactnative: "React Native"
         elixir: "Elixir"
         icecast: "Icecast"
       gstreamer:
@@ -68,7 +68,7 @@ en:
     message: "Wiadomość*"
     radioname: "Nazwa Radia"
     country: "Kraj"
-    explain: "Czy jest coś, co chcesz abyśmy wjaśnili?"
+    explain: "Czy jest coś, co chcesz abyśmy wyjaśnili?"
     soundmap:
       header: "Chesz mieć własną mapę dźwiękową?"
       line1: "Zbudowaliśmy przyjazny system do zarządzania mulitimediami na mapie - jeżeli szukasz podobnego narzędzia - daj nam znać!"
@@ -222,6 +222,15 @@ en:
           networks:
             header: "Drugie życie"
             text: "Podkasty dają drugie Życie Twoim audycją i pozwalają im zbierać słuchaczy w nieskończoność."
+        howitworks:
+          header: "Czym jest Chronicle?"
+          lead: "Chronicle jest systemem do zarządzania Twoimi treściami audio."
+          body:
+            part1: "Ma wiele twarzy - od pełnoekranowych odtwarzaczy, przez czytelne kafelki z podkastami, po dźwięki rozmieszczone na mapie."
+            part2: "Jakkolwiek system ten został zaprojektowany z myślą o dźwięku, to jest także przygotowany do zarządzania treściami video."
+            part3: "W naturalny sposób integruje się z mediami społecznościowymi, jak facebook, czy twitter oraz z Google Analytics."
+            part4: "Posiada również dosyć elastyczny system importów i eksportów, aby stanowić łącznik pomiędzy różnymi serwisami, czy aktualną infrastrukturą."
+            part5: "Czy jest szansa, że potrzebujesz czegoś więcej?"
 
 
   about:
@@ -267,7 +276,7 @@ en:
         list: ""
       box3:
         title: "Jakość"
-        text: "W tym prostym planie możesz mieć do 500 jednoczesnych słuchaczy przy bitracie 192kbps (lub 300 przu 320kbps)."
+        text: "W tym prostym planie możesz mieć do 500 jednoczesnych słuchaczy przy bitracie 192kbps (lub 300 przy 320kbps)."
       box4:
         title: "Łatwe płatności"
         text: "Jesteśmy elastyczny jeżeli chodzi o płatności - możesz ich doknywać PayPalem lub zwykłym przelewem na konto."
@@ -278,7 +287,7 @@ en:
     intro:
       motto: ""
       header: "Osiągalni eksperci GStreamera"
-      subheader: "Czerpiemy garściami z GStreamera w naszych produktach RadioKitowych - chętnie pomożemy w tym Tobie."
+      subheader: "Czerpiemy garściami z GStreamera w naszych produktach RadioKitowych - chętnie pomożemy w tym także Tobie."
     section1:
       header: "Idea"
       lead: "Modern software in service of Media"
@@ -301,7 +310,7 @@ en:
     intro:
       motto: ""
       header: "Osiągalni eksperci od Elixira"
-      subheader: "Infrastruktura RadioKit jest zbudowana w oparciu o Elixira i jesteśmy w niej zakochani – chętnie pomożemy Tobie także skorzystać z jego dobrodziejstw.!"
+      subheader: "Infrastruktura RadioKit jest zbudowana w oparciu o Elixira i jesteśmy w niej zakochani – chętnie pomożemy Tobie także skorzystać z jego dobrodziejstw!"
     section1:
       header: "Koncept"
       lead: "Modern software in service of Media"
@@ -317,7 +326,7 @@ en:
         text: "Paradygmat jezyków funkcyjnych jest mocno wspierany przez Elixira i idealnie nadaje się do budowania aplikacji webowych."
       box3:
         title: "PHOENIX FRAMEWORK"
-        text: "Jego możiliwości są porównywalne z Ruby on Rails, jednak w kwestii efektywności i skalowalności - Phoenix to inny rząd wielkości."
+        text: "Jego możiliwości są porównywalne z Ruby on Rails, jednak w kwestii efektywności i skalowalności - Phoenix to zupełnie inna liga."
 
 
 
@@ -335,10 +344,10 @@ en:
       header: "Dlaczego React Native?"
       box1:
         title: "Jeden wspólny kod"
-        text: "React Native pozwala na utrzymywanie jednego wspólnego kodu zarówno dla aplikacji na platformę Andorid, jak  i iOS. To pozwala zredukować koszty tworzenia aplikacji oraz jej utrzymywania nawet o połowę!"
+        text: "React Native pozwala na utrzymywanie jednego wspólnego kodu zarówno dla aplikacji na platformę Andorid, jak  i iOS. To pozwala zredukować koszty tworzenia aplikacji oraz jej utrzymywania nawet o połowę - naprawdę warto spróbować!"
       box2:
         title: "Natywna wydajność"
         text: "Hybrydowe frameworki dla aplikacji mobilnych pozwalają budować jedną aplikację, które nie działa dobrze ani na iOS, ani na Androidzie. React Native korzysta z natywnych komponentów, co pozwala na lepszą wydajność i doświadczenia użytkownika."
       box3:
-        title: "Nowoczesna Architektura"
-        text: "Znamy wyzwania długoterminowego rozwoju i utrzymania aplikacji mobilnych. React Native pozwala na budowanie modularnej, łatwo rozszerzalnej architektury, która pozwala na łatwe manipulowanie funkcjonalnościami w przyszłości."
+        title: "Architektura"
+        text: "Znamy wyzwania długoterminowego rozwoju i utrzymywania aplikacji mobilnych. React Native pozwala na budowanie modularnej, łatwo rozszerzalnej architektury, która pozwala na łatwe manipulowanie funkcjonalnościami w przyszłości."
