@@ -15,6 +15,12 @@ en:
           title: "Processing audio"
         switch:
             title: "Switch"
+      products:
+        title: "RadioKit Products"
+        electron: "Electron"
+        freezer: "Freezer"
+        horn: "Horn"
+        depot: "Depot"
       Projects:
         title: "Activities"
         Soundmapping:
@@ -46,6 +52,8 @@ en:
         services: "Services"
       contact:
         title: "Contact"
+      users:
+        title: "Use Cases"
 
   actioncalls:
     questions: "How can we help you?"
@@ -378,3 +386,191 @@ en:
       box3:
         title: "MODERN ARCHITECTURE"
         text: "We know the many challenges in long-term maintenance and development of your mobile applications. React Native lets you build modular, easily extensible architecture that will make it easy to add (or remove!) features in the future."
+
+
+
+  users:
+    whatwedo:
+      header: "Foundation & Limited Company"
+      lead: "Polish NGO and British Company acting together"
+      body:
+        part1: "These two entities have joined forces to achieve more on different fields of activity. From helping radios in Africa and India, through building FM studio, to complex software services for FM Radio."
+        part2: "Foundation's mission is to empower by education and services not only institutions, but as well small initiatives or festivals. Company on the other hand is focused on delivering SaaS platform for Radios but is open for delivering complex solution, including preparing hardware or even a building studios."
+        part3: "Have a look below for incomplete list of our most interesting use cases, users and projects."
+    traxvibes:
+      title: "Traxvibes"
+      claim: "London based curated music platform."
+      goto: "Visit Traxvibes website"
+      body:
+        header: "Traxvibes"
+        lead: "London based curated music platform"
+        part1: "Traxibes runs a platform of 22 channels, containing music curated by professional DJs from all around the world."
+        part2: "RadioKit Horn allows to manage all the scheduled broadcasts, generate all the streams, and automatically fetch iTunes links for all of the music tracks"
+        part3:
+    radiojazzfm:
+      title: "RadioJazzFM"
+      goto: "Visit RadiojazzFM"
+      claim: "The only truly jazz radio in Poland"
+      goto: "Visit RadioJazzFM website"
+      body:
+        header: "RadioJazzFM"
+        lead: "The only truly jazz radio in Poland"
+        part1: "RadioJazzFM is a Warsaw based internet community radio"
+        part2: "RadioKit software provides them ability to connect live broadcast from different places, like concert venues DJ's homes and of course their studio and fullfil the gaps with automated playlist or scheduled broadcasts."
+        part3:
+    lemfm:
+      title: "LemFM"
+      goto: "Visit LemFM website"
+      claim: "FM radio for Lemko minority"
+      body:
+        header: "LemFM"
+        lead: "FM Radio for Lemko minority"
+        part1: "Truly community radio for Lemko, operating in FM & DAB+. With them we started 8 years ago."
+        part2: "They user our Horn, to mangage broadcasts from multiple places and schedule multiple programs for people on the other side of the globe."
+        part3: "On top of that - we build for them hardware for processing FM signal."
+    audioasyl:
+      title: "AudioAsyl"
+      goto: "Visit Audioasyl website"
+      claim: "Legendary DJ collective from Zurich"
+      body:
+        header: "AudioAsyl"
+        lead: "Legendary DJ collective from Zurich"
+        part1: "This is really a specific use case of our systems: 75 channels in two qualities each, i.e. 150 channels."
+        part2: "Besides curated channels on specific genres, each hosts have his own channel, where he can go live whenever he wants and manage his playlist completely independently"
+        part3: "Launching soon! (September 2017)"
+    indeplatforma:
+      goto: "Visit Indeplatforma website"
+      claim: "Ljubljana alternative"
+      body:
+        header: "Indeplatforma"
+        lead: "Ljubljana alternative"
+        part1: "Indeplatforma's main activity isn't running a radio, but as with our systems it is so easy - why don't have one?"
+        part2: "part2"
+        part3: "part3"
+    radionula:
+      goto: "Visit RadioNula"
+      claim: "claim"
+      body:
+        header: "RadioNula"
+        lead: "lead"
+        part1: "part1"
+        part2: "part2"
+        part3: "part3"
+    transmisja:
+      goto: "Read more"
+      claim: "FM & DAB+ hardware partner"
+      body:
+        header: "Transmisja"
+        lead: "FM & DAB+ hardware partner"
+        part1: "Together with Transmisja we launched first non-public DAB+ transmitter in Poland (April 2017)."
+        part2: "In future we consider as well designing dedicated hardware for some of our software solutions."
+        part3: "part3"
+    aquapark:
+      goto: "Read more"
+      claim: "Sounds under the water"
+      body:
+        header: "Tychy Aquapark"
+        lead: "Sounds under the water"
+        part1: "This is another unusual case for our systems - streaming content to underwater speakers."
+        part2: "Here as well our job was a complex delivery of a longlasting software & hardware solution."
+        part3: "(Aquapark is still in construction)"
+    zamosc:
+      goto: "Visit Katolickie Radio Zamość website"
+      claim: "Modern broadcast studio."
+      body:
+        header: "Katolickie Radio Zamość"
+        lead: "Modern broadcast studio"
+        part1: "Here we were asked for bulding broadcast studio from scratch."
+        part2: "The project is still ongoing, but everything leans towards succesful launch that is planned this year."
+        part3: "part3"
+    tallships:
+      goto: "Visit Tall Ship Races 2017"
+      claim: "Huge events needs good communication"
+      body:
+        header: "Tall Ship Races 2017"
+        lead: "Huge events needs good communication"
+        part1: "On the Tall Ship Races 2017 in Szczecin we provided internal communication for 120 Liasion Officers"
+        part2: "Task wasn't easy as the event was swarmed everyday by hundreds of thousands peoples, giving in total about 2 million vistors."
+        part3: "part3"
+    soundmaps:
+      goto: "Visit our Soundmaps"
+      claim: "Santorini, Budapest, Krakow, Bratislava"
+      body:
+        header: "Soundmaps"
+        lead: "Cybercartography & preserving cultural heritage"
+        part1: "In 2016 with support of the IVF fund, we created soundmaps containing stories and field recordings of Budapest, Bratislava & Krakow. We didn't have to wait long for proposal to do that in other places."
+        part2: "At the moment we have 6 soundmaps and another 2 are upcoming this year"
+        part3: "All the soundmaps are open for new contributions from phonographers from all around the world."
+    reconnect:
+      title: "Reconnect"
+      goto: "Visit reconnect"
+      claim: "claim"
+      body:
+        header: "reconnect"
+        lead: "lead"
+        part1: "part1"
+        part2: "part2"
+        part3: "part3"
+    boukoki:
+      title: "Boukoki FM"
+      goto: "Visit boukoki"
+      claim: "First internet radio in Niger"
+      body:
+        header: "Boukoki"
+        lead: "First internet radio in Niger"
+        part1: "However they operated before in FM, they were quite proud to announce their internet presence as first in their country. "
+        part2: "We helped them achieve that through simple streaming services and mobile app."
+        part3: "part3"
+    ideosync:
+      title: "IdeoSync Media"
+      goto: "Visit ideosync"
+      claim: "claim"
+      body:
+        header: "ideosync"
+        lead: "lead"
+        part1: "part1"
+        part2: "part2"
+        part3: "part3"
+    gurgaon:
+      title: "Gurgaon Ki Awaaz"
+      goto: "Visit gurgaon"
+      claim: "Community Radio from Gurgaon"
+      body:
+        header: "Gurgaon Ki Awaaz"
+        lead: "Community Radio from Gurgaon"
+        part1: "part1"
+        part2: "part2"
+        part3: "part3"
+    otherhelp:
+      title: "Other"
+      goto: "Read more"
+      claim: "that's not everything!"
+      body:
+        header: "Who we helped"
+        lead: "We address not only big issues"
+        part1: "We understand that in modern media there are still some simple needs and problems, that doesn't have to be easy for everyone. We're trying to help as much as we can."
+        part2: "Here is a short list of entities we helped on our way:"
+      list:
+        position1: "Alfaz-e-Mewat, India"
+        position2: "Delhi University Radio, India "
+        position3: "Julie FM, Switzerland"
+        position4: "Radio Slobodny Drvar, Serbia"
+        position5: "NO FM, Serbia"
+        position6: "Molody Rusyny, Slovakia"
+        position7: "Liptako FM, Niger"
+        position8: "228 FM, Niger"
+        position9: "Radio Discovery, Ghana"
+          
+
+    contact:
+      header: "How can we help You?"
+      line1: "We have plenty of solution and if we don't have what you need - we love tailoring software!"
+      name: "Name"
+      mail: "Mail"
+      message: "Message"
+
+
+
+    
+    
+    
